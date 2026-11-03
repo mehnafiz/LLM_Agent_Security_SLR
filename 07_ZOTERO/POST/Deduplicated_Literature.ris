@@ -1,0 +1,4112 @@
+TY  - GEN
+TI  - SafeHierarchy: Benchmarking and Mitigating Hierarchy-Induced Harmful Compliance in LLM Multi-Agent Systems
+AU  - Zhitao Lv
+AU  - Liuyu Xiang
+AU  - Dianyun Wang
+AU  - Huijia Wu
+AU  - Zhenyu Wang
+AU  - Zhaofeng He
+PY  - 2026
+DO  - 10.1109/aiotc71250.2026.11688714
+UR  - https://ieeexplore.ieee.org/document/11688714/
+ID  - POST-0001
+ER  - 
+
+TY  - GEN
+TI  - When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents
+AU  - Shi Liu
+AU  - Xuehai Tang
+AU  - Xikang Yang
+AU  - Liang Lin
+AU  - Biyu Zhou
+AU  - Wenjie Xiao
+AU  - Wantao Liu
+PY  - 2026
+DO  - 10.1109/cscwd68734.2026.11582512
+UR  - https://ieeexplore.ieee.org/document/11582512/
+ID  - POST-0002
+ER  - 
+
+TY  - GEN
+TI  - Evil-AI Benchmark: An Evaluation Framework for Adversarial Security Assessment of LLM Agents in Smart Environments
+AU  - Aygün Varol
+AU  - Asif Shaikh
+AU  - Henri Jalo
+AU  - Givemore Muchenje
+AU  - José Siqueira de Cerqueira
+AU  - Kai-Kristian Kemell
+AU  - Naser Hossein Motlagh
+AU  - Mirka Leino
+AU  - Henri Pirkkalainen
+AU  - Pekka Abrahamsson
+AU  - Johanna Virkki
+PY  - 2026
+DO  - 10.1109/access.2026.3727159
+UR  - https://ieeexplore.ieee.org/document/11666482/
+ID  - POST-0003
+ER  - 
+
+TY  - GEN
+TI  - A Systematic Survey of Prompt Injection Attacks and Defenses in LLM-Integrated Applications and Agentic Systems
+AU  - Xin Cao
+AU  - Yiping Bao
+PY  - 2026
+DO  - 10.1109/bigdia71496.2026.11684636
+UR  - https://ieeexplore.ieee.org/document/11684636/
+ID  - POST-0004
+ER  - 
+
+TY  - GEN
+TI  - RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents
+AU  - Yonas Atinafu
+AU  - Robin Cohen
+PY  - 2026
+DO  - 10.1109/icdew71238.2026.00009
+UR  - https://ieeexplore.ieee.org/document/11558775/
+ID  - POST-0005
+ER  - 
+
+TY  - GEN
+TI  - Whispers of Wealth: A Systematic Red-Teaming Study of the Agent Payments Protocol (AP2)
+AU  - Tanusree Debi
+AU  - Wentian Zhu
+AU  - Pranjol Sen Gupta
+PY  - 2026
+DO  - 10.1109/imns67862.2026.11655291
+UR  - https://ieeexplore.ieee.org/document/11655291/
+ID  - POST-0006
+ER  - 
+
+TY  - GEN
+TI  - α3-Bench: A Unified Benchmark of Safety, Robustness, and Efficiency for LLM-Based UAV Agents Over 6G Networks
+AU  - Mohamed Amine Ferrag
+AU  - Abderrahmane Lakas
+AU  - Mérouane Debbah
+PY  - 2026
+DO  - 10.1109/ojits.2026.3713296
+UR  - https://ieeexplore.ieee.org/document/11609268/
+ID  - POST-0007
+ER  - 
+
+TY  - GEN
+TI  - Security of LLM Agents: A Case Study Approach
+AU  - Casey Fan
+AU  - Diyana Tial
+AU  - Vladislav Dubrovenski
+AU  - Mengtao Zhang
+AU  - Yugyung Lee
+AU  - Dianxiang Xu
+PY  - 2025
+DO  - 10.1109/trustcom66490.2025.00226
+UR  - https://ieeexplore.ieee.org/document/11354710/
+ID  - POST-0008
+ER  - 
+
+TY  - GEN
+TI  - Agentic AI Security in IoMT: A PRISMA-Guided Scoping Review and Layered Threat–Defense Taxonomy
+AU  - Batyrkhan Abylkan
+AU  - Darkan Serik
+AU  - Askhar Mussa
+AU  - Syrym Sapash
+AU  - Aibolat Kurakbayev
+AU  - Saule Amanzholova
+PY  - 2026
+DO  - 10.1109/iccsdfai70505.2026.11647867
+UR  - https://ieeexplore.ieee.org/document/11647867/
+ID  - POST-0009
+ER  - 
+
+TY  - GEN
+TI  - A Survey on Autonomy-Induced Security Risks in Large Model-Based Agents
+AU  - Hang Su
+AU  - Jun Luo
+AU  - Chang Liu
+AU  - Xiao Yang
+AU  - Yichi Zhang
+AU  - Yinpeng Dong
+AU  - Jun Zhu
+PY  - 2026
+DO  - 10.1109/tpami.2026.3688650
+UR  - https://ieeexplore.ieee.org/document/11498611/
+ID  - POST-0010
+ER  - 
+
+TY  - GEN
+TI  - A Survey of Fuzzing Techniques for Large Language Model Agents: Challenges, Methods, and Future Directions
+AU  - Yang Cao
+PY  - 2026
+DO  - 10.1109/bdai70753.2026.11655176
+UR  - https://ieeexplore.ieee.org/document/11655176/
+ID  - POST-0011
+ER  - 
+
+TY  - GEN
+TI  - [Short Paper] Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents
+AU  - Maxim Chernyshev
+AU  - Zubair Baig
+AU  - Robin Doss
+PY  - 2024
+DO  - 10.1109/tps-isa62245.2024.00053
+UR  - https://ieeexplore.ieee.org/document/10835636/
+ID  - POST-0012
+ER  - 
+
+TY  - GEN
+TI  - Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem
+AU  - Shuli Zhao
+AU  - Qinsheng Hou
+AU  - Zihan Zhan
+AU  - Yanhao Wang
+AU  - Yuchong Xie
+AU  - Yu Guo
+AU  - Libo Chen
+AU  - Shenghong Li
+AU  - Zhi Xue
+PY  - 2026
+DO  - 10.1109/sp63933.2026.00154
+UR  - https://ieeexplore.ieee.org/document/11573638/
+ID  - POST-0013
+ER  - 
+
+TY  - GEN
+TI  - Temporal Dynamics of Memory Poisoning in Web3-Style LLM Agents
+AU  - Abbas Yazdinejad
+AU  - Hadis Karimipour
+PY  - 2026
+DO  - 10.1109/access.2026.3693560
+UR  - https://ieeexplore.ieee.org/document/11520232/
+ID  - POST-0014
+ER  - 
+
+TY  - GEN
+TI  - Silent Egress: When Implicit Prompt Injection Makes LLM Agents Leak without a Trace
+AU  - Qianlong Lan
+AU  - Anuj Kaul
+AU  - Shaun Jones
+AU  - Stephanie Westrum
+PY  - 2026
+DO  - 10.1109/eit68936.2026.11670372
+UR  - https://ieeexplore.ieee.org/document/11670372/
+ID  - POST-0015
+ER  - 
+
+TY  - GEN
+TI  - Controlled Benchmarking of Memory Topologies in LLM-Based Multi-Agent Systems: Quality, Efficiency, and Privacy Trade-Offs
+AU  - Artem R. Kolbeev
+AU  - Aleksandr A. Belous
+AU  - Andrei V. Petrovski
+AU  - Igor V. Kotenko
+PY  - 2026
+DO  - 10.1109/usbereit70063.2026.11580460
+UR  - https://ieeexplore.ieee.org/document/11580460/
+ID  - POST-0016
+ER  - 
+
+TY  - GEN
+TI  - Your Agent’s Memories Are Not Its Own: Forged Reasoning Attack on LLM Agent Memory and Its Defense
+AU  - Neeraj Karamchandani
+AU  - Piyush Nagasubramaniam
+AU  - Sencun Zhu
+AU  - Dinghao Wu
+PY  - 2026
+DO  - 10.1109/cns69863.2026.11720906
+UR  - https://ieeexplore.ieee.org/document/11720906/
+ID  - POST-0017
+ER  - 
+
+TY  - GEN
+TI  - A Systematic Literature Review of Prompt Injection Attacks in LLM-Integrated Systems
+AU  - Christian Woesle
+AU  - Ricardo Buettner
+PY  - 2026
+DO  - 10.1109/access.2026.3700492
+UR  - https://ieeexplore.ieee.org/document/11551573/
+ID  - POST-0018
+ER  - 
+
+TY  - GEN
+TI  - AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems
+AU  - Faouzi El Yagoubi
+AU  - Godwin Badu-Marfo
+AU  - Ranwa Al Mallah
+PY  - 2026
+DO  - 10.1109/access.2026.3704541
+UR  - https://ieeexplore.ieee.org/document/11569042/
+ID  - POST-0019
+ER  - 
+
+TY  - GEN
+TI  - Security Debt in LLM Agent Applications: A Measurement Study of Vulnerabilities and Mitigation Trade-offs
+AU  - Zhuoxiang Shen
+AU  - Jiarun Dai
+AU  - Yuan Zhang
+AU  - Min Yang
+PY  - 2025
+DO  - 10.1109/ase63991.2025.00053
+UR  - https://ieeexplore.ieee.org/document/11334323/
+ID  - POST-0020
+ER  - 
+
+TY  - GEN
+TI  - Separate-Align Embedding Based Backdoor Attacks in Large Language Model-based Agents
+AU  - Jiahao Qin
+AU  - Xinghao Yang
+AU  - Baodi Liu
+AU  - Weifeng Liu
+PY  - 2026
+DO  - 10.1109/icnlp69856.2026.11528029
+UR  - https://ieeexplore.ieee.org/document/11528029/
+ID  - POST-0021
+ER  - 
+
+TY  - GEN
+TI  - MINDSTATE: Systematic Analysis of Belief Manipulation Vulnerabilities in Multi-Agent LLM Networks
+AU  - Aakriti Dasgupta
+PY  - 2025
+DO  - 10.1109/urtc68753.2025.11532991
+UR  - https://ieeexplore.ieee.org/document/11532991/
+ID  - POST-0022
+ER  - 
+
+TY  - GEN
+TI  - Benchmarking Reference-Free LLM Agent Robustness Under Schema, Policy, and Toolset Drift
+AU  - Mohammad Hasbi Assidiqi
+AU  - Daniyal Alghazzawi
+AU  - Suaad Alarifi
+AU  - Li Cheng
+PY  - 2026
+DO  - 10.1109/access.2026.3696096
+UR  - https://ieeexplore.ieee.org/document/11534189/
+ID  - POST-0023
+ER  - 
+
+TY  - GEN
+TI  - PrivacyAsst: Safeguarding User Privacy in Tool-Using Large Language Model Agents
+AU  - Xinyu Zhang
+AU  - Huiyu Xu
+AU  - Zhongjie Ba
+AU  - Zhibo Wang
+AU  - Yuan Hong
+AU  - Jian Liu
+AU  - Zhan Qin
+AU  - Kui Ren
+PY  - 2024
+DO  - 10.1109/tdsc.2024.3372777
+UR  - https://ieeexplore.ieee.org/document/10458329/
+ID  - POST-0024
+ER  - 
+
+TY  - GEN
+TI  - Defense Against Retrieval Injection Attacks in MCP-based LLM Agents
+AU  - Fang Hao
+PY  - 2026
+DO  - 10.1109/caibda70336.2026.11621400
+UR  - https://ieeexplore.ieee.org/document/11621400/
+ID  - POST-0025
+ER  - 
+
+TY  - GEN
+TI  - Agentic AI in Cybersecurity:Threat Modeling and Containment Strategies for Autonomous LLM Agents
+AU  - Lokanatha Reddy Gandikota
+AU  - Vasanth Jegathesan
+AU  - Chandra Doddapalli Ramachandra Reddy
+PY  - 2026
+DO  - 10.1109/ais69919.2026.11621639
+UR  - https://ieeexplore.ieee.org/document/11621639/
+ID  - POST-0026
+ER  - 
+
+TY  - GEN
+TI  - Quantifying Privacy Leakage in Multi-Agent LLMs: A Unified Theoretical and Empirical Analysis
+AU  - Milon Biswas
+AU  - Wei Yu
+AU  - Qianlong Wang
+AU  - Weixian Liao
+PY  - 2025
+DO  - 10.1109/bigdata66926.2025.11401523
+UR  - https://ieeexplore.ieee.org/document/11401523/
+ID  - POST-0027
+ER  - 
+
+TY  - GEN
+TI  - Semantic Consistency Drift Monitoring for Training-Free Adversarial Prompt Injection Detection in Agentic LLM Pipelines
+AU  - Sanz Wadibhasme
+AU  - Janvi Abhyankar
+AU  - Vanshika Tikale
+AU  - Atharva Shingote
+AU  - Shreeya Bhasme
+AU  - Shital Hajare
+PY  - 2026
+DO  - 10.1109/iccvbic71195.2026.11689044
+UR  - https://ieeexplore.ieee.org/document/11689044/
+ID  - POST-0028
+ER  - 
+
+TY  - GEN
+TI  - ZT-MCP: A Zero-Trust Security Architecture for MCP-Connected AI Agents
+AU  - Saroj Mishra
+PY  - 2026
+DO  - 10.1109/coins69995.2026.11715596
+UR  - https://ieeexplore.ieee.org/document/11715596/
+ID  - POST-0029
+ER  - 
+
+TY  - GEN
+TI  - Execution-Aware Stage-Wise Evaluation Framework for Indirect Prompt Injection in LLM-Based Email Agents
+AU  - Hyeonji Jang
+AU  - Eunseong Lee
+AU  - Kyungbaek Kim
+AU  - Misoo Kim
+PY  - 2026
+DO  - 10.1109/access.2026.3723800
+UR  - https://ieeexplore.ieee.org/document/11655601/
+ID  - POST-0030
+ER  - 
+
+TY  - GEN
+TI  - A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks
+AU  - S M Asif Hossain
+AU  - Ruksat Khan Shayoni
+AU  - Mohd Ruhul Ameen
+AU  - Akif Islam
+AU  - M. F. Mridha
+AU  - Jungpil Shin
+PY  - 2025
+DO  - 10.1109/wiecon-ece69386.2025.11526251
+UR  - https://ieeexplore.ieee.org/document/11526251/
+ID  - POST-0031
+ER  - 
+
+TY  - GEN
+TI  - IPI2: Mitigating Indirect Prompt Injections on Unmanned Aerial Vehicle Agents Using Physical Invariants
+AU  - Qidi Zhong
+AU  - Siyang Liu
+AU  - Jiani Liu
+AU  - Kaikai Pan
+AU  - Yushi Cheng
+AU  - Wenyuan Xu
+PY  - 2026
+DO  - 10.1109/icassp55912.2026.11463376
+UR  - https://ieeexplore.ieee.org/document/11463376/
+ID  - POST-0032
+ER  - 
+
+TY  - GEN
+TI  - Secure-by-Design Framework for Agentic AI: Mitigating Toxic Flows and Adversarial Exploits in Multi-Agent Ecosystems
+AU  - Amani Shatnawi
+AU  - Anas AlSobeh
+AU  - Samer Khamaiseh
+AU  - Muhammad Al-Abdullah
+PY  - 2026
+DO  - 10.1109/ietc69527.2026.11568651
+UR  - https://ieeexplore.ieee.org/document/11568651/
+ID  - POST-0033
+ER  - 
+
+TY  - GEN
+TI  - Agentic Security Validation Framework for Retrieval-Augmented and Tool-Enabled Large Language Model Systems
+AU  - Sunil Gentyala
+AU  - N.Sudhakar Reddy
+AU  - Kothapalli Chaitanya Deepthi
+AU  - Pathapati Saroja
+AU  - Kammara Venkatarangaiah Achari
+AU  - Ruhisulthana Shaik
+PY  - 2026
+DO  - 10.1109/iccvbic71195.2026.11689544
+UR  - https://ieeexplore.ieee.org/document/11689544/
+ID  - POST-0034
+ER  - 
+
+TY  - GEN
+TI  - Interaction-Centric Cybersecurity Risks in LLM-Powered Dialogue Systems
+AU  - Pratyush Jena
+AU  - Samira Zad
+AU  - Rehan Akbar
+PY  - 2026
+DO  - 10.1109/ccwc67433.2026.11393850
+UR  - https://ieeexplore.ieee.org/document/11393850/
+ID  - POST-0035
+ER  - 
+
+TY  - GEN
+TI  - Identity and Access Management for Agentic AI: A Zero-Trust Security Framework
+AU  - Altynbek Makhmetov
+AU  - Yerkuat Dota
+AU  - Azamat Auyezov
+AU  - Arslan Abdigali
+AU  - Kairat Zhunussov
+PY  - 2026
+DO  - 10.1109/iccsdfai70505.2026.11648021
+UR  - https://ieeexplore.ieee.org/document/11648021/
+ID  - POST-0036
+ER  - 
+
+TY  - GEN
+TI  - PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification
+AU  - Guangyu Gong
+AU  - Zizhuang Deng
+PY  - 2026
+DO  - 10.1109/ijcnn69854.2026.11728563
+UR  - https://ieeexplore.ieee.org/document/11728563/
+ID  - POST-0037
+ER  - 
+
+TY  - GEN
+TI  - LLM and AI Agents for Autonomous Systems: A Survey of Applications, Datasets, and Security Challenges
+AU  - Mohamed Amine Ferrag
+AU  - Abderrahmane Lakas
+AU  - Norbert Tihanyi
+AU  - Merouane Debbah
+PY  - 2026
+DO  - 10.1109/ojits.2026.3665677
+UR  - https://ieeexplore.ieee.org/document/11397656/
+ID  - POST-0038
+ER  - 
+
+TY  - GEN
+TI  - A Multi-Agent Framework for Step-Level Tool-Call Safety Evaluation in Industrial Control Systems
+AU  - Zhangchi Xue
+AU  - Xu He
+PY  - 2026
+DO  - 10.1109/aiita69518.2026.11567230
+UR  - https://ieeexplore.ieee.org/document/11567230/
+ID  - POST-0039
+ER  - 
+
+TY  - GEN
+TI  - Secure MCP-Based Tool-Augmented RAG for Industrial IoT Diagnostics Under Indirect Prompt Injection, Retrieval Poisoning, and Modality Outages
+AU  - Pınar Ersoy
+AU  - Mustafa Erşahin
+PY  - 2026
+DO  - 10.1109/icecet65726.2026.11632629
+UR  - https://ieeexplore.ieee.org/document/11632629/
+ID  - POST-0040
+ER  - 
+
+TY  - GEN
+TI  - Topology Linearization for Multi-Agent Systems Security: Mitigating Malicious Propagation via Path Decomposition
+AU  - Yan Liu
+AU  - Sujie Shao
+AU  - Shaoyong Guo
+AU  - Chenyu Wang
+AU  - Chao Yang
+AU  - Zhibin Zang
+PY  - 2026
+DO  - 10.1109/tnse.2026.3680460
+UR  - https://ieeexplore.ieee.org/document/11474672/
+ID  - POST-0041
+ER  - 
+
+TY  - GEN
+TI  - Tracing MCP Security Vulnerabilities: Constructing and Analyzing an MCP Security Vulnerability Dataset
+AU  - Xu He
+AU  - Sagar Patel
+AU  - Shu Wang
+PY  - 2026
+DO  - 10.1109/spw72489.2026.00047
+UR  - https://ieeexplore.ieee.org/document/11573383/
+ID  - POST-0042
+ER  - 
+
+TY  - GEN
+TI  - Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem
+AU  - Hao Song
+AU  - Yiming Shen
+AU  - Wenxuan Luo
+AU  - Leixin Guo
+AU  - Ting Chen
+AU  - Jiashui Wang
+AU  - Beibei Li
+AU  - Xiaosong Zhang
+AU  - Jiachi Chen
+PY  - 2026
+DO  - 10.1109/tse.2026.3694876
+UR  - https://ieeexplore.ieee.org/document/11528180/
+ID  - POST-0043
+ER  - 
+
+TY  - GEN
+TI  - Secure by Design: Quantifying Architectural Resilience and the Agents Rule of two
+AU  - Qianlong Lan
+AU  - Anuj Kaul
+AU  - Shaun Jones
+AU  - Stephanie Westrum
+PY  - 2026
+DO  - 10.1109/southeastcon63549.2026.11475941
+UR  - https://ieeexplore.ieee.org/document/11475941/
+ID  - POST-0044
+ER  - 
+
+TY  - GEN
+TI  - Forensic LLM-Trace: Interpretable Multi-Agent AI Forensic Architecture for Prompt Injection Investigation
+AU  - Uthayashangar S
+AU  - Devesh A
+AU  - Hari Pragash D
+AU  - Dharshini S
+AU  - Yukthasri S
+PY  - 2026
+DO  - 10.1109/icscan66520.2026.11588474
+UR  - https://ieeexplore.ieee.org/document/11588474/
+ID  - POST-0045
+ER  - 
+
+TY  - GEN
+TI  - ASTRIDE: A Security Threat Modeling Platform for Agentic-AI Applications
+AU  - Eranga Bandara
+AU  - Amin Hass
+AU  - Sachin Shetty
+AU  - Ravi Mukkamala
+AU  - Ross Gore
+AU  - Sachini Rajapakse
+AU  - Xueping Liang
+AU  - Safdar H. Bouk
+PY  - 2026
+DO  - 10.1109/iwcmc69287.2026.11580105
+UR  - https://ieeexplore.ieee.org/document/11580105/
+ID  - POST-0046
+ER  - 
+
+TY  - GEN
+TI  - A Zero-Trust Supply Chain Security Framework for Model Context Protocol-based AI Systems
+AU  - Sunil Gentyala
+AU  - Ch Srinivas
+AU  - Raghu Dhumpati
+PY  - 2026
+DO  - 10.1109/iccbi68589.2026.11619741
+UR  - https://ieeexplore.ieee.org/document/11619741/
+ID  - POST-0047
+ER  - 
+
+TY  - GEN
+TI  - MCP-Secure: A Runtime Access Control Layer for Privilege-Aware LLM Agent Tooling
+AU  - Gamini Singh
+AU  - Vijay K. Madisetti
+PY  - 2026
+DO  - 10.1109/ojcs.2026.3664314
+UR  - https://ieeexplore.ieee.org/document/11394790/
+ID  - POST-0048
+ER  - 
+
+TY  - GEN
+TI  - Zero Trust Framework for Detecting and Preventing Prompt Injection Attacks in Enterprise AI Chatbots
+AU  - Gobika Anbazhagan
+AU  - Priyanga S
+AU  - Dinakar Jose S
+PY  - 2026
+DO  - 10.1109/icstem68144.2026.11735682
+UR  - https://ieeexplore.ieee.org/document/11735682/
+ID  - POST-0049
+ER  - 
+
+TY  - GEN
+TI  - MCPXkit: The Unified Toolkit for Analyzing Model Context Protocol Security
+AU  - Yongjian Guo
+AU  - Puzhuo Liu
+AU  - Wanlun Ma
+AU  - Zehang Deng
+AU  - Xiaogang Zhu
+AU  - Peng Di
+AU  - Xi Xiao
+AU  - Sheng Wen
+PY  - 2026
+DO  - 10.1109/tdsc.2026.3695553
+UR  - https://ieeexplore.ieee.org/document/11531012/
+ID  - POST-0050
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection as a Systemic Vulnerability in LLM-Based Tools: Threat Models, Empirical Analysis, and Mitigation Strategies
+AU  - Mukesh Mani Tripathi
+AU  - Damodar Dhital
+AU  - Himal Aryal
+PY  - 2026
+DO  - 10.1109/sera69989.2026.11618608
+UR  - https://ieeexplore.ieee.org/document/11618608/
+ID  - POST-0051
+ER  - 
+
+TY  - GEN
+TI  - Adversarial and Multilingual Threats in Retrieval-Augmented Generation: From Prompt Injection to Model Exploitation
+AU  - Basma ElSaify
+AU  - Mohamed Baderelden
+PY  - 2025
+DO  - 10.1109/gaclm67198.2025.11231998
+UR  - https://ieeexplore.ieee.org/document/11231998/
+ID  - POST-0052
+ER  - 
+
+TY  - GEN
+TI  - α3-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks
+AU  - Mohamed Amine Ferrag
+AU  - Abderrahmane Lakas
+AU  - Merouane Debbah
+PY  - 2026
+DO  - 10.1109/ojcoms.2026.3745818
+UR  - https://ieeexplore.ieee.org/document/11745891/
+ID  - POST-0053
+ER  - 
+
+TY  - GEN
+TI  - Semantic Manipulation Attacks in Agentic AI Systems with Agent-to-Agent Communication and Model-Context-Protocol–Based Tool Invocation
+AU  - Seo-Yi Kim
+AU  - So-Hyun Park
+AU  - Ayoung Jeon
+AU  - Ye-Rim Jeong
+AU  - Gyuha Son
+AU  - Il-Gu Lee
+PY  - 2026
+DO  - 10.1109/infocom59046.2026.11571532
+UR  - https://ieeexplore.ieee.org/document/11571532/
+ID  - POST-0054
+ER  - 
+
+TY  - GEN
+TI  - Experimental Analysis of Adversarial Attacks on Agentic AI Systems with Layered Defense Mechanisms
+AU  - Pradyut Guchhait
+AU  - G.L. Saini
+PY  - 2026
+DO  - 10.1109/aic70896.2026.11717029
+UR  - https://ieeexplore.ieee.org/document/11717029/
+ID  - POST-0055
+ER  - 
+
+TY  - GEN
+TI  - Enforcing Web Security Constraints for LLM-driven Robot Agents for Online Transactions
+AU  - Shraddha Pradipbhai Shah
+AU  - Aditya Vilas Deshpande
+PY  - 2024
+DO  - 10.1109/icdscnc62492.2024.10939862
+UR  - https://ieeexplore.ieee.org/document/10939862/
+ID  - POST-0056
+ER  - 
+
+TY  - GEN
+TI  - Poster: From Assistants to Actors: Deconstructing the Security Implications of Autonomous AI Agents
+AU  - Akanksha Pathak
+PY  - 2026
+DO  - 10.1109/svcc69905.2026.11642338
+UR  - https://ieeexplore.ieee.org/document/11642338/
+ID  - POST-0057
+ER  - 
+
+TY  - GEN
+TI  - ATTN-Defense: Attention-Guided Detection, Location and Removal for Indirect Prompt Injection
+AU  - Ziyang Zhang
+AU  - Yuechen Lin
+AU  - Xuanxuan An
+AU  - Mingyang Wan
+AU  - Caigui Jiang
+AU  - Ning Ding
+PY  - 2026
+DO  - 10.1109/icassp55912.2026.11461745
+UR  - https://ieeexplore.ieee.org/document/11461745/
+ID  - POST-0058
+ER  - 
+
+TY  - GEN
+TI  - Secure Prompt Engineering Patterns for Cloud LLM Agents
+AU  - Shalini Sudarsan
+AU  - Advait Patel
+AU  - Charit Upadhyay
+AU  - Vaishnavi Gudur
+AU  - Prashanthi Matam
+PY  - 2026
+DO  - 10.1109/icaic67076.2026.11395764
+UR  - https://ieeexplore.ieee.org/document/11395764/
+ID  - POST-0059
+ER  - 
+
+TY  - GEN
+TI  - Semantically-Aware LLM Agent to Enhance Privacy in Conversational AI Services
+AU  - Jayden Serenari
+AU  - Stephen Lee
+PY  - 2025
+DO  - 10.1109/bigdata66926.2025.11401540
+UR  - https://ieeexplore.ieee.org/document/11401540/
+ID  - POST-0060
+ER  - 
+
+TY  - GEN
+TI  - SafeFlow: Attribution-Driven Adaptive Security Defense for Large Language Model Agents
+AU  - Shan Gao
+AU  - Zelong Zhao
+AU  - Shiyou Zhang
+AU  - Fengkai Wang
+AU  - Yubo Zhang
+AU  - Xiaodong Mi
+PY  - 2026
+DO  - 10.1109/bigdia71496.2026.11684569
+UR  - https://ieeexplore.ieee.org/document/11684569/
+ID  - POST-0061
+ER  - 
+
+TY  - GEN
+TI  - Agentic AI as a Cybersecurity Attack Surface: Threats, Exploits, and Defenses in Runtime Supply Chains
+AU  - Xiaochong Jiang
+AU  - Shiqi Yang
+AU  - Wenting Yang
+AU  - Yichen Liu
+AU  - Cheng Ji
+PY  - 2026
+DO  - 10.1109/cai68641.2026.11536564
+UR  - https://ieeexplore.ieee.org/document/11536564/
+ID  - POST-0062
+ER  - 
+
+TY  - GEN
+TI  - Securing Multiagent GIS Systems: Risk Evaluation and Prompt Hardening Optimization
+AU  - Kyle Gao
+AU  - Pranavi Kotta
+AU  - Linlin Lincoln Xu
+AU  - Jonathan Li
+AU  - David A. Clausi
+PY  - 2026
+DO  - 10.1109/lgrs.2026.3726972
+UR  - https://ieeexplore.ieee.org/document/11666969/
+ID  - POST-0063
+ER  - 
+
+TY  - GEN
+TI  - Security Posture Evaluation of Model Context Protocol Servers Against Prompt Injection
+AU  - Gabriela Tod-Raileanu
+AU  - Sabina-Daniela Axinte
+AU  - Ana-Maria Dincă
+AU  - Ioan C. Bacivarov
+PY  - 2025
+DO  - 10.1109/siitme67657.2025.11293682
+UR  - https://ieeexplore.ieee.org/document/11293682/
+ID  - POST-0064
+ER  - 
+
+TY  - GEN
+TI  - MalPID: Malicious Prompt Injection Detection Dataset for Large Language Model based Applications
+AU  - Sihem Omri
+AU  - Manel Abdelkader
+AU  - Mohamed Hamdi
+PY  - 2024
+DO  - 10.1109/comnet64071.2024.10987374
+UR  - https://ieeexplore.ieee.org/document/10987374/
+ID  - POST-0065
+ER  - 
+
+TY  - GEN
+TI  - Runtime Protection Practice for LLM Agent Security: An On-Demand Behavioral Sandbox Approach
+AU  - Junyong Jiang
+PY  - 2026
+DO  - 10.1109/isaeece70502.2026.11635191
+UR  - https://ieeexplore.ieee.org/document/11635191/
+ID  - POST-0066
+ER  - 
+
+TY  - GEN
+TI  - Temporal Privacy Drift in Tool-Augmented Large Language Models: A Quantitative Framework for Big Data System Security
+AU  - Shivani Shukla
+AU  - Himanshu Joshi
+PY  - 2025
+DO  - 10.1109/bigdata66926.2025.11402540
+UR  - https://ieeexplore.ieee.org/document/11402540/
+ID  - POST-0067
+ER  - 
+
+TY  - GEN
+TI  - PINA: Prompt Injection Attack Against Navigation Agents
+AU  - Jiani Liu
+AU  - Yixin He
+AU  - Lanlan Fan
+AU  - Qidi Zhong
+AU  - Yushi Cheng
+AU  - Meng Zhang
+AU  - Yanjiao Chen
+AU  - Wenyuan Xu
+PY  - 2026
+DO  - 10.1109/icassp55912.2026.11462407
+UR  - https://ieeexplore.ieee.org/document/11462407/
+ID  - POST-0068
+ER  - 
+
+TY  - GEN
+TI  - A Federated MCP Gateway: Enforceable Isolation and Measuring Residual Semantic Attacks
+AU  - Fatemeh Stodt
+AU  - Christoph Reich
+AU  - Jan Stodt
+PY  - 2026
+DO  - 10.1109/noms69089.2026.11668221
+UR  - https://ieeexplore.ieee.org/document/11668221/
+ID  - POST-0069
+ER  - 
+
+TY  - GEN
+TI  - A2A Routing Service with MCP Integration: Bridging Security, Auditability, and Governance in AI Agent Systems
+AU  - Daichi Matsumoto
+AU  - Koki Watarai
+AU  - Satoshi Okada
+AU  - Takuho Mitsunaga
+PY  - 2025
+DO  - 10.1109/icoco67189.2025.11334130
+UR  - https://ieeexplore.ieee.org/document/11334130/
+ID  - POST-0070
+ER  - 
+
+TY  - GEN
+TI  - Automatic Red Teaming LLM-Based Agents With Model Context Protocol Tools
+AU  - Ping He
+AU  - Changjiang Li
+AU  - Binbin Zhao
+AU  - Tianyu Du
+AU  - Shouling Ji
+PY  - 2026
+DO  - 10.1109/tifs.2026.3691201
+UR  - https://ieeexplore.ieee.org/document/11511784/
+ID  - POST-0071
+ER  - 
+
+TY  - GEN
+TI  - DAP-L: A Database-Agnostic, Identity-Preserving Streaming Protocol for LLM Agents
+AU  - Chiranjeevisantosh Madugundi
+AU  - Sabitha Muppuri
+AU  - Manjunath Mitikiri
+PY  - 2026
+DO  - 10.1109/svcc69905.2026.11642241
+UR  - https://ieeexplore.ieee.org/document/11642241/
+ID  - POST-0072
+ER  - 
+
+TY  - GEN
+TI  - RIPE-II: Retrieval In-Place Poisoning Evaluation with Indirect Injections
+AU  - Gayatri Malladi
+AU  - Geethapriya Thamilarasu
+PY  - 2026
+DO  - 10.1109/dsn69566.2026.00078
+UR  - https://ieeexplore.ieee.org/document/11593453/
+ID  - POST-0073
+ER  - 
+
+TY  - GEN
+TI  - TrustTrace: Provenance-Aware Tracing of Indirect Prompt Injection Propagation in LLM-Assisted Learning Workflows
+AU  - Jingyi Chen
+AU  - Rongqing Lu
+PY  - 2026
+DO  - 10.1109/access.2026.3726909
+UR  - https://ieeexplore.ieee.org/document/11664419/
+ID  - POST-0074
+ER  - 
+
+TY  - GEN
+TI  - Intelligent Multi-Agent Reinforcement Sanitizer for Securing LLM Systems
+AU  - Pramila P
+AU  - Nadana Ravishankar T
+PY  - 2026
+DO  - 10.1109/icicv68925.2026.11554850
+UR  - https://ieeexplore.ieee.org/document/11554850/
+ID  - POST-0075
+ER  - 
+
+TY  - GEN
+TI  - Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety
+AU  - Ruiyang Zhang
+PY  - 2026
+DO  - 10.1109/is71416.2026.11727278
+UR  - https://ieeexplore.ieee.org/document/11727278/
+ID  - POST-0076
+ER  - 
+
+TY  - GEN
+TI  - PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents
+AU  - Guangsheng Yu
+AU  - Qin Wang
+AU  - Rui Lang
+AU  - Shuai Su
+AU  - Xu Wang
+PY  - 2026
+DO  - 10.1109/tsc.2026.3695494
+UR  - https://ieeexplore.ieee.org/document/11531130/
+ID  - POST-0077
+ER  - 
+
+TY  - GEN
+TI  - To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt
+AU  - Zhilong Wang
+AU  - Neha Nagaraja
+AU  - Lan Zhang
+AU  - Hayretdin Bahsi
+AU  - Pawan Patil
+AU  - Peng Liu
+PY  - 2025
+DO  - 10.1109/dsn-s65789.2025.00037
+UR  - https://ieeexplore.ieee.org/document/11068353/
+ID  - POST-0078
+ER  - 
+
+TY  - GEN
+TI  - A Concise Review of Security Challenges and Protection for LLM-based Agents in Telecom Information Systems
+AU  - Haitao Xiao
+AU  - Kun Fu
+AU  - Le Chen
+AU  - Daiyuan Yu
+AU  - Xuegang Wen
+AU  - Xiaomin Zhang
+AU  - Wei Zhao
+AU  - Zhenyun Lv
+PY  - 2026
+DO  - 10.1109/asens69964.2026.11605296
+UR  - https://ieeexplore.ieee.org/document/11605296/
+ID  - POST-0079
+ER  - 
+
+TY  - GEN
+TI  - Defending Against Prompt Injection with DataFilter
+AU  - Yizhu Wang
+AU  - Sizhe Chen
+AU  - Raghad Alkhudair
+AU  - Basel Alomair
+AU  - David Wagner
+PY  - 2026
+DO  - 10.1109/satml68715.2026.00017
+UR  - https://ieeexplore.ieee.org/document/11691927/
+ID  - POST-0080
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection as the New SQL Injection: The Emergence of Attacks on AI Reasoning
+AU  - Shuktaev Abzal
+AU  - Karabalin Bakhtiyar
+AU  - Orynbasar Sultan
+AU  - Olga Orlova
+AU  - Elena Aleksandrovna Korochkina
+AU  - Sholpan Borashova
+PY  - 2026
+DO  - 10.1109/iccsdfai70505.2026.11648022
+UR  - https://ieeexplore.ieee.org/document/11648022/
+ID  - POST-0081
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection Through Operational Data Feeds: A Structural Governance Gap in OT-Connected Agentic AI Systems
+AU  - Suhail Ahmad Rana
+AU  - Dinara Kozhamzharova
+PY  - 2026
+DO  - 10.1109/iccsdfai70505.2026.11647859
+UR  - https://ieeexplore.ieee.org/document/11647859/
+ID  - POST-0082
+ER  - 
+
+TY  - GEN
+TI  - Attacking LLMs and AI Agents: Advertisement Embedding Attacks Against Large Language Models
+AU  - Qiming Guo
+AU  - Jinwen Tang
+AU  - Xingran Huang
+PY  - 2025
+DO  - 10.1109/fmlds67896.2025.00111
+UR  - https://ieeexplore.ieee.org/document/11446535/
+ID  - POST-0083
+ER  - 
+
+TY  - GEN
+TI  - Securing Autonomous Large Language Model Agents: Lessons From OpenClaw
+AU  - Xinhao Deng
+AU  - Yixiang Zhang
+AU  - Jiaqing Wu
+AU  - Jiaqi Bai
+AU  - Sibo Yi
+AU  - Zhuoheng Zou
+AU  - Yue Xiao
+AU  - Rennai Qiu
+AU  - Jianan Ma
+AU  - Jialuo Chen
+AU  - Xiaohu Du
+AU  - Xiaofang Yang
+AU  - Shiwen Cui
+AU  - Changhua Meng
+AU  - Weiqiang Wang
+AU  - Jiaxing Song
+AU  - Ke Xu
+AU  - Qi Li
+PY  - 2026
+DO  - 10.1109/msec.2026.3727871
+UR  - https://ieeexplore.ieee.org/document/11695220/
+ID  - POST-0084
+ER  - 
+
+TY  - GEN
+TI  - AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption
+AU  - Yanting Wang
+AU  - Runpeng Geng
+AU  - Ying Chen
+AU  - Jinyuan Jia
+PY  - 2026
+DO  - 10.1109/sp63933.2026.00198
+UR  - https://ieeexplore.ieee.org/document/11573479/
+ID  - POST-0085
+ER  - 
+
+TY  - GEN
+TI  - Preserving oneM2M Security Semantics in LLM-IoT Integration with Model Context Protocol
+AU  - Jaehyung Jeong
+AU  - Jayeon Pyo
+AU  - Jiho Lee
+AU  - JaeSeung Song
+PY  - 2025
+DO  - 10.1109/aiot66900.2025.00032
+UR  - https://ieeexplore.ieee.org/document/11416352/
+ID  - POST-0086
+ER  - 
+
+TY  - GEN
+TI  - Verifier-Grounded Runtime Mediation for LLM Agent Procedural Compliance
+AU  - Hitoshi Yabusaki
+PY  - 2026
+DO  - 10.1109/sse72781.2026.00014
+UR  - https://ieeexplore.ieee.org/document/11664931/
+ID  - POST-0087
+ER  - 
+
+TY  - GEN
+TI  - Governed Agentic Cloud Data Pipelines with MCP Gateways
+AU  - Aswathnarayan Muthukrishnan Kirubakaran
+AU  - Vinoth Punniyamoorthy
+AU  - Akshay Deshpande
+AU  - Adithya Parthasarathy
+AU  - Nachiappan Chockalingam
+AU  - Mythili Annamalai Sekar
+AU  - Naga Surya Pasupuleti
+AU  - Shiva Carimireddy
+PY  - 2026
+DO  - 10.1109/icaiset66439.2026.11541321
+UR  - https://ieeexplore.ieee.org/document/11541321/
+ID  - POST-0088
+ER  - 
+
+TY  - GEN
+TI  - Customizable Runtime Enforcement of Safe and Reliable LLM Agents for Future Unsafe States
+AU  - Chiranth Gowda
+AU  - Rupesh P
+AU  - Shreyas R
+AU  - Thomas Fernandes
+AU  - Sandhya N
+PY  - 2026
+DO  - 10.1109/icscan66520.2026.11588348
+UR  - https://ieeexplore.ieee.org/document/11588348/
+ID  - POST-0089
+ER  - 
+
+TY  - GEN
+TI  - Securing Autonomous Clinical Agents: Time-Scoped Hypergraph Delegation for Controlling Patient Data Access
+AU  - Hassan Karim
+AU  - Sai Sitharaman
+AU  - Deepti Gupta
+AU  - Danda B. Rawat
+PY  - 2026
+DO  - 10.1109/icdh72779.2026.00047
+UR  - https://ieeexplore.ieee.org/document/11662272/
+ID  - POST-0090
+ER  - 
+
+TY  - GEN
+TI  - A Systematic Security Analysis of Model Context Protocol: Vulnerabilities, Exploits, and Mitigations
+AU  - Theophilus Siameh
+AU  - Abigail Akosua Addobea
+AU  - Chun-Hung Liu
+AU  - Eric Kudjoe Fiah
+PY  - 2026
+DO  - 10.1109/icaic67076.2026.11395848
+UR  - https://ieeexplore.ieee.org/document/11395848/
+ID  - POST-0091
+ER  - 
+
+TY  - GEN
+TI  - BiasAgent: Exploiting Agent Bias for Preference Manipulation Attacks on Model Context Protocol
+AU  - Ji Guo
+AU  - Zhijing Wang
+AU  - Wenbo Jiang
+AU  - Rui Zhang
+AU  - Jian Xiong
+AU  - Qiyang Song
+AU  - Hao Wu
+AU  - Yijing Liu
+PY  - 2026
+DO  - 10.1109/tccn.2026.3714063
+UR  - https://ieeexplore.ieee.org/document/11612884/
+ID  - POST-0092
+ER  - 
+
+TY  - GEN
+TI  - ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by Using OAuth-Enhanced Tool Definitions and Policy-Based Access Control
+AU  - Manish Bhatt
+AU  - Vineeth Sai Narajala
+AU  - Idan Habler
+PY  - 2025
+DO  - 10.1109/cars67163.2025.11337310
+UR  - https://ieeexplore.ieee.org/document/11337310/
+ID  - POST-0093
+ER  - 
+
+TY  - GEN
+TI  - ChaosLLM: A Dependability Testing Approach for Tool-Calling Agents
+AU  - Antonio Ken Iannillo
+PY  - 2025
+DO  - 10.1109/issrew67781.2025.00085
+UR  - https://ieeexplore.ieee.org/document/11262344/
+ID  - POST-0094
+ER  - 
+
+TY  - GEN
+TI  - COALESCE: Economic and Security Dynamics of Skill-Based Task Outsourcing Among Team of Autonomous LLM Agents
+AU  - Manish Bhatt
+AU  - Ronald F. Del Rosario
+AU  - Vineeth Sai Narajala
+AU  - Idan Habler
+PY  - 2025
+DO  - 10.1109/cars67163.2025.11337769
+UR  - https://ieeexplore.ieee.org/document/11337769/
+ID  - POST-0095
+ER  - 
+
+TY  - GEN
+TI  - The AI Agent Who Cried Wolf: Boundary-Oriented Threat Models for Model Context Protocol (MCP)
+AU  - Jiho Lee
+AU  - Zehua Wang
+AU  - Victoria Lemieux
+AU  - Victor Leung
+AU  - JaeSeung Song
+PY  - 2026
+DO  - 10.1109/mcom.001.2600567
+UR  - https://ieeexplore.ieee.org/document/11738883/
+ID  - POST-0096
+ER  - 
+
+TY  - GEN
+TI  - A First Look at the Security Issues in the Model Context Protocol Ecosystem
+AU  - Xiaofan Li
+AU  - Xing Gao
+PY  - 2026
+DO  - 10.1109/dsn69566.2026.00046
+UR  - https://ieeexplore.ieee.org/document/11593470/
+ID  - POST-0097
+ER  - 
+
+TY  - GEN
+TI  - Strengthening LLM Trust Boundaries: A Survey of Prompt Injection Attacks Surender Suresh Kumar Dr. M.L. Cummings Dr. Alexander Stimpson
+AU  - Surender Suresh Kumar
+AU  - M.L. Cummings
+AU  - Alexander Stimpson
+PY  - 2024
+DO  - 10.1109/ichms59971.2024.10555871
+UR  - https://ieeexplore.ieee.org/document/10555871/
+ID  - POST-0098
+ER  - 
+
+TY  - GEN
+TI  - Goal-Guided Generative Prompt Injection Attack on Large Language Models
+AU  - Chong Zhang
+AU  - Mingyu Jin
+AU  - Qinkai Yu
+AU  - Chengzhi Liu
+AU  - Haochen Xue
+AU  - Xiaobo Jin
+PY  - 2024
+DO  - 10.1109/icdm59182.2024.00119
+UR  - https://ieeexplore.ieee.org/document/10884369/
+ID  - POST-0099
+ER  - 
+
+TY  - GEN
+TI  - DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks
+AU  - Yupei Liu
+AU  - Yuqi Jia
+AU  - Jinyuan Jia
+AU  - Dawn Song
+AU  - Neil Zhenqiang Gong
+PY  - 2025
+DO  - 10.1109/sp61157.2025.00250
+UR  - https://ieeexplore.ieee.org/document/11023476/
+ID  - POST-0100
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection Detection Using Ensemble of BERT and LSTM with GloVe Embeddings
+AU  - Md. Main Oddin Chisty
+AU  - Abu Noman Md Sakib
+AU  - Md Somir Khan
+AU  - Md. Badiuzzaman Shuvo
+PY  - 2024
+DO  - 10.1109/icece64886.2024.11024700
+UR  - https://ieeexplore.ieee.org/document/11024700/
+ID  - POST-0101
+ER  - 
+
+TY  - GEN
+TI  - Verifiable and Fair Registered Attribute-Based Multi-Hop Proxy Re-Encryption Scheme for LLM Agents
+AU  - Dongliang Cai
+AU  - Yiwen Gao
+AU  - Qixiang Li
+AU  - Liang Zhang
+AU  - Borui Chen
+AU  - Bo Wang
+AU  - Haibin Kan
+PY  - 2026
+DO  - 10.1109/tifs.2026.3711852
+UR  - https://ieeexplore.ieee.org/document/11602088/
+ID  - POST-0102
+ER  - 
+
+TY  - GEN
+TI  - Guardrailing LLM and Agentic Decisions for 6G AI-RAN
+AU  - Yun Tang
+AU  - Mengbang Zou
+AU  - Weisi Guo
+AU  - Syed Ali Raza Zaidi
+PY  - 2026
+DO  - 10.1109/ccnc65079.2026.11366609
+UR  - https://ieeexplore.ieee.org/document/11366609/
+ID  - POST-0103
+ER  - 
+
+TY  - GEN
+TI  - Graph Representation-Based Model Poisoning on the Heterogeneous Internet of Agents
+AU  - Hanlin Cai
+AU  - Haofan Dong
+AU  - Houtianfu Wang
+AU  - Kai Li
+AU  - Sai Zou
+AU  - Ozgur B. Akan
+PY  - 2026
+DO  - 10.1109/iwcmc69287.2026.11579822
+UR  - https://ieeexplore.ieee.org/document/11579822/
+ID  - POST-0104
+ER  - 
+
+TY  - GEN
+TI  - A Study on Prompt Injection Attack Against LLM-Integrated Mobile Robotic Systems
+AU  - Wenxiao Zhang
+AU  - Xiangrui Kong
+AU  - Conan Dewitt
+AU  - Thomas Braunl
+AU  - Jin B. Hong
+PY  - 2024
+DO  - 10.1109/issrew63542.2024.00103
+UR  - https://ieeexplore.ieee.org/document/10771340/
+ID  - POST-0105
+ER  - 
+
+TY  - GEN
+TI  - Applying Pre-trained Multilingual BERT in Embeddings for Improved Malicious Prompt Injection Attacks Detection
+AU  - Md Abdur Rahman
+AU  - Hossain Shahriar
+AU  - Fan Wu
+AU  - Alfredo Cuzzocrea
+PY  - 2024
+DO  - 10.1109/aibthings63359.2024.10863664
+UR  - https://ieeexplore.ieee.org/document/10863664/
+ID  - POST-0106
+ER  - 
+
+TY  - GEN
+TI  - The Causal Impact of Tool Affordance on Safety Alignment in LLM Agents
+AU  - Shasha Yu
+AU  - Fiona Carroll
+AU  - Barry L. Bentley
+PY  - 2026
+DO  - 10.1109/icecet65726.2026.11632769
+UR  - https://ieeexplore.ieee.org/document/11632769/
+ID  - POST-0107
+ER  - 
+
+TY  - GEN
+TI  - Hold the Prompt (HODPOT): Defense Design for Securing the System Prompt of LLM Agents
+AU  - Lilian Tai Do Khac
+AU  - Marc Fabian Mezger
+AU  - Daniel Thürck
+PY  - 2026
+DO  - 10.1109/aaiml67890.2026.11498071
+UR  - https://ieeexplore.ieee.org/document/11498071/
+ID  - POST-0108
+ER  - 
+
+TY  - GEN
+TI  - The Reproduction Number of AI Worms: Epidemic Modeling of Adversarial Attacks in LLM Agent Ecosystems
+AU  - Jong-Hyouk Lee
+PY  - 2026
+DO  - 10.1109/msec.2026.3713527
+UR  - https://ieeexplore.ieee.org/document/11627708/
+ID  - POST-0109
+ER  - 
+
+TY  - GEN
+TI  - Imperceptible Content Poisoning in LLM-Powered Applications
+AU  - Quan Zhang
+AU  - Chijin Zhou
+AU  - Gwihwan Go
+AU  - Binqi Zeng
+AU  - Heyuan Shi
+AU  - Zichen Xu
+AU  - Yu Jiang
+PY  - 2024
+DO  - not available in accessible verified record
+UR  - https://ieeexplore.ieee.org/document/10764993/
+ID  - POST-0110
+ER  - 
+
+TY  - GEN
+TI  - Evaluating Prompt Injection Risk and Guardrails in LLM-Enabled Home IoT Assistants
+AU  - Shazid Bin Zaman
+AU  - Sohan Gyawali
+AU  - Ciprian Popoviciu
+AU  - Yili Jiang
+AU  - Jiaqi Huang
+PY  - 2026
+DO  - 10.1109/imns67862.2026.11655283
+UR  - https://ieeexplore.ieee.org/document/11655283/
+ID  - POST-0111
+ER  - 
+
+TY  - GEN
+TI  - Defeating Prompt Injections by Design
+AU  - Edoardo Debenedetti
+AU  - Ilia Shumailov
+AU  - Tianqi Fan
+AU  - Jamie Hayes
+AU  - Nicholas Carlini
+AU  - Daniel Fabian
+AU  - Christoph Kern
+AU  - Chongyang Shi
+AU  - Andreas Terzis
+AU  - Florian Tramèr
+PY  - 2026
+DO  - 10.1109/satml68715.2026.00040
+UR  - https://ieeexplore.ieee.org/document/11691650/
+ID  - POST-0112
+ER  - 
+
+TY  - GEN
+TI  - Mitigating the OWASP Top 10 For Large Language Models Applications using Intelligent Agents
+AU  - Mohammad Fasha
+AU  - Faisal Abul Rub
+AU  - Nasim Matar
+AU  - Bilal Sowan
+AU  - Mohammad Al Khaldy
+AU  - Hussam Barham
+PY  - 2024
+DO  - 10.1109/iccr61006.2024.10532874
+UR  - https://ieeexplore.ieee.org/document/10532874/
+ID  - POST-0113
+ER  - 
+
+TY  - GEN
+TI  - Decentralized Digital Identity Management for Large Language Model Agents
+AU  - Abdullah Aydeger
+AU  - Engin Zeydan
+AU  - Josep Mangues-Bafalluy
+AU  - Yekta Turk
+AU  - Sunder Ali Khowaja
+AU  - Kapal Dev
+PY  - 2026
+DO  - 10.1109/mcomstd.2025.3648666
+UR  - https://ieeexplore.ieee.org/document/11367791/
+ID  - POST-0114
+ER  - 
+
+TY  - GEN
+TI  - Defending Language Models Against Image-Based Prompt Attacks via User-Provided Specifications
+AU  - Reshabh K Sharma
+AU  - Vinayak Gupta
+AU  - Dan Grossman
+PY  - 2024
+DO  - 10.1109/spw63631.2024.00017
+UR  - https://ieeexplore.ieee.org/document/10579532/
+ID  - POST-0115
+ER  - 
+
+TY  - GEN
+TI  - Temporal Poisoning: a Non-Adversarial, Timing-Induced Instability in Long-Term Memory of LLM Agents
+AU  - Mikiyas Semu
+AU  - Milon Biswas
+AU  - Wei Yu
+PY  - 2026
+DO  - 10.1109/sera69989.2026.11618645
+UR  - https://ieeexplore.ieee.org/document/11618645/
+ID  - POST-0116
+ER  - 
+
+TY  - GEN
+TI  - Agentic Commerce: A Comprehensive Analysis of Cybersecurity Risks, Privacy Challenges, and Trust Mechanisms in Autonomous AI-Driven Marketplaces
+AU  - Niranjan Pachaiyappan
+PY  - 2026
+DO  - 10.1109/icaic67076.2026.11395759
+UR  - https://ieeexplore.ieee.org/document/11395759/
+ID  - POST-0117
+ER  - 
+
+TY  - GEN
+TI  - AEGIS: Preventing Cross-Domain Resource Abuse in MCP
+AU  - Shriti Priya
+AU  - Teryl Taylor
+AU  - Frederico Araujo
+PY  - 2026
+DO  - 10.1109/dsn-s70715.2026.00036
+UR  - https://ieeexplore.ieee.org/document/11664690/
+ID  - POST-0118
+ER  - 
+
+TY  - GEN
+TI  - Graph-Based Prompt Injection Attacks Against Large Language Models
+AU  - Hyeokjin Kwon
+AU  - Jaebeom Kim
+AU  - Wooguil Pak
+PY  - 2024
+DO  - 10.1109/time-e62724.2024.10919819
+UR  - https://ieeexplore.ieee.org/document/10919819/
+ID  - POST-0119
+ER  - 
+
+TY  - GEN
+TI  - Enhancing System Security: LLM-Driven Defense Against Prompt Injection Vulnerabilities
+AU  - Oleksandr Muliarevych
+PY  - 2024
+DO  - 10.1109/tcset64720.2024.10755823
+UR  - https://ieeexplore.ieee.org/document/10755823/
+ID  - POST-0120
+ER  - 
+
+TY  - GEN
+TI  - Leveraging Local LLMs for Secure In-System Task Automation With Prompt-Based Agent Classification
+AU  - Suthir Sriram
+AU  - C. H. Karthikeya
+AU  - K. P. Kishore Kumar
+AU  - Nivethitha Vijayaraj
+AU  - Thangavel Murugan
+PY  - 2024
+DO  - 10.1109/access.2024.3505298
+UR  - https://ieeexplore.ieee.org/document/10766449/
+ID  - POST-0121
+ER  - 
+
+TY  - GEN
+TI  - Entitlement-Aware Authorization for MCP-Based AI Search and Chat Systems
+AU  - Anil Kolhe
+AU  - Venkata Seetarama Raju Dantuluri
+AU  - Devendra Rajput
+AU  - Sanjay Bajaj
+PY  - 2026
+DO  - 10.1109/icaiset66439.2026.11541974
+UR  - https://ieeexplore.ieee.org/document/11541974/
+ID  - POST-0122
+ER  - 
+
+TY  - GEN
+TI  - Optimizing Transformer Models for Prompt Jailbreak Attack Detection in AI Assistant Systems
+AU  - Le Anh Tien
+AU  - Pham Van Huong
+PY  - 2024
+DO  - 10.1109/vcris63677.2024.10813380
+UR  - https://ieeexplore.ieee.org/document/10813380/
+ID  - POST-0123
+ER  - 
+
+TY  - GEN
+TI  - Mitigating Input Prompt Attack Vulnerabilities in Systems with a Language Model Interface
+AU  - Oleksandr Muliarevych
+PY  - 2024
+DO  - 10.1109/dessert65323.2024.11122258
+UR  - https://ieeexplore.ieee.org/document/11122258/
+ID  - POST-0124
+ER  - 
+
+TY  - GEN
+TI  - Exploring the Essence of Prompt Tone: A Comparative Study of Large Language Model Security
+AU  - Aiswarya Nair
+AU  - Jose Vithayathil
+AU  - Sandeep Prem Nambiar
+AU  - Snehasree S
+AU  - Shalu Murali
+PY  - 2024
+DO  - 10.1109/iceeict61591.2024.10718584
+UR  - https://ieeexplore.ieee.org/document/10718584/
+ID  - POST-0125
+ER  - 
+
+TY  - GEN
+TI  - Authenticated and Offline-Verifiable Agent-to-Agent Messaging for LLM Agents
+AU  - Adil Alshammari
+AU  - Sareh Assiri
+AU  - Hayretdin Bahsi
+PY  - 2026
+DO  - 10.1109/ccwc67433.2026.11393740
+UR  - https://ieeexplore.ieee.org/document/11393740/
+ID  - POST-0126
+ER  - 
+
+TY  - GEN
+TI  - CRDA: Content Risk Drift Assessment of Large Language Models through Adversarial Multi-Agent Interaction
+AU  - Zongzhen Liu
+AU  - Guoyi Li
+AU  - Bingkang Shi
+AU  - Xiaodan Zhang
+AU  - Jingguo Ge
+AU  - Yulei Wu
+AU  - Honglei Lyu
+PY  - 2024
+DO  - 10.1109/ijcnn60899.2024.10650172
+UR  - https://ieeexplore.ieee.org/document/10650172/
+ID  - POST-0127
+ER  - 
+
+TY  - GEN
+TI  - Protection of LLM Environment Using Prompt Security
+AU  - Minjae Kim
+AU  - Taehyeong Kwon
+AU  - Kibeom Shim
+AU  - Beonghoon Kim
+PY  - 2024
+DO  - 10.1109/ictc62082.2024.10827351
+UR  - https://ieeexplore.ieee.org/document/10827351/
+ID  - POST-0128
+ER  - 
+
+TY  - GEN
+TI  - The Colossal Defense: Security Challenges of Large Language Models
+AU  - Sourav Maity
+AU  - Jatin Arora
+PY  - 2024
+DO  - 10.1109/delcon64804.2024.10866433
+UR  - https://ieeexplore.ieee.org/document/10866433/
+ID  - POST-0129
+ER  - 
+
+TY  - GEN
+TI  - Enhancing Risk Awareness in LLM Agents via Probing Safety Boundaries
+AU  - Yu Jiang
+AU  - Hanli Peng
+AU  - Yongsen Zheng
+AU  - Ziyao Liu
+AU  - Kwok-Yan Lam
+AU  - Chee Wei Tan
+PY  - 2026
+DO  - 10.1109/icassp55912.2026.11464257
+UR  - https://ieeexplore.ieee.org/document/11464257/
+ID  - POST-0130
+ER  - 
+
+TY  - GEN
+TI  - A Comprehensive Security Framework for the Model Context Protocol (MCP) in Multi-Agent AI Systems
+AU  - Om Narayan
+AU  - Ramkinker Singh
+AU  - Praveen Baskar
+PY  - 2025
+DO  - 10.1109/acai68217.2025.11406667
+UR  - https://ieeexplore.ieee.org/document/11406667/
+ID  - POST-0131
+ER  - 
+
+TY  - GEN
+TI  - Trustworthy Agentic AI Pipelines: Human-in-the-Loop Oversight Architectures for Secure Enterprise Deployment
+AU  - Saroj Mishra
+PY  - 2026
+DO  - 10.1109/coins69995.2026.11715619
+UR  - https://ieeexplore.ieee.org/document/11715619/
+ID  - POST-0132
+ER  - 
+
+TY  - GEN
+TI  - Cross-Agent Multimodal Provenance-Aware Framework for Robust Prompt Injection Defense in Large Language and Vision-Language Models
+AU  - Toqeer Ali Syed
+AU  - Mishal Ateeq Almutairi
+AU  - Mahmoud Abdel Moaty
+PY  - 2025
+DO  - 10.1109/icca66035.2025.11430791
+UR  - https://ieeexplore.ieee.org/document/11430791/
+ID  - POST-0133
+ER  - 
+
+TY  - GEN
+TI  - Autonomous Agents in a Zero-Trust World: Architecting Secure, Auditable AI Workflows
+AU  - Shadi Nashwan
+AU  - Issam Jebreen
+AU  - Ahmad Al-Qerem
+AU  - Ammar Almomani
+AU  - Mohammed Saleh
+AU  - Amjad Aldweesh
+PY  - 2025
+DO  - 10.1109/itt69610.2025.11352936
+UR  - https://ieeexplore.ieee.org/document/11352936/
+ID  - POST-0134
+ER  - 
+
+TY  - GEN
+TI  - Guarding the Gateway: Securing MCP-Mediated RAG Pipelines Against Injection with the Guru Framework
+AU  - Yogendra K Bhardwaj
+AU  - Prashant S Chauhan
+AU  - Priyank Raj Sharma
+PY  - 2026
+DO  - 10.1109/icetics69505.2026.11651315
+UR  - https://ieeexplore.ieee.org/document/11651315/
+ID  - POST-0135
+ER  - 
+
+TY  - GEN
+TI  - A Multi-Agent Architecture for Governance and Security of LLM-Based Knowledge Access
+AU  - Vinícius Alboneti Aguiar
+AU  - Leonardo Afonso Amorim
+AU  - Artur Matos Andrade Novais
+AU  - Thiago Pedroso de Jesus
+AU  - Anderson da Silva Soares
+AU  - Sávio Salvarino Teles de Oliveira
+PY  - 2025
+DO  - 10.1109/bigdata66926.2025.11401633
+UR  - https://ieeexplore.ieee.org/document/11401633/
+ID  - POST-0136
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection Detection and Mitigation with AI Multiagent NLP-based Agentic Frameworks
+AU  - Diego Gosmar
+AU  - Deborah A. Dahl
+AU  - Dario Gosmar
+PY  - 2025
+DO  - 10.1109/fllm67465.2025.11391215
+UR  - https://ieeexplore.ieee.org/document/11391215/
+ID  - POST-0137
+ER  - 
+
+TY  - GEN
+TI  - Privatar: A Privacy-Preserving Framework for LLM Agents
+AU  - Runyang Jian
+AU  - Zunhao Zhu
+AU  - Yujia Shang
+AU  - Yangbo Shen
+AU  - Kunpeng Liu
+PY  - 2025
+DO  - 10.1109/icdmw69685.2025.00011
+UR  - https://ieeexplore.ieee.org/document/11415900/
+ID  - POST-0138
+ER  - 
+
+TY  - GEN
+TI  - Reasoning Graph Integrity: A Structural Framework for Detecting Poisoned Thought Processes in LLM Agents
+AU  - Qi Gao
+AU  - Yanqin Gao
+AU  - Honghui Kang
+AU  - Liang Jiang
+AU  - Xinyu Zhang
+AU  - Zhou Li
+PY  - 2026
+DO  - 10.1109/icet69987.2026.11659295
+UR  - https://ieeexplore.ieee.org/document/11659295/
+ID  - POST-0139
+ER  - 
+
+TY  - GEN
+TI  - Security Framework for Agentic Home AI in Preventive Healthcare: Cyber Threats Worth Noting
+AU  - Collins P Obeng
+AU  - Nethshan M Narasinghe
+AU  - Ryan Striker
+AU  - Enrique Alvarez Vazquez
+PY  - 2025
+DO  - 10.1109/cars67163.2025.11337832
+UR  - https://ieeexplore.ieee.org/document/11337832/
+ID  - POST-0140
+ER  - 
+
+TY  - GEN
+TI  - LLM-Centric Agentic AI for UAV Swarms: System-Level Architecture and Perception–Reasoning Security
+AU  - Yousef Emami
+AU  - Rahim Taheri
+AU  - Mohammadhossein Homaei
+AU  - Muhammad Atif Ur Rehman
+AU  - Mohammad Shojafar
+PY  - 2026
+DO  - 10.1109/miot.2026.3733858
+UR  - https://ieeexplore.ieee.org/document/11707658/
+ID  - POST-0141
+ER  - 
+
+TY  - GEN
+TI  - CAPRI-DP: A Differentially Private Extension to Context-Aware Multi-Agent Privacy Frameworks
+AU  - M Sai Yaswanth
+AU  - Srinivasarao Chilakala
+AU  - C. Madana Kumar Reddy
+AU  - K. Nageswararao
+AU  - G. Jeevana Manikanta
+AU  - Padma Vijetha
+PY  - 2026
+DO  - 10.1109/iccces62661.2026.11437027
+UR  - https://ieeexplore.ieee.org/document/11437027/
+ID  - POST-0142
+ER  - 
+
+TY  - GEN
+TI  - Hierarchical Approaches for Development of an MCP Security Framework
+AU  - Myongwon Jang
+AU  - Kyungho Lee
+PY  - 2026
+DO  - 10.1109/access.2026.3694881
+UR  - https://ieeexplore.ieee.org/document/11526761/
+ID  - POST-0143
+ER  - 
+
+TY  - GEN
+TI  - OpenMCPSpec: A Specification Framework for Robust, Governed, and Lifecycle-Managed Machine Communicable Processes in LLM-Agent Systems
+AU  - Pinnamaraju Chaitanya
+PY  - 2026
+DO  - 10.1109/icsccc69031.2026.11600150
+UR  - https://ieeexplore.ieee.org/document/11600150/
+ID  - POST-0144
+ER  - 
+
+TY  - GEN
+TI  - Penetration Testing of Agentic AI: A Longitudinal Security Analysis Across Models and Frameworks
+AU  - Viet K. Nguyen
+AU  - Mohammad I. Husain
+PY  - 2026
+DO  - 10.1109/cns69863.2026.11720902
+UR  - https://ieeexplore.ieee.org/document/11720902/
+ID  - POST-0145
+ER  - 
+
+TY  - GEN
+TI  - TRISM-C: An Operational Cybersecurity Framework for Securing Agentic AI Against Adversarial Attacks
+AU  - Nisa Nadeem
+AU  - Maham Javed
+AU  - Aqsa Khalid
+AU  - Arshad Ali
+PY  - 2026
+DO  - 10.1109/icit68548.2026.11577701
+UR  - https://ieeexplore.ieee.org/document/11577701/
+ID  - POST-0146
+ER  - 
+
+TY  - GEN
+TI  - CAPRI: A Context-Aware Privacy Framework for Multi-Agent Generative AI Applications
+AU  - Jae H. Park
+AU  - Vijay K. Madisetti
+PY  - 2025
+DO  - 10.1109/access.2025.3549312
+UR  - https://ieeexplore.ieee.org/document/10916629/
+ID  - POST-0147
+ER  - 
+
+TY  - GEN
+TI  - A Unified Mathematical Framework for Secure Multi-Agent Large Language Model Pipelines
+AU  - Sunil Gentyala
+AU  - Y. Geetha Reddy
+AU  - Manasa Pendyala
+AU  - Vishnu Gatla
+AU  - Sundarigari Manoj
+AU  - Ruhisulthana Shaik
+PY  - 2026
+DO  - 10.1109/icscsa69367.2026.11708210
+UR  - https://ieeexplore.ieee.org/document/11708210/
+ID  - POST-0148
+ER  - 
+
+TY  - GEN
+TI  - Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework
+AU  - Alsharif Abuadbba
+AU  - Nazatul Sultan
+AU  - Surya Nepal
+AU  - Sanjay Jha
+PY  - 2026
+DO  - 10.1109/icws72778.2026.00164
+UR  - https://ieeexplore.ieee.org/document/11670052/
+ID  - POST-0149
+ER  - 
+
+TY  - GEN
+TI  - A Security Analysis of the OpenClaw AI Agent Framework
+AU  - Surada Suwansathit
+AU  - Yuxuan Zhang
+AU  - Guofei Gu
+PY  - 2026
+DO  - 10.1109/icccn69946.2026.11662970
+UR  - https://ieeexplore.ieee.org/document/11662970/
+ID  - POST-0150
+ER  - 
+
+TY  - GEN
+TI  - Addressing Security Gaps in MCP: Design of a Resilient Reference Architecture
+AU  - Mohammed Salih
+AU  - Jihane Gharib
+AU  - Youssef Gahi
+PY  - 2025
+DO  - 10.1109/icoa66896.2025.11236877
+UR  - https://ieeexplore.ieee.org/document/11236877/
+ID  - POST-0151
+ER  - 
+
+TY  - GEN
+TI  - Swiss Cheese Model for AI Safety: A Taxonomy and Reference Architecture for Multi-Layered Guardrails of Foundation Model Based Agents
+AU  - Md Shamsujjoha
+AU  - Qinghua Lu
+AU  - Dehai Zhao
+AU  - Liming Zhu
+PY  - 2025
+DO  - 10.1109/icsa65012.2025.00014
+UR  - https://ieeexplore.ieee.org/document/10978931/
+ID  - POST-0152
+ER  - 
+
+TY  - GEN
+TI  - Zero-Trust Gateway Protocol for Multi-Tenant AI Agents
+AU  - Venkata Phani Patelkhana
+PY  - 2026
+DO  - 10.1109/aiiot68874.2026.11569638
+UR  - https://ieeexplore.ieee.org/document/11569638/
+ID  - POST-0153
+ER  - 
+
+TY  - GEN
+TI  - A Zero Trust-Based Architecture Design for Mitigating Agentic AI Security Vulnerabilities
+AU  - Yeomin Lee
+AU  - Yongjae Lee
+AU  - Yujin Kim
+AU  - Jungsoo Park
+PY  - 2026
+DO  - 10.1109/iccci70321.2026.11666511
+UR  - https://ieeexplore.ieee.org/document/11666511/
+ID  - POST-0154
+ER  - 
+
+TY  - GEN
+TI  - A Novel Evaluation Framework for Assessing Resilience Against Prompt Injection Attacks in Large Language Models
+AU  - Daniel Wankit Yip
+AU  - Aysan Esmradi
+AU  - Chun Fai Chan
+PY  - 2023
+DO  - 10.1109/csde59766.2023.10487667
+UR  - https://ieeexplore.ieee.org/document/10487667/
+ID  - POST-0155
+ER  - 
+
+TY  - GEN
+TI  - A Multi-Agent Architecture for Privacy-Preserving Natural Language Interaction with FHIR-Based Electronic Health Records
+AU  - Carmen De Maio
+AU  - Giuseppe Fenza
+AU  - Domenico Furno
+AU  - Teodoro Grauso
+AU  - Vincenzo Loia
+PY  - 2024
+DO  - 10.23919/softcom62040.2024.10721684
+UR  - https://ieeexplore.ieee.org/document/10721684/
+ID  - POST-0156
+ER  - 
+
+TY  - GEN
+TI  - Automated Framework for Red-Team Prompt Injection Testing of LLMs
+AU  - Manikandan. K
+AU  - Bharanidharan. S
+AU  - Sudha. K
+AU  - Arulalan. R
+AU  - Manoja. R
+AU  - Chandru. M
+PY  - 2026
+DO  - 10.1109/ccge67142.2026.11581521
+UR  - https://ieeexplore.ieee.org/document/11581521/
+ID  - POST-0157
+ER  - 
+
+TY  - GEN
+TI  - Towards Responsible Generative AI: A Reference Architecture for Designing Foundation Model Based Agents
+AU  - Qinghua Lu
+AU  - Liming Zhu
+AU  - Xiwei Xu
+AU  - Zhenchang Xing
+AU  - Stefan Harrer
+AU  - Jon Whittle
+PY  - 2024
+DO  - 10.1109/icsa-c63560.2024.00028
+UR  - https://ieeexplore.ieee.org/document/10628258/
+ID  - POST-0158
+ER  - 
+
+TY  - GEN
+TI  - AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs
+AU  - Zhe Wang
+AU  - Mohammad A. Tayebi
+PY  - 2024
+DO  - 10.1109/bigdata62323.2024.10825267
+UR  - https://ieeexplore.ieee.org/document/10825267/
+ID  - POST-0159
+ER  - 
+
+TY  - GEN
+TI  - Trace-Based Governance for Agentic AI: An MCP-Based Framework for Observability, Human Oversight, and Accountability
+AU  - Heidrun Mühle
+AU  - Andreas Stöckl
+PY  - 2026
+DO  - 10.1109/icecet65726.2026.11632299
+UR  - https://ieeexplore.ieee.org/document/11632299/
+ID  - POST-0160
+ER  - 
+
+TY  - GEN
+TI  - CRALA: A Chinese-centric Risk Simulation and Assessment Framework for LLM Agents
+AU  - Wenyou Ye
+AU  - Zengqi Zhang
+AU  - Wuyang Li
+AU  - Yifeng Qin
+AU  - Peng Zhang
+PY  - 2024
+DO  - 10.1109/aiim64537.2024.10934441
+UR  - https://ieeexplore.ieee.org/document/10934441/
+ID  - POST-0161
+ER  - 
+
+TY  - GEN
+TI  - A Framework for Security Testing of Large Language Models
+AU  - Kiril Traykov
+PY  - 2024
+DO  - 10.1109/is61756.2024.10705238
+UR  - https://ieeexplore.ieee.org/document/10705238/
+ID  - POST-0162
+ER  - 
+
+TY  - GEN
+TI  - Data Breach Prevention in AI Systems: Employing Event-Driven Architecture to Combat Prompt Injection Attacks in Chatbots
+AU  - Mary Jane C. Samonte
+AU  - Jon Eril R. Aparize
+AU  - Ethan Joseph S. Gonzales
+AU  - Joyful L. Morilla
+PY  - 2024
+DO  - 10.1109/icicn62625.2024.10761619
+UR  - https://ieeexplore.ieee.org/document/10761619/
+ID  - POST-0163
+ER  - 
+
+TY  - GEN
+TI  - MCSafe-GSN-HOL: A Formal Assurance Framework for Machine-Checkable Safety Cases of Deployed LLM Agents
+AU  - Aakash Abhay Yadav
+AU  - Shashank Shelat
+AU  - Bhakti Hinduja
+AU  - Tushar Badlani
+AU  - Divyakumar Deepak Savla
+PY  - 2026
+DO  - 10.1109/iccpct70290.2026.11654768
+UR  - https://ieeexplore.ieee.org/document/11654768/
+ID  - POST-0164
+ER  - 
+
+TY  - GEN
+TI  - Agentspec: Customizable runtime enforcement for safe and reliable llm agents
+AU  - H Wang, CM Poskitt, J Sun
+PY  - 2026
+DO  - 10.1145/3744916.3764546
+UR  - https://dl.acm.org/doi/abs/10.1145/3744916.3764546
+ID  - POST-0165
+ER  - 
+
+TY  - GEN
+TI  - Wasp: Benchmarking web agent security against prompt injection attacks
+AU  - I Evtimov, A Zharmagambetov
+PY  - 2026
+DO  - 10.52202/085713-0666
+UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html
+ID  - POST-0166
+ER  - 
+
+TY  - GEN
+TI  - Agent skills for large language models: Architecture, acquisition, security, and the path forward
+AU  - R Xu, Y Yan
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.12430
+ID  - POST-0167
+ER  - 
+
+TY  - GEN
+TI  - Mcp-bench: Benchmarking tool-using llm agents with complex real-world tasks via mcp servers
+AU  - Z Wang, Q Chang, H Patel, S Biju
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e4b14eb6f16fe7b5818a8d633a0606a-Abstract-Conference.html
+ID  - POST-0168
+ER  - 
+
+TY  - GEN
+TI  - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety
+AU  - S Vijayvargiya, A Soni, X Zhou, ZZ Wang
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/a0f6c06b8d6114bb37688c2dc19b4d74-Abstract-Conference.html
+ID  - POST-0169
+ER  - 
+
+TY  - GEN
+TI  - Sec-bench: Automated benchmarking of llm agents on real-world software security tasks
+AU  - H Lee, Z Zhang, H Lu, L Zhang
+PY  - 2026
+DO  - 10.52202/085713-3878
+UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/a9168f1c54e5147027f1e8cf83e1a775-Abstract-Conference.html
+ID  - POST-0170
+ER  - 
+
+TY  - GEN
+TI  - Your agent may misevolve: Emergent risks in self-evolving llm agents
+AU  - S Shao, Q Ren, D Liu, C Qian, B Wei
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/a24cd16bc361afa78e57d31d34f3d936-Abstract-Conference.html
+ID  - POST-0171
+ER  - 
+
+TY  - GEN
+TI  - Mcp security bench (msb): Benchmarking attacks against model context protocol in llm agents
+AU  - D Zhang, Z Li, X Luo, X Liu, P Li
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/5fc47800ee5b30b8777fdd30abcaaf3b-Abstract-Conference.html
+ID  - POST-0172
+ER  - 
+
+TY  - GEN
+TI  - From agent traces to trust: A survey of evidence tracing and execution provenance in LLM agents
+AU  - Y Wang, J Zhang, Z Wu, T Cai, Z Liu, Z Sun
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.04990
+ID  - POST-0173
+ER  - 
+
+TY  - GEN
+TI  - Futurex: An advanced live benchmark for llm agents in future prediction
+AU  - J Liu, S Chen, T He, Y Liao, Y Tian
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/21315abf210cef71317e887e9cda78b3-Abstract-Conference.html
+ID  - POST-0174
+ER  - 
+
+TY  - GEN
+TI  - Chatinject: Abusing chat templates for prompt injection in llm agents
+AU  - H Chang, Y Jun, H Lee
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/2a48e053db5f0cd57015a33bbc3f794b-Abstract-Conference.html
+ID  - POST-0175
+ER  - 
+
+TY  - GEN
+TI  - The attack and defense landscape of agentic ai: A comprehensive survey
+AU  - J Kim, X Liu, Z Wang, S Qiu, B Li, W Guo
+PY  - 2026
+DO  - 10.70777/si.v3i4.18889
+UR  - https://arxiv.org/abs/2603.11088
+ID  - POST-0176
+ER  - 
+
+TY  - GEN
+TI  - Gaia2: Benchmarking LLM agents on dynamic and asynchronous environments
+AU  - R Froger, P Andrews, M Bettini
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/c26a67e0470774df98c12480ec5d2d7b-Abstract-Conference.html
+ID  - POST-0177
+ER  - 
+
+TY  - GEN
+TI  - Blindguard: Safeguarding llm-based multi-agent systems under unknown attacks
+AU  - R Miao, Y Liu, Y Wang, X Shen, Y Tan
+PY  - 2026
+DO  - 10.18653/v1/2026.acl-long.1819
+UR  - https://aclanthology.org/2026.acl-long.1819/
+ID  - POST-0178
+ER  - 
+
+TY  - GEN
+TI  - SkillRet: A large-scale benchmark for skill retrieval in LLM agents
+AU  - R Kang, H Cho, Y Kim
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.05726
+ID  - POST-0179
+ER  - 
+
+TY  - GEN
+TI  - The landscape of prompt injection threats in llm agents: From taxonomy to analysis
+AU  - P Wang, X Li, C Xiang, J Zhang, Y Li, L Zhang
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.10453
+ID  - POST-0180
+ER  - 
+
+TY  - GEN
+TI  - Your LLM Agent Can Leak Your Data: Data Exfiltration via Backdoored Tool Use
+AU  - W Zhang, S Pei
+PY  - 2026
+DO  - 10.18653/v1/2026.findings-acl.1257
+UR  - https://aclanthology.org/2026.findings-acl.1257/
+ID  - POST-0181
+ER  - 
+
+TY  - GEN
+TI  - ClawGuard: A runtime security framework for tool-augmented LLM agents against indirect prompt injection
+AU  - W Zhao, Z Li, P Zhang, J Sun
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.11790
+ID  - POST-0182
+ER  - 
+
+TY  - GEN
+TI  - Orak: A foundational benchmark for training and evaluating llm agents on diverse video games
+AU  - D Park, M Kim, B Choi, J Kim, K Lee
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/63506d49e90266a51f21ba8edbd49f46-Abstract-Conference.html
+ID  - POST-0183
+ER  - 
+
+TY  - GEN
+TI  - Taming openclaw: Security analysis and mitigation of autonomous llm agent threats
+AU  - X Deng, Y Zhang, J Wu, J Bai, S Yi, Z Zou
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.11619
+ID  - POST-0184
+ER  - 
+
+TY  - GEN
+TI  - Mla-trust: Benchmarking trustworthiness of multimodal llm agents in gui environments
+AU  - X Yang, J Chen, J Luo, Z Fang, Y Dong, H Su
+PY  - 2026
+DO  - 10.1007/s11263-026-03011-x
+UR  - https://link.springer.com/article/10.1007/s11263-026-03011-x
+ID  - POST-0185
+ER  - 
+
+TY  - GEN
+TI  - Agentsentry: Mitigating indirect prompt injection in llm agents via temporal causal diagnostics and context purification
+AU  - T Zhang, Y Xu, J Wang, K Guo, X Xu, B Xiao
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.22724
+ID  - POST-0186
+ER  - 
+
+TY  - GEN
+TI  - Overcoming the retrieval barrier: Indirect prompt injection in the wild for LLM systems
+AU  - H Chang, E Bao, X Luo, T Yu
+PY  - 2026
+UR  - https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_chang.pdf
+ID  - POST-0187
+ER  - 
+
+TY  - GEN
+TI  - Breaking and fixing defenses against control flow hijacking in multi-agent systems
+AU  - R Jha, H Triedman, J Wagle
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/0d665c46948cfd0abc390e13295ee99a-Abstract-Conference.html
+ID  - POST-0188
+ER  - 
+
+TY  - GEN
+TI  - STAC: When innocent tools form dangerous chains for LLM agents
+AU  - JJ Li, J He, C Shang, D Kulshreshtha
+PY  - 2026
+UR  - https://aclanthology.org/2026.realm-1.17/
+ID  - POST-0189
+ER  - 
+
+TY  - GEN
+TI  - Muzzle: Adaptive agentic red-teaming of web agents against indirect prompt injection attacks
+AU  - G Syros, E Rose, B Grinstead, C Kerschbaumer
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.09222
+ID  - POST-0190
+ER  - 
+
+TY  - GEN
+TI  - Uncovering security threats and architecting defenses in autonomous agents: A case study of openclaw
+AU  - Z Ying, X Yang, S Wu, Y Song, Y Qu, H Li, T Li
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.12644
+ID  - POST-0191
+ER  - 
+
+TY  - GEN
+TI  - A framework for formalizing LLM agent security
+AU  - V Siu, J He, K Montgomery, Z Wang, N Gong
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.19469
+ID  - POST-0192
+ER  - 
+
+TY  - GEN
+TI  - Backdooragent: A unified framework for backdoor attacks on llm-based agents
+AU  - Y Feng, Y Li, Y Wu, Y Tan, Y Guo, Y Ding
+PY  - 2026
+DO  - 10.18653/v1/2026.findings-acl.791
+UR  - https://aclanthology.org/2026.findings-acl.791/
+ID  - POST-0193
+ER  - 
+
+TY  - GEN
+TI  - A2asecbench: A protocol-aware security benchmark for agent-to-agent multi-agent systems
+AU  - T Li, C Chu, Y Zheng, B Zhang
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/c6a4c60e4c12b4157d33f34b29d22067-Abstract-Conference.html
+ID  - POST-0194
+ER  - 
+
+TY  - GEN
+TI  - Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents
+AU  - P Wang, Y Li, Y Tian
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.26497
+ID  - POST-0195
+ER  - 
+
+TY  - GEN
+TI  - Sop-bench: Complex industrial sops for evaluating llm agents
+AU  - S Nandi, A Datta, R Nama, U Patel, N Vichare
+PY  - 2026
+DO  - 10.1145/3770855.3817538
+UR  - https://dl.acm.org/doi/abs/10.1145/3770855.3817538
+ID  - POST-0196
+ER  - 
+
+TY  - GEN
+TI  - MemLineage: Lineage-Guided Enforcement for LLM Agent Memory
+AU  - C Ouyang, R Hou
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.14421
+ID  - POST-0197
+ER  - 
+
+TY  - GEN
+TI  - Simuhome: A temporal-and environment-aware benchmark for smart home llm agents
+AU  - G Seo, J Yang, J Pyo, N Kim, J Lee
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/43456e781fac3a034842f0807860474a-Abstract-Conference.html
+ID  - POST-0198
+ER  - 
+
+TY  - GEN
+TI  - Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation
+AU  - Y Ling, S Yu, Z Chen, C Fang
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.10749
+ID  - POST-0199
+ER  - 
+
+TY  - GEN
+TI  - ThreatForest: Multi-Agent Attack Tree Generation with Pluggable TTP Framework Mapping
+AU  - C Leo, A Dykyi, D Cortegaca, D Begimher
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.27528
+ID  - POST-0200
+ER  - 
+
+TY  - GEN
+TI  - Searching for privacy risks in llm agents via simulation
+AU  - Y Zhang, D Yang
+PY  - 2026
+UR  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/9f80a39f55c41b23c58489c8144be0e5-Abstract-Conference.html
+ID  - POST-0201
+ER  - 
+
+TY  - GEN
+TI  - WebCloak: Characterizing and mitigating threats from LLM-driven web agents as intelligent scrapers
+AU  - X Li, T Qiu, Y Jin, L Wang, H Guo, X Jia
+PY  - 2026
+DO  - 10.1109/sp63933.2026.00025
+UR  - https://ieeexplore.ieee.org/abstract/document/11573457/
+ID  - POST-0202
+ER  - 
+
+TY  - GEN
+TI  - Agent tools orchestration leaks more: Dataset, benchmark, and mitigation
+AU  - Y Qiao, D Liu, H Yang, W Zhou
+PY  - 2026
+UR  - https://aclanthology.org/2026.findings-emnlp.1293/
+ID  - POST-0203
+ER  - 
+
+TY  - GEN
+TI  - Atag: Ai-agent application threat assessment with attack graphs
+AU  - PA Gandhi, D Tayouri, A Shukla, B Ifland
+PY  - 2026
+DO  - 10.1145/3779208.3785380
+UR  - https://dl.acm.org/doi/abs/10.1145/3779208.3785380
+ID  - POST-0204
+ER  - 
+
+TY  - GEN
+TI  - Learning to inject: Automated prompt injection via reinforcement learning
+AU  - X Chen, J Zhang, F Tramèr
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.05746
+ID  - POST-0205
+ER  - 
+
+TY  - GEN
+TI  - Probguard: Proactive runtime monitoring for llm agent safety via probabilistic prediction
+AU  - H Wang, CM Poskitt, J Wei, J Sun
+PY  - 2026
+DO  - 10.1145/3832783.3837413
+UR  - https://dl.acm.org/doi/abs/10.1145/3832783.3837413
+ID  - POST-0206
+ER  - 
+
+TY  - GEN
+TI  - Securing agents with tracked capabilities
+AU  - M Odersky, Y Zhao, Y Xu, O Bračevac
+PY  - 2026
+DO  - 10.1145/3786335.3813127
+UR  - https://dl.acm.org/doi/abs/10.1145/3786335.3813127
+ID  - POST-0207
+ER  - 
+
+TY  - GEN
+TI  - Indirect prompt injection in the wild: An empirical study of prevalence, techniques, and objectives
+AU  - S Khodayari, X Zhang, B Acharya
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.27202
+ID  - POST-0208
+ER  - 
+
+TY  - GEN
+TI  - AdapTools: Adaptive tool-based indirect prompt injection attacks on agentic LLMs
+AU  - C Wang, J Zhang, Z Zhang, Z Wang
+PY  - 2026
+UR  - https://aclanthology.org/2026.emnlp-main.2055/
+ID  - POST-0209
+ER  - 
+
+TY  - GEN
+TI  - AI agent traps
+AU  - M Franklin, N Tomašev, J Jacobs, JZ Leibo, S Osindero
+PY  - 2026
+DO  - 10.2139/ssrn.6372438
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438
+ID  - POST-0210
+ER  - 
+
+TY  - GEN
+TI  - LLM agents security duality: a comprehensive survey of self-security and empowered cybersecurity
+AU  - Y Xu, Y Zhuang, X Liu, T Zhang, B Xiao, X Xu
+PY  - 2026
+DO  - 10.1007/s10462-026-11563-0
+UR  - https://link.springer.com/article/10.1007/s10462-026-11563-0
+ID  - POST-0211
+ER  - 
+
+TY  - GEN
+TI  - Taintp2x: Detecting taint-style prompt-to-anything injection vulnerabilities in llm-integrated applications
+AU  - J He, S Wang, Y Zhao, X Hou, Z Liu, Q Zou
+PY  - 2026
+DO  - 10.1145/3744916.3773199
+UR  - https://dl.acm.org/doi/abs/10.1145/3744916.3773199
+ID  - POST-0212
+ER  - 
+
+TY  - GEN
+TI  - Assessing Automated Prompt Injection Attacks in Agentic Environments
+AU  - D Hofer, E Debenedetti, F Tramèr
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.10525
+ID  - POST-0213
+ER  - 
+
+TY  - GEN
+TI  - Autobackdoor: Automating backdoor attacks via llm agents
+AU  - Y Li, Z Li, W Zhao, NM Min, H Huang
+PY  - 2026
+UR  - https://aclanthology.org/2026.findings-emnlp.1164/
+ID  - POST-0214
+ER  - 
+
+TY  - GEN
+TI  - Towards security-auditable LLM agents: A unified graph representation
+AU  - C Li, L Zhang, J Zhai, S Feng, X Yang, H Wang
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.06812
+ID  - POST-0215
+ER  - 
+
+TY  - GEN
+TI  - End-to-end security threats and defenses in retrieval-augmented LLM agents
+AU  - SR Khonde, SN Dharwadkar, PG Chilveri
+PY  - 2026
+DO  - 10.1007/s44163-026-01726-x
+UR  - https://link.springer.com/content/pdf/10.1007/s44163-026-01726-x_reference.pdf
+ID  - POST-0216
+ER  - 
+
+TY  - GEN
+TI  - ClawWorm: Self-propagating attacks across LLM agent ecosystems
+AU  - Y Zhang, Z Wei, X Luan, C Wu, Z Zhang
+PY  - 2026
+UR  - https://www.researchgate.net/profile/Zeming-Wei-3/publication/402505555_ClawWorm_Self-Propagating_Attacks_Across_LLM_Agent_Ecosystems/links/69b90d590df0500feff67ec2/ClawWorm-Self-Propagating-Attacks-Across-LLM-Agent-Ecosystems.pdf
+ID  - POST-0217
+ER  - 
+
+TY  - GEN
+TI  - InjecMEM: Memory injection attack on LLM agent memory systems
+AU  - H Tian, G Zhang, Z Sha, J Wang, Y Liu, Z Huang
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.23471
+ID  - POST-0218
+ER  - 
+
+TY  - GEN
+TI  - Agent audit: A security analysis system for LLM agent applications
+AU  - H Zhang, Y Nian, Y Zhao
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.22853
+ID  - POST-0219
+ER  - 
+
+TY  - GEN
+TI  - MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning
+AU  - X Zhang, Y Zheng, Z Xu, K Zhou, B Shen, H Ou
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.26154
+ID  - POST-0220
+ER  - 
+
+TY  - GEN
+TI  - When truth is distributed: Misinformation derails collective fact recovery in llm-based multi-agent systems
+AU  - C Yan, Z Yue, F Zhao, E Lin, L Jia, H Tong
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.03421
+ID  - POST-0221
+ER  - 
+
+TY  - GEN
+TI  - Bounded delegation: Provenance-aware authorization for autonomous multi-agent systems
+AU  - J Chifamba
+PY  - 2026
+DO  - 10.2139/ssrn.7551061
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7551061
+ID  - POST-0222
+ER  - 
+
+TY  - GEN
+TI  - Safeguarding LLM agents from misalignment through provenance analysis
+AU  - Y She, Y Liang, E Kang
+PY  - 2026
+DO  - 10.1145/3832783.3837535
+UR  - https://dl.acm.org/doi/abs/10.1145/3832783.3837535
+ID  - POST-0223
+ER  - 
+
+TY  - GEN
+TI  - Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents
+AU  - P Narisetty, SNB Kore, UKR Kattamanchi
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.26479
+ID  - POST-0224
+ER  - 
+
+TY  - GEN
+TI  - Log-to-leak: Prompt injection attacks on tool-using LLM agents via model context protocol
+AU  - Y Hu, C Fan, S Samyoun, J Du
+PY  - 2026
+DO  - 10.1145/3847320.3847399
+UR  - https://openreview.net/forum?id=UVgbFuXPaO
+ID  - POST-0225
+ER  - 
+
+TY  - GEN
+TI  - MemSecBench: Tracking agent memory poisoning from persistence to consequence and repair
+AU  - X Chen, X Xie, W Fu, J Zhou, S Yu, Q Xuan
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.27080
+ID  - POST-0226
+ER  - 
+
+TY  - GEN
+TI  - SafeAgent: Dual-Objective Optimization Against Prompt and Tool Injection in Interactive Environments
+AU  - H Lu, S Lu, P Chen, L Mao, L Chen
+PY  - 2026
+DO  - 10.20944/preprints202609.1881.v1
+UR  - https://www.preprints.org/manuscript/202609.1881
+ID  - POST-0227
+ER  - 
+
+TY  - GEN
+TI  - She: Trajectory-driven safety harness evolution for llm agents
+AU  - W Qu, Q Mao, Y Li, J Liu, X Zhang, D Guo
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.09885
+ID  - POST-0228
+ER  - 
+
+TY  - GEN
+TI  - Skilljack: Persistent skill backdoors in self-evolving agents
+AU  - Z Ying, X Wu, H Wu, X Zheng, H Cheng, X Shi
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.03509
+ID  - POST-0229
+ER  - 
+
+TY  - GEN
+TI  - SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems
+AU  - T Sharma
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.12703
+ID  - POST-0230
+ER  - 
+
+TY  - GEN
+TI  - Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement
+AU  - P Dantas, L Cordeiro, E Nowroozi, T Norbert
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.14590
+ID  - POST-0231
+ER  - 
+
+TY  - GEN
+TI  - AgentRaft: Automated Detection of Data Over-Exposure in LLM Agents
+AU  - Y Lin, J Wu, Y Nan, X Wang, X Zhang
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.07557
+ID  - POST-0232
+ER  - 
+
+TY  - GEN
+TI  - AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization
+AU  - Z Ying, H Wang, J Liu, Q Zou, A Liu, J Yang
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.24118
+ID  - POST-0233
+ER  - 
+
+TY  - GEN
+TI  - Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment
+AU  - Y Xie, M Luo, Z Liu, Z Zhang, K Zhang, Y Liu
+PY  - 2026
+DO  - 10.1145/3832267
+UR  - https://dl.acm.org/doi/abs/10.1145/3832267
+ID  - POST-0234
+ER  - 
+
+TY  - GEN
+TI  - Safety testing llm agents at scale: From risk discovery to evidence-grounded verification
+AU  - Y Feng, R Lin, M Wen, Q He, Y Guo, Y Ding
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.01793
+ID  - POST-0235
+ER  - 
+
+TY  - GEN
+TI  - A multi-agent security framework for ai-assisted software development
+AU  - D Mukherjee
+PY  - 2026
+DO  - 10.63282/3050-9416.ijaibdcms-v7i1p105
+UR  - https://www.researchgate.net/profile/Deepanjan-Mukherjee/publication/400410116_A_Multi-agent_Security_Framework_for_AI-Assisted_Software_Development/links/6aa85c75b2a3ac5b9d897e4c/A-Multi-agent-Security-Framework-for-AI-Assisted-Software-Development.pdf
+ID  - POST-0236
+ER  - 
+
+TY  - GEN
+TI  - A Survey on the Unique Security of Autonomous and Collaborative LLM Agents: Threats, Defenses, and Futures
+AU  - Y Sun, H Yu, W Jiang, X Yu, D Zhan, L Wang, S Ren
+PY  - 2026
+DO  - 10.20944/preprints202602.1655.v1
+UR  - https://www.preprints.org/manuscript/202602.1655
+ID  - POST-0237
+ER  - 
+
+TY  - GEN
+TI  - Containing the Cascade: A Benchmark and Reference Mediator for Failure Propagation in Tool-Using LLM Multi-Agent Systems
+AU  - VR Divi, S Gullapalli
+PY  - 2026
+DO  - 10.1109/icera72709.2026.11666599
+UR  - https://ieeexplore.ieee.org/abstract/document/11666599/
+ID  - POST-0238
+ER  - 
+
+TY  - GEN
+TI  - Runtime Policy Enforcement for MCP-Based LLM Agents
+AU  - S Wang, S Zhu, R Li
+PY  - 2026
+DO  - 10.3390/electronics15132829
+UR  - https://www.mdpi.com/2079-9292/15/13/2829
+ID  - POST-0239
+ER  - 
+
+TY  - GEN
+TI  - Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)
+AU  - A Aviv, PA Gandh, R Bitton, A Shabtai
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.23858
+ID  - POST-0240
+ER  - 
+
+TY  - GEN
+TI  - Your agentic LLMs secretly encode indirect prompt-injection exposure in hidden states
+AU  - J Dong, Y Liu, M Zhang, N Deng, P Xu, X Zhang
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.02657
+ID  - POST-0241
+ER  - 
+
+TY  - GEN
+TI  - Protecting context and prompts: Deterministic security for non-deterministic AI
+AU  - M Rajagopalan, V Rao
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.10481
+ID  - POST-0242
+ER  - 
+
+TY  - GEN
+TI  - The Cognitive Firewall: Securing Browser Based AI Agents Against Indirect Prompt Injection Via Hybrid Edge Cloud Defense
+AU  - Q Lan, A Kaul
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.23791
+ID  - POST-0243
+ER  - 
+
+TY  - GEN
+TI  - ToolGuardian: Declarative security for AI agent-tool interactions
+AU  - A Ravindran, S Deochake
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.21835
+ID  - POST-0244
+ER  - 
+
+TY  - GEN
+TI  - Adversarial Attacks in Multi-Agent LLM Pipelines: Unveiling Structural Vulnerabilities in Agentic AI Architectures
+AU  - FH Bappy, T Hossain, TS Zaman, R Hasan
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.00718
+ID  - POST-0245
+ER  - 
+
+TY  - GEN
+TI  - Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming
+AU  - Y Wang, C Yin, R Geng, J Jia
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.05108
+ID  - POST-0246
+ER  - 
+
+TY  - GEN
+TI  - AgentDrift: A step-labeled benchmark of injection-hijacked LLM agent trajectories
+AU  - A Pinjari, MP Saint-Germain
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.06972
+ID  - POST-0247
+ER  - 
+
+TY  - GEN
+TI  - AgentHPOBench: A benchmark for evaluating LLM agents as sequential hyperparameter optimizers
+AU  - T Huai, T Fan, X Chen, Y Zheng, Y Wang
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.29626
+ID  - POST-0248
+ER  - 
+
+TY  - GEN
+TI  - Evaluating Indirect Prompt Injection Defenses in Tool-Using LLM Agents: Security, Utility, and Replication
+AU  - A Khan, K AlKhanbashi, A Mohamed
+PY  - 2026
+DO  - 10.3390/computers15090570
+UR  - https://www.mdpi.com/2073-431X/15/9/570
+ID  - POST-0249
+ER  - 
+
+TY  - GEN
+TI  - Influence Is Not Authority: When Causal Guardrail Signals Make Legitimate Tool Use Look Like an Attack in Tool-Using LLM Agents
+AU  - T Ahad, I Hossain, MJ Alam, S Puppala
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.29942
+ID  - POST-0250
+ER  - 
+
+TY  - GEN
+TI  - IntentGuard: Safeguard LLM Agents via Intent Alignment
+AU  - J Cong, X Qiao, Y Dong, Y Huang, Y Yu
+PY  - 2026
+UR  - https://openreview.net/forum?id=kabNlhXQkT
+ID  - POST-0251
+ER  - 
+
+TY  - GEN
+TI  - LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents
+AU  - L Guo, Z Zhang, K Huang, Y Shi
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.04741
+ID  - POST-0252
+ER  - 
+
+TY  - GEN
+TI  - LoopTrap: Termination Poisoning Attacks on LLM Agents
+AU  - H Xu, Z Wang, W Zhang, Z Zhu, Y Wang, K Ren
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.05846
+ID  - POST-0253
+ER  - 
+
+TY  - GEN
+TI  - MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems
+AU  - W Xiong, Y Zhou, J Wang, S Gu, B Tang, Z Li
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.00426
+ID  - POST-0254
+ER  - 
+
+TY  - GEN
+TI  - Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems
+AU  - CW Na, H Ni, L Szpruch, Z Wang, D Mehta
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.24069
+ID  - POST-0255
+ER  - 
+
+TY  - GEN
+TI  - PromptSentinel-X: A Leakage-Aware and Context-Aware Framework for Prompt-Injection Detection in Large Language Model-Powered Web Agents
+AU  - LP Zhuhadar
+PY  - 2026
+DO  - 10.3390/fi18070376
+UR  - https://www.mdpi.com/1999-5903/18/7/376
+ID  - POST-0256
+ER  - 
+
+TY  - GEN
+TI  - The Autonomy Tax: Defense Training Breaks LLM Agents
+AU  - L Li, Y Zhao
+PY  - 2026
+UR  - https://aclanthology.org/2026.emnlp-main.52/
+ID  - POST-0257
+ER  - 
+
+TY  - GEN
+TI  - When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems
+AU  - N Nagaraja, A Bagari, H Bahsi
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.00747
+ID  - POST-0258
+ER  - 
+
+TY  - GEN
+TI  - You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents
+AU  - CY Kao, X Li, S Dai, T Qiu, P Zhou, EH Jiang
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.11862
+ID  - POST-0259
+ER  - 
+
+TY  - GEN
+TI  - ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents
+AU  - B Wang, X Gu, W Wang, X Yang, H Li, R Yin
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.14987
+ID  - POST-0260
+ER  - 
+
+TY  - GEN
+TI  - Balancing Security and Performance in LLM Agents: Spotlight-Guard, a Layered Defense Against Indirect Prompt Injection
+AU  - D Demirol, M Aydogan
+PY  - 2026
+DO  - 10.3390/app16157662
+UR  - https://www.mdpi.com/2076-3417/16/15/7662
+ID  - POST-0261
+ER  - 
+
+TY  - GEN
+TI  - CAPTURE: Disentangling preference drift from memory poisoning in personalized LLM agents
+AU  - SM Hossain, RK Shayoni, MK Morol
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.02265
+ID  - POST-0262
+ER  - 
+
+TY  - GEN
+TI  - Cascading Instruction Influence Indirect Prompt Injection in Hierarchical Multi-Agent Systems
+AU  - MRM Abdellah, AS Aziz
+PY  - 2026
+DO  - 10.19139/soic-2310-5070-3574
+UR  - https://iapress.org/index.php/soic/article/view/3574
+ID  - POST-0263
+ER  - 
+
+TY  - GEN
+TI  - DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security
+AU  - I Aleksandrov, G Kochnev, S Sadiekh
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.24662
+ID  - POST-0264
+ER  - 
+
+TY  - GEN
+TI  - From Prompt Injection to Web Exploitation: Revisiting Classic Vulnerabilities in LLM-Integrated Applications
+AU  - S Tsigkopoulos, C Ntantogian
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.10281
+ID  - POST-0265
+ER  - 
+
+TY  - GEN
+TI  - MemShield: A Three-Tier Retrieval-Time Defense Against Coordinated Memory Poisoning in LLM Agents
+AU  - SS Deshmukh, P Das
+PY  - 2026
+UR  - https://openreview.net/forum?id=yUbDGcrVBX
+ID  - POST-0266
+ER  - 
+
+TY  - GEN
+TI  - Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents
+AU  - J Zhang, H Xia, S Wu, J Yue, X Zhang, Z Cheng
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.28585
+ID  - POST-0267
+ER  - 
+
+TY  - GEN
+TI  - Reachability-Based Capability Confinement for LLM Agents under Indirect Prompt Injection
+AU  - W Xiong, R Karanjai, Y Lu, W Shi, L Xu
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.30041
+ID  - POST-0268
+ER  - 
+
+TY  - GEN
+TI  - Readable Before Actionable: Causal Tracing of Indirect Prompt Injection
+AU  - Z Yu, W Xing, X Yang, M Han
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.05295
+ID  - POST-0269
+ER  - 
+
+TY  - GEN
+TI  - Securing the Prompt Pipeline: A Systematic Review of Defense Mechanisms Against Prompt-Based Attacks in LLM Agents
+AU  - S Mourad, EE Abdallah, M Ababneh
+PY  - 2026
+DO  - 10.3390/electronics15163700
+UR  - https://www.mdpi.com/2079-9292/15/16/3700
+ID  - POST-0270
+ER  - 
+
+TY  - GEN
+TI  - Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection
+AU  - A Shaw
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.32691
+ID  - POST-0271
+ER  - 
+
+TY  - GEN
+TI  - Transferable End-to-End Optimization for Indirect Long-Term Memory Poisoning in LLM Agents
+AU  - C Zang, J Wang, W Chen, X Meng, L Wang
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.00523
+ID  - POST-0272
+ER  - 
+
+TY  - GEN
+TI  - Understanding Stage-Wise Utility-Risk Trade-offs in LLM Agent Memory
+AU  - C Zang, Z Cao, X Meng, J Wang, W Chen
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.30177
+ID  - POST-0273
+ER  - 
+
+TY  - GEN
+TI  - A Large-scale Measurement of In-Page Prompt Injections Against LLM Web Agents
+AU  - S Khodayari, X Zhang, B Acharya, G Pellegrino
+PY  - 2026
+UR  - https://publications.cispa.de/articles/conference_contribution/A_Large-scale_Measurement_of_In-Page_Prompt_Injections_Against_LLM_Web_Agents/33929131
+ID  - POST-0274
+ER  - 
+
+TY  - GEN
+TI  - A Policy-Aware Sidecar Architecture for LLM-Augmented IDS Connectors
+AU  - JG Andrés, MG Iglesias, JMI Mateos, AS Román
+PY  - 2026
+DO  - 10.1007/978-3-032-41794-7\_13
+UR  - https://link.springer.com/chapter/10.1007/978-3-032-41794-7_13
+ID  - POST-0275
+ER  - 
+
+TY  - GEN
+TI  - A Survey on Model Context Protocol (MCP) in System
+AU  - A Cholke¹, V Gosavi, R Patil
+PY  - 2026
+UR  - https://books.google.com/books?hl=en&lr=&id=DnL0EQAAQBAJ&oi=fnd&pg=PA149&dq=%22model+context+protocol%22+(security+OR+attack+OR+injection)+(agent+OR+LLM)&ots=js7AgOoee-&sig=cR6Yzf-0_DwkwP2-6ns28kZ5mU4
+ID  - POST-0276
+ER  - 
+
+TY  - GEN
+TI  - AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection
+AU  - S Weng, Y Feng, X Xie, J Yu
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.04053
+ID  - POST-0277
+ER  - 
+
+TY  - GEN
+TI  - Agentao: A Policy-Governed Runtime Harness for Embeddable Tool-Using LLM Agents
+AU  - B Jin, Q Jiao, X Tong
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.13574
+ID  - POST-0278
+ER  - 
+
+TY  - GEN
+TI  - AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents
+AU  - Y Son, C Lee, D Shin, B Lee, S Hong
+PY  - 2026
+DO  - 10.1145/3832165
+UR  - https://dl.acm.org/doi/abs/10.1145/3832165
+ID  - POST-0279
+ER  - 
+
+TY  - GEN
+TI  - AgentForensics: Exploring the Real-Time Prompt Injection Detection and Forensics Threats in LLM Agents
+AU  - A Mahalaxmi Arulljothi, TK Gandhi
+PY  - 2026
+DO  - 10.2139/ssrn.6589479
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6589479
+ID  - POST-0280
+ER  - 
+
+TY  - GEN
+TI  - An Experimental Evaluation of Multimodal Prompt Injection Attacks on Agentic AI Frameworks
+AU  - VK Nguyen, MI Husain
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.09404
+ID  - POST-0281
+ER  - 
+
+TY  - GEN
+TI  - Are LLM-Agent Prompt-Injection Benchmarks Still Valid? A Cross-Model and Cross-Benchmark Study
+AU  - S Khairnar
+PY  - 2026
+DO  - 10.21203/rs.3.rs-10962146/v1
+UR  - https://www.researchsquare.com/article/rs-10962146/latest
+ID  - POST-0282
+ER  - 
+
+TY  - GEN
+TI  - Backdoor Decontamination Dynamics in LLM Agents
+AU  - G Huang, A Puri, L Boisvert, A Drouin
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.11295
+ID  - POST-0283
+ER  - 
+
+TY  - GEN
+TI  - BadAgent Extension: Cross-Domain Robustness and Trigger Visibility in LLM Agents
+AU  - PY Garrido, DF Arias
+PY  - 2026
+UR  - https://www.igi-global.com/chapter/badagent-extension/408787
+ID  - POST-0284
+ER  - 
+
+TY  - GEN
+TI  - Beyond Prompt Injection: Trust-Boundary Security Assurance for LLM-Integrated and Agentic Applications
+AU  - N Waheed
+PY  - 2026
+DO  - 10.21203/rs.3.rs-10798245/v1
+UR  - https://www.researchsquare.com/article/rs-10798245/latest
+ID  - POST-0285
+ER  - 
+
+TY  - GEN
+TI  - CoDeL: Co-Evolutionary Defense against Indirect Prompt Injection in LLM-based Agents
+AU  - X Yang, Y Ou, Y Gao, L Wang, Z Ying, A Liu
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.34463
+ID  - POST-0286
+ER  - 
+
+TY  - GEN
+TI  - COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers
+AU  - N Birhan, M Rostamzadeh, S Narula, M Nazzal
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.04378
+ID  - POST-0287
+ER  - 
+
+TY  - GEN
+TI  - CounterSteer: Suppressing Indirect Prompt Injection with Activation Steering
+AU  - M Russinovich
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.36570
+ID  - POST-0288
+ER  - 
+
+TY  - GEN
+TI  - Cyber security Integration Framework using Multi-Agent Reinforcement Learning for Agent OS: with Adaptive Threat Defence and Governance Compliance
+AU  - K Ayappan, J Thangakumar
+PY  - 2026
+DO  - 10.1109/iconica70605.2026.11736648
+UR  - https://ieeexplore.ieee.org/abstract/document/11736648/
+ID  - POST-0289
+ER  - 
+
+TY  - GEN
+TI  - Defenses against prompt injection in LLM agents: systematic evaluation and mechanistic analysis of failure modes
+AU  - D Poncelas Vargas
+PY  - 2026
+UR  - https://riunet.upv.es/entities/publication/9c1d6aee-451e-4dcb-ae79-01f192e4eb00
+ID  - POST-0290
+ER  - 
+
+TY  - GEN
+TI  - Defusing Explosive Prompts: Understanding and Preventing Trigger-Based Prompt Injections in LLM Agents
+AU  - J Szczepaniak, E Feldman, N Viner, B Nassi
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.22510
+ID  - POST-0291
+ER  - 
+
+TY  - GEN
+TI  - Early Detection of Distributed Backdoors in Multi-Agent LLM Systems: A Characterization Study
+AU  - DF Arias, DP Mistry, R Wang, Y Hu
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.24893
+ID  - POST-0292
+ER  - 
+
+TY  - GEN
+TI  - ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems
+AU  - S Zhao, Y Zhou, X Li, R Hu, Y Zhang, Y Xie
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.30441
+ID  - POST-0293
+ER  - 
+
+TY  - GEN
+TI  - EduCore: A Privacy-Aware LLM-Driven Education Framework with Intelligent Multi-Agent Support
+AU  - D Das, T Norwood, P Chatterjee
+PY  - 2026
+DO  - 10.1109/southeastcon63549.2026.11476261
+UR  - https://ieeexplore.ieee.org/abstract/document/11476261/
+ID  - POST-0294
+ER  - 
+
+TY  - GEN
+TI  - GRAD: Graph-Structured Antibody Defense for LLM Agents
+AU  - T Song, J Du, X Jia, Z Wang
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.22828
+ID  - POST-0295
+ER  - 
+
+TY  - GEN
+TI  - Hijacking the Prompt: A Survey of Prompt Injection Attacks, Detection, and Defense in Large Language Models
+AU  - EJ Griggs
+PY  - 2026
+UR  - https://digitalcommons.odu.edu/covacci-undergraduateresearch/2026spring/projects/9/
+ID  - POST-0296
+ER  - 
+
+TY  - GEN
+TI  - IBBC-Guard: Intent-Bound Behavior-Chain Modeling for Unauthorized Tool-Call Detection and Dynamic Permission Control in LLM Agents
+AU  - X Li, X Zhao, Z Weng, C Zhang, S An
+PY  - 2026
+DO  - 10.1109/wccis70285.2026.11650697
+UR  - https://ieeexplore.ieee.org/abstract/document/11650697/
+ID  - POST-0297
+ER  - 
+
+TY  - GEN
+TI  - Indirect Prompt Injection Against LLM Copilots in Industrial Control Systems
+AU  - S Shahid, D Mallavrapu
+PY  - 2026
+DO  - 10.1007/978-981-92-5039-4\_1
+UR  - https://link.springer.com/chapter/10.1007/978-981-92-5039-4_1
+ID  - POST-0298
+ER  - 
+
+TY  - GEN
+TI  - INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems
+AU  - TD Nguyen, J Guo, RS Dubauskas, S Damuluru
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.20776
+ID  - POST-0299
+ER  - 
+
+TY  - GEN
+TI  - Investigating Detection and Obfuscation of Prompt Injection Attacks Against Software Reverse Engineering AI Agents
+AU  - B Crawford, P McClure
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.30677
+ID  - POST-0300
+ER  - 
+
+TY  - GEN
+TI  - MALCDF: A Distributed Multi-Agent LLM Framework for Cyber Defense
+AU  - A Bhardwaj, S Godika, Y Loonker
+PY  - 2026
+DO  - 10.1109/svcc69905.2026.11642389
+UR  - https://ieeexplore.ieee.org/abstract/document/11642389/
+ID  - POST-0301
+ER  - 
+
+TY  - GEN
+TI  - MemSentry: A Framework for Detecting Persistent Memory Poisoning in Agentic AI
+AU  - A Roy, K Basu
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.08747
+ID  - POST-0302
+ER  - 
+
+TY  - GEN
+TI  - MIND: Lightweight and Effective Memory Injection Defense for LLM Agents via Intent-Aware Information Bottleneck
+AU  - D Liu, H He, X Wu, J Li
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.28103
+ID  - POST-0303
+ER  - 
+
+TY  - GEN
+TI  - On Understanding, Identifying, and Mitigating Vulnerabilities in Agentic Large Language Models
+AU  - MJ Hossain, MA Hossain, N Ansari
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.10530
+ID  - POST-0304
+ER  - 
+
+TY  - GEN
+TI  - pikit: A Composable Toolkit for Indirect Prompt Injection Research and Evaluation
+AU  - Z Ying, X Wu, B Yang, H Wu, X Zheng, H Cheng
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.36817
+ID  - POST-0305
+ER  - 
+
+TY  - GEN
+TI  - PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection
+AU  - Y Wang
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.16199
+ID  - POST-0306
+ER  - 
+
+TY  - GEN
+TI  - Poisoning LLM Agent Memory via Web Content
+AU  - K Yan
+PY  - 2026
+DO  - 10.1145/3833142.3833192
+UR  - https://dl.acm.org/doi/abs/10.1145/3833142.3833192
+ID  - POST-0307
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection and the Security of LLM Applications and Agents
+AU  - M Rasmi
+PY  - 2026
+UR  - https://www.peerreviewjournal.in/index.php/prjcs/article/view/88
+ID  - POST-0308
+ER  - 
+
+TY  - GEN
+TI  - Prompt-Injection Probes Learn the Conversation, Not Just the Injection
+AU  - K Kale, S Vishwanath
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.18408
+ID  - POST-0309
+ER  - 
+
+TY  - GEN
+TI  - SECURING AGENTIC ARTIFICIAL INTELLIGENCE SYSTEMS: ASSESSING PROMPT INJECTION, MEMORY POISONING, AND AUTONOMOUS TOOL-USE RISKS …
+AU  - F Ahmed, H Shah, N Azim, F Rahman
+PY  - 2026
+UR  - https://ijournalar.com/site/index.php/ijar/article/view/58
+ID  - POST-0310
+ER  - 
+
+TY  - GEN
+TI  - Security Defense Mechanisms in Model Context Protocol Implementations: A Systematic Literature Review
+AU  - JE Tamayo
+PY  - 2026
+DO  - 10.1007/978-3-032-25187-9\_44
+UR  - https://link.springer.com/chapter/10.1007/978-3-032-25187-9_44
+ID  - POST-0311
+ER  - 
+
+TY  - GEN
+TI  - Security of Large Language Models: A Structured Survey of Attack Surfaces, Behavioral Vulnerabilities, Defenses and Red Teaming Approaches
+AU  - J Harb, E Aimeur
+PY  - 2026
+DO  - 10.2139/ssrn.7592098
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7592098
+ID  - POST-0312
+ER  - 
+
+TY  - GEN
+TI  - Security of Vision-Language Model Agents Against Prompt Injection: From Text-Only Tool Calling to Visual Computer-Use
+AU  - K Henry
+PY  - 2026
+UR  - https://irep.mbzuai.ac.ae/items/3826cf42-5d9e-41b7-847c-bc35a832478c
+ID  - POST-0313
+ER  - 
+
+TY  - GEN
+TI  - The Model Knows Better: Defending Medical Multi-Agent Systems Against Prompt Injection
+AU  - FA Sakib, Z Zhu, O Uzuner
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.22594
+ID  - POST-0314
+ER  - 
+
+TY  - GEN
+TI  - The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections
+AU  - H Jia, Y Liu, B Chong, Y Yang, Y Chen, J Liang
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.24048
+ID  - POST-0315
+ER  - 
+
+TY  - GEN
+TI  - Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training
+AU  - Q Zhan, N Lyu, S Ding, A Mehta
+PY  - 2026
+UR  - https://aclanthology.org/2026.findings-emnlp.2213/
+ID  - POST-0316
+ER  - 
+
+TY  - GEN
+TI  - Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents
+AU  - R Wang, C Wang, X Wang, Y Zheng, B Liu
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.05266
+ID  - POST-0317
+ER  - 
+
+TY  - GEN
+TI  - Will the User Ever Know? Covert Indirect Prompt Injection Attacks on Tool-Using LLM Agents
+AU  - Y Lee, Y Kim, W Lee
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.30362
+ID  - POST-0318
+ER  - 
+
+TY  - GEN
+TI  - Workflow Centric Analysis and Optimization of Indirect Prompt Injection Attacks Against Agentic Large Language Models
+AU  - N Vroman
+PY  - 2026
+UR  - https://search.proquest.com/openview/ede35c6ccd3c5974173e335686fb74ad/1?pq-origsite=gscholar&cbl=18750&diss=y
+ID  - POST-0319
+ER  - 
+
+TY  - GEN
+TI  - You Can't Trust Your Agent: A Survey on Backdoor Threats and Defenses in Intelligent Agents
+AU  - LT Ho, Y Ding, H Xu, S Zhao
+PY  - 2026
+UR  - https://aclanthology.org/2026.emnlp-main.236/
+ID  - POST-0320
+ER  - 
+
+TY  - GEN
+TI  - Your Agent is More Brittle Than You Think: Efficiently Mitigating Indirect Injections in Agentic LLMs
+AU  - W Zhu, X DONG, X Chen, R Cai, P Qiu, Z Wang
+PY  - 2026
+UR  - https://openreview.net/forum?id=UQGfFEy40t
+ID  - POST-0321
+ER  - 
+
+TY  - GEN
+TI  - Multiagentbench: Evaluating the collaboration and competition of llm agents
+AU  - K Zhu, H Du, Z Hong, X Yang, S Guo
+PY  - 2025
+DO  - 10.18653/v1/2025.acl-long.421
+UR  - https://aclanthology.org/2025.acl-long.421/
+ID  - POST-0322
+ER  - 
+
+TY  - GEN
+TI  - The emerged security and privacy of llm agent: A survey with case studies
+AU  - F He, T Zhu, D Ye, B Liu, W Zhou, PS Yu
+PY  - 2025
+DO  - 10.1145/3773080
+UR  - https://dl.acm.org/doi/abs/10.1145/3773080
+ID  - POST-0323
+ER  - 
+
+TY  - GEN
+TI  - Prompt infection: Llm-to-llm prompt injection within multi-agent systems
+AU  - D Lee, M Tiwari, B Miranda
+PY  - 2025
+DO  - 10.1007/978-3-032-16092-8\_28
+UR  - https://link.springer.com/chapter/10.1007/978-3-032-16092-8_28
+ID  - POST-0324
+ER  - 
+
+TY  - GEN
+TI  - Prompt injection attack to tool selection in llm agents
+AU  - J Shi, Z Yuan, G Tie, P Zhou, NZ Gong
+PY  - 2025
+DO  - 10.14722/ndss.2026.230675
+UR  - https://arxiv.org/abs/2504.19793
+ID  - POST-0325
+ER  - 
+
+TY  - GEN
+TI  - Adaptive attacks break defenses against indirect prompt injection attacks on LLM agents
+AU  - Q Zhan, R Fang, HS Panchal
+PY  - 2025
+DO  - 10.18653/v1/2025.findings-naacl.395
+UR  - https://aclanthology.org/2025.findings-naacl.395/
+ID  - POST-0326
+ER  - 
+
+TY  - GEN
+TI  - Unveiling privacy risks in llm agent memory
+AU  - B Wang, W He, S Zeng, Z Xiang, Y Xing
+PY  - 2025
+DO  - 10.18653/v1/2025.acl-long.1227
+UR  - https://aclanthology.org/2025.acl-long.1227/
+ID  - POST-0327
+ER  - 
+
+TY  - GEN
+TI  - Breaking agents: Compromising autonomous llm agents through malfunction amplification
+AU  - B Zhang, Y Tan, Y Shen, A Salem
+PY  - 2025
+DO  - 10.18653/v1/2025.emnlp-main.1771
+UR  - https://aclanthology.org/2025.emnlp-main.1771/
+ID  - POST-0328
+ER  - 
+
+TY  - GEN
+TI  - CVE-bench: A benchmark for AI agents' ability to exploit real-world web application vulnerabilities
+AU  - Y Zhu, A Kellermann, D Bowman, P Li, A Gupta
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.17332
+ID  - POST-0329
+ER  - 
+
+TY  - GEN
+TI  - Prompt flow integrity to prevent privilege escalation in llm agents
+AU  - J Kim, W Choi, B Lee
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.15547
+ID  - POST-0330
+ER  - 
+
+TY  - GEN
+TI  - AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents.
+AU  - Z Wang, V Siu, Z Ye, T Shi, Y Nie, X Zhao
+PY  - 2025
+DO  - 10.18653/v1/2025.findings-emnlp.1258
+UR  - https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1258.pdf
+ID  - POST-0331
+ER  - 
+
+TY  - GEN
+TI  - Commercial llm agents are already vulnerable to simple yet dangerous attacks
+AU  - A Li, Y Zhou, VC Raghuram, T Goldstein
+PY  - 2025
+UR  - https://arxiv.org/abs/2502.08586
+ID  - POST-0332
+ER  - 
+
+TY  - GEN
+TI  - The obvious invisible threat: Llm-powered gui agents' vulnerability to fine-print injections
+AU  - C Chen, Z Zhang, B Guo, S Ma, I Khalilov
+PY  - 2025
+UR  - https://www.usenix.org/system/files/soups2025_poster38_abstract-chen.pdf
+ID  - POST-0333
+ER  - 
+
+TY  - GEN
+TI  - A survey of the model context protocol (mcp): Standardizing context to enhance large language models (llms)
+AU  - A Singh, A Ehtesham, S Kumar, TT Khoei
+PY  - 2025
+DO  - 10.20944/preprints202504.0245.v1
+UR  - https://www.preprints.org/frontend/manuscript/b45407370ad06ed48b5ebc462c1d8a2c/download_pub
+ID  - POST-0334
+ER  - 
+
+TY  - GEN
+TI  - Cloak, honey, trap: Proactive defenses against {LLM} agents
+AU  - D Ayzenshteyn, R Weiss, Y Mirsky
+PY  - 2025
+UR  - https://www.usenix.org/conference/usenixsecurity25/presentation/ayzenshteyn
+ID  - POST-0335
+ER  - 
+
+TY  - GEN
+TI  - Agentsafe: Safeguarding large language model-based multi-agent systems via hierarchical data management
+AU  - J Mao, F Meng, Y Duan, M Yu, X Jia, J Fang
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.04392
+ID  - POST-0336
+ER  - 
+
+TY  - GEN
+TI  - Veriguard: Enhancing llm agent safety via verified code generation
+AU  - L Miculicich, M Parmar, H Palangi
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.05156
+ID  - POST-0337
+ER  - 
+
+TY  - GEN
+TI  - Agentarmor: Enforcing program analysis on agent runtime trace to defend against prompt injection
+AU  - P Wang, Y Liu, Y Lu, Y Cai, H Chen, Q Yang
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.01249
+ID  - POST-0338
+ER  - 
+
+TY  - GEN
+TI  - Simple prompt injection attacks can leak personal data observed by llm agents during task execution
+AU  - M Alizadeh, Z Samei, D Stetsenko, F Gilardi
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.01055
+ID  - POST-0339
+ER  - 
+
+TY  - GEN
+TI  - Agentsentinel: An end-to-end and real-time security defense framework for computer-use agents
+AU  - H Hu, P Chen, Y Zhao, Y Chen
+PY  - 2025
+DO  - 10.1145/3719027.3765064
+UR  - https://dl.acm.org/doi/abs/10.1145/3719027.3765064
+ID  - POST-0340
+ER  - 
+
+TY  - GEN
+TI  - Benchmarking poisoning attacks against retrieval-augmented generation
+AU  - B Zhang, H Xin, J Li, D Zhang, M Fang, Z Liu
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.18543
+ID  - POST-0341
+ER  - 
+
+TY  - GEN
+TI  - Udora: A unified red teaming framework against llm agents by dynamically hijacking their own reasoning
+AU  - J Zhang, S Yang, B Li
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.01908
+ID  - POST-0342
+ER  - 
+
+TY  - GEN
+TI  - IPIGuard: A novel tool dependency graph-based defense against indirect prompt injection in LLM agents
+AU  - H An, J Zhang, T Du, C Zhou, Q Li
+PY  - 2025
+DO  - 10.18653/v1/2025.emnlp-main.53
+UR  - https://aclanthology.org/2025.emnlp-main.53/
+ID  - POST-0343
+ER  - 
+
+TY  - GEN
+TI  - Robotouille: An asynchronous planning benchmark for LLM agents
+AU  - G Gonzalez-Pumariega, L Yean
+PY  - 2025
+UR  - https://proceedings.iclr.cc/paper_files/paper/2025/hash/d033407a1a4b7a75cd5f9e4575ad9fb5-Abstract-Conference.html
+ID  - POST-0344
+ER  - 
+
+TY  - GEN
+TI  - MAGPIE: a benchmark for multi-agent contextual privacy evaluation
+AU  - G Juneja, JNS Pasupulati, A Albalak, W Hua
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.15186
+ID  - POST-0345
+ER  - 
+
+TY  - GEN
+TI  - Mcp bridge: A lightweight, llm-agnostic restful proxy for model context protocol servers
+AU  - A Ahmadi, S Sharif, YM Banad
+PY  - 2025
+UR  - https://arxiv.org/abs/2504.08999
+ID  - POST-0346
+ER  - 
+
+TY  - GEN
+TI  - Safe in isolation, dangerous together: Agent-driven multi-turn decomposition jailbreaks on llms
+AU  - D Srivastav, X Zhang
+PY  - 2025
+DO  - 10.18653/v1/2025.realm-1.13
+UR  - https://aclanthology.org/2025.realm-1.13/
+ID  - POST-0347
+ER  - 
+
+TY  - GEN
+TI  - Obliinjection: Order-oblivious prompt injection attack to llm agents with multi-source data
+AU  - R Wang, Y Jia, NZ Gong
+PY  - 2025
+DO  - 10.14722/ndss.2026.240702
+UR  - https://arxiv.org/abs/2512.09321
+ID  - POST-0348
+ER  - 
+
+TY  - GEN
+TI  - AutoPenBench: A vulnerability testing benchmark for generative agents
+AU  - L Gioacchini, A Delsanto, I Drago
+PY  - 2025
+DO  - 10.18653/v1/2025.emnlp-industry.114
+UR  - https://aclanthology.org/2025.emnlp-industry.114/
+ID  - POST-0349
+ER  - 
+
+TY  - GEN
+TI  - Improving Google A2A protocol: Protecting sensitive data and mitigating unintended harms in multi-agent systems
+AU  - Y Louck, A Stulman, A Dvir
+PY  - 2025
+DO  - 10.1145/3821216
+UR  - https://dl.acm.org/doi/abs/10.1145/3821216
+ID  - POST-0350
+ER  - 
+
+TY  - GEN
+TI  - SecureGov-Agent: A governance-centric multi-agent framework for privacy-preserving and attack-resilient LLM agents
+AU  - J Chen, J Yang, Z Zeng, Z Huang, J Li
+PY  - 2025
+DO  - 10.1145/3795154.3795296
+UR  - https://dl.acm.org/doi/abs/10.1145/3795154.3795296
+ID  - POST-0351
+ER  - 
+
+TY  - GEN
+TI  - Peerguard: Defending multi-agent systems against backdoor attacks through mutual reasoning
+AU  - F Fan, X Li
+PY  - 2025
+DO  - 10.1109/iri66576.2025.00051
+UR  - https://ieeexplore.ieee.org/abstract/document/11153109/
+ID  - POST-0352
+ER  - 
+
+TY  - GEN
+TI  - Webguard: Building a generalizable guardrail for web agents
+AU  - B Zheng, Z Liao, S Salisbury, Z Liu, M Lin
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.14293
+ID  - POST-0353
+ER  - 
+
+TY  - GEN
+TI  - From llms to mllms to agents: A survey of emerging paradigms in jailbreak attacks and defenses within llm ecosystem
+AU  - Y Mao, T Cui, P Liu, D You, H Zhu
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.15170
+ID  - POST-0354
+ER  - 
+
+TY  - GEN
+TI  - Help or hurdle? rethinking model context protocol-augmented large language models
+AU  - W Song, H Zhong, Z Ding, J Xue, Y Li
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.12566
+ID  - POST-0355
+ER  - 
+
+TY  - GEN
+TI  - Information security, ethics, and integrity in llm agent interaction
+AU  - YJ Chen, VK Madisetti
+PY  - 2025
+DO  - 10.4236/jis.2025.161010
+UR  - https://www.scirp.org/journal/paperinformation?paperid=140224
+ID  - POST-0356
+ER  - 
+
+TY  - GEN
+TI  - Adversarial reinforcement learning for large language model agent safety
+AU  - Z Wang, D Li, V Keshava, P Wallis
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.05442
+ID  - POST-0357
+ER  - 
+
+TY  - GEN
+TI  - Beyond single-agent safety: A taxonomy of risks in llm-to-llm interactions
+AU  - P Bisconti, M Galisai, F Pierucci, M Bracale
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.02682
+ID  - POST-0358
+ER  - 
+
+TY  - GEN
+TI  - Mind the gap: Time-of-check to time-of-use vulnerabilities in llm-enabled agents
+AU  - D Lilienthal, S Hong
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.17155
+ID  - POST-0359
+ER  - 
+
+TY  - GEN
+TI  - Psg-agent: Personality-aware safety guardrail for llm-based agents
+AU  - Y Wu, J Guo, D Li, HP Zou, WC Huang, Y Chen
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.23614
+ID  - POST-0360
+ER  - 
+
+TY  - GEN
+TI  - Cfa-bench: Cybersecurity forensic llm agent benchmark and testing
+AU  - F De Santis, K Huang, R Valentim
+PY  - 2025
+DO  - 10.1109/eurospw67616.2025.00031
+UR  - https://ieeexplore.ieee.org/abstract/document/11129512/
+ID  - POST-0361
+ER  - 
+
+TY  - GEN
+TI  - Autohijacker: Automatic indirect prompt injection against black-box llm agents
+AU  - X Liu, S Jha, P McDaniel, B Li, C Xiao
+PY  - 2025
+UR  - https://openreview.net/forum?id=2VmB01D9Ef
+ID  - POST-0362
+ER  - 
+
+TY  - GEN
+TI  - Your agent can defend itself against backdoor attacks
+AU  - C Li, J Liang, B Cao, J Chen, T Wang
+PY  - 2025
+UR  - https://openreview.net/forum?id=pBugl1EIkm
+ID  - POST-0363
+ER  - 
+
+TY  - GEN
+TI  - Automatically generated multi-agent framework for jailbreaking large language models
+AU  - A Yang, B Wang, A Liu, H Li
+PY  - 2025
+UR  - https://ieeexplore.ieee.org/abstract/document/11047880/
+ID  - POST-0364
+ER  - 
+
+TY  - GEN
+TI  - Interpretable risk mitigation in llm agent systems
+AU  - J Chojnacki
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.10670
+ID  - POST-0365
+ER  - 
+
+TY  - GEN
+TI  - sudo rm-rf agentic_security
+AU  - S Lee, J Kim, H Park, A Yousefpour, S Yu
+PY  - 2025
+DO  - 10.18653/v1/2025.acl-industry.75
+UR  - https://aclanthology.org/2025.acl-industry.75/
+ID  - POST-0366
+ER  - 
+
+TY  - GEN
+TI  - Developing MCP-based LLM agents for secure autonomous vehicle planning
+AU  - Q Han, J Dafoe, B Chen
+PY  - 2025
+DO  - 10.1007/978-3-032-33701-6\_1
+UR  - https://link.springer.com/chapter/10.1007/978-3-032-33701-6_1
+ID  - POST-0367
+ER  - 
+
+TY  - GEN
+TI  - Large Language Model (LLM) Agents: Applications and Security
+AU  - A Kalliomäki
+PY  - 2025
+UR  - https://aaltodoc.aalto.fi/items/e94bb73f-3a39-448d-9fea-6fabdb1394fa
+ID  - POST-0368
+ER  - 
+
+TY  - GEN
+TI  - LLM Hijacking: When Models Manipulate Their Routers
+AU  - S Andric
+PY  - 2025
+UR  - https://www.ainthusiast.com/hijacking.pdf
+ID  - POST-0369
+ER  - 
+
+TY  - GEN
+TI  - Automated Prompt Injection Attacks Against LLM Agents
+AU  - D Hofer
+PY  - 2025
+UR  - https://davhofer.github.io/assets/pdf/msc_thesis.pdf
+ID  - POST-0370
+ER  - 
+
+TY  - GEN
+TI  - The Model Context Protocol Security Landscape: A Systematic Analysis of Inherent Vulnerabilities and Defensive Inadequacies
+AU  - M Nandish, R Misra, V Balasubramaniam
+PY  - 2025
+DO  - 10.1007/978-3-032-31998-2\_13
+UR  - https://link.springer.com/chapter/10.1007/978-3-032-31998-2_13
+ID  - POST-0371
+ER  - 
+
+TY  - GEN
+TI  - Zero-Trust Proof-Gated Agent Architecture (ZPAA): A Comprehensive Security Model for the Model Context Protocol (MCP)
+AU  - JR Maligireddy
+PY  - 2025
+DO  - 10.22541/au.175761889.90929465/v1
+UR  - https://www.authorea.com/doi/full/10.22541/au.175761889.90929465
+ID  - POST-0372
+ER  - 
+
+TY  - GEN
+TI  - Agentdojo: A dynamic environment to evaluate prompt injection attacks and defenses for llm agents
+AU  - E Debenedetti, J Zhang, M Balunovic
+PY  - 2024
+DO  - 10.52202/079017-2636
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html
+ID  - POST-0373
+ER  - 
+
+TY  - GEN
+TI  - Agentbench: Evaluating llms as agents
+AU  - X Liu, H Yu, H Zhang, Y Xu, X Lei, H Lai
+PY  - 2024
+UR  - https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html
+ID  - POST-0374
+ER  - 
+
+TY  - GEN
+TI  - Injecagent: Benchmarking indirect prompt injections in tool-integrated large language model agents
+AU  - Q Zhan, Z Liang, Z Ying, D Kang
+PY  - 2024
+DO  - 10.18653/v1/2024.findings-acl.624
+UR  - https://aclanthology.org/2024.findings-acl.624/
+ID  - POST-0375
+ER  - 
+
+TY  - GEN
+TI  - R-judge: Benchmarking safety risk awareness for llm agents
+AU  - T Yuan, Z He, L Dong, Y Wang, R Zhao
+PY  - 2024
+DO  - 10.18653/v1/2024.findings-emnlp.79
+UR  - https://aclanthology.org/2024.findings-emnlp.79/
+ID  - POST-0376
+ER  - 
+
+TY  - GEN
+TI  - Agent-safetybench: Evaluating the safety of llm agents
+AU  - Z Zhang, S Cui, Y Lu, J Zhou, J Yang, H Wang
+PY  - 2024
+UR  - https://arxiv.org/abs/2412.14470
+ID  - POST-0377
+ER  - 
+
+TY  - GEN
+TI  - Llm agents can autonomously exploit one-day vulnerabilities
+AU  - R Fang, R Bindu, A Gupta, D Kang
+PY  - 2024
+UR  - https://arxiv.org/abs/2404.08144
+ID  - POST-0378
+ER  - 
+
+TY  - GEN
+TI  - Agent smith: A single image can jailbreak one million multimodal llm agents exponentially fast
+AU  - X Gu, X Zheng, T Pang, C Du, Q Liu, Y Wang
+PY  - 2024
+UR  - https://arxiv.org/abs/2402.08567
+ID  - POST-0379
+ER  - 
+
+TY  - GEN
+TI  - Agentboard: An analytical evaluation board of multi-turn llm agents
+AU  - C Ma, J Zhang, Z Zhu, C Yang
+PY  - 2024
+DO  - 10.52202/079017-2365
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/877b40688e330a0e2a3fc24084208dfa-Abstract-Datasets_and_Benchmarks_Track.html
+ID  - POST-0380
+ER  - 
+
+TY  - GEN
+TI  - Watch out for your agents! investigating backdoor threats to llm-based agents
+AU  - W Yang, X Bi, Y Lin, S Chen
+PY  - 2024
+DO  - 10.52202/079017-3201
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
+ID  - POST-0381
+ER  - 
+
+TY  - GEN
+TI  - Badagent: Inserting and activating backdoor attacks in llm agents
+AU  - Y Wang, D Xue, S Zhang, S Qian
+PY  - 2024
+DO  - 10.18653/v1/2024.acl-long.530
+UR  - https://aclanthology.org/2024.acl-long.530/
+ID  - POST-0382
+ER  - 
+
+TY  - GEN
+TI  - Magic: Investigation of large language model powered multi-agent in cognition, adaptability, rationality and collaboration
+AU  - L Xu, Z Hu, D Zhou, H Ren, Z Dong
+PY  - 2024
+DO  - 10.18653/v1/2024.emnlp-main.416
+UR  - https://aclanthology.org/2024.emnlp-main.416/
+ID  - POST-0383
+ER  - 
+
+TY  - GEN
+TI  - Psysafe: A comprehensive framework for psychological-based attack, defense, and evaluation of multi-agent system safety
+AU  - Z Zhang, Y Zhang, L Li, J Shao, H Gao
+PY  - 2024
+DO  - 10.18653/v1/2024.acl-long.812
+UR  - https://aclanthology.org/2024.acl-long.812.pdf
+ID  - POST-0384
+ER  - 
+
+TY  - GEN
+TI  - Mobile-bench: An evaluation benchmark for llm-based mobile agents
+AU  - S Deng, W Xu, H Sun, W Liu, T Tan, J Liu
+PY  - 2024
+DO  - 10.18653/v1/2024.acl-long.478
+UR  - https://aclanthology.org/2024.acl-long.478/
+ID  - POST-0385
+ER  - 
+
+TY  - GEN
+TI  - Signed-prompt: A new approach to prevent prompt injection attacks against llm-integrated applications
+AU  - X Suo
+PY  - 2024
+DO  - 10.1063/5.0222987
+UR  - https://pubs.aip.org/aip/acp/article-abstract/3194/1/040013/3325235
+ID  - POST-0386
+ER  - 
+
+TY  - GEN
+TI  - Large language model safety: A holistic survey
+AU  - D Shi, T Shen, Y Huang, Z Li, Y Leng, R Jin
+PY  - 2024
+UR  - https://arxiv.org/abs/2412.17686
+ID  - POST-0387
+ER  - 
+
+TY  - GEN
+TI  - Next-generation phishing: How llm agents empower cyber attackers
+AU  - K Afane, W Wei, Y Mao, J Farooq
+PY  - 2024
+DO  - 10.1109/bigdata62323.2024.10825018
+UR  - https://ieeexplore.ieee.org/abstract/document/10825018/
+ID  - POST-0388
+ER  - 
+
+TY  - GEN
+TI  - Trustagent: Towards safe and trustworthy llm-based agents through agent constitution
+AU  - W Hua, X Yang, M Jin, Z Li, W Cheng
+PY  - 2024
+UR  - https://openreview.net/forum?id=ejl3NCLQBj
+ID  - POST-0389
+ER  - 
+
+TY  - GEN
+TI  - Jailbreaking and mitigation of vulnerabilities in large language models
+AU  - B Peng, H Chen, K Chen, Q Niu, Z Bi, M Liu
+PY  - 2024
+DO  - 10.31219/osf.io/z8jk3
+UR  - https://arxiv.org/abs/2410.15236
+ID  - POST-0390
+ER  - 
+
+TY  - GEN
+TI  - Blockagents: Towards byzantine-robust llm-based multi-agent coordination via blockchain
+AU  - B Chen, G Li, X Lin, Z Wang, J Li
+PY  - 2024
+DO  - 10.1145/3674399.3674445
+UR  - https://dl.acm.org/doi/abs/10.1145/3674399.3674445
+ID  - POST-0391
+ER  - 
+
+TY  - GEN
+TI  - Security threats in agentic ai system
+AU  - R Khan, S Sarkar, SK Mahata, E Jose
+PY  - 2024
+UR  - https://arxiv.org/abs/2410.14728
+ID  - POST-0392
+ER  - 
+
+TY  - GEN
+TI  - Enhancing security in large language models: A comprehensive review of prompt injection attacks and defenses
+AU  - E Mathew
+PY  - 2024
+DO  - 10.32604/jai.2025.069841
+UR  - https://www.techrxiv.org/doi/abs/10.36227/techrxiv.172954263.32914470
+ID  - POST-0393
+ER  - 
+
+TY  - GEN
+TI  - Bells: A framework towards future proof benchmarks for the evaluation of llm safeguards
+AU  - D Dorn, A Variengien, CRÃĢ Segerie
+PY  - 2024
+UR  - https://arxiv.org/abs/2406.01364
+ID  - POST-0394
+ER  - 
+
+TY  - GEN
+TI  - Clas 2024: The competition for llm and agent safety
+AU  - Z Xiang, Y Zeng, M Kang, C Xu, J Zhang
+PY  - 2024
+UR  - https://openreview.net/forum?id=GIDw94AlZK
+ID  - POST-0395
+ER  - 
+
+TY  - GEN
+TI  - Frontiers of large language model-based agentic systems-construction, efficacy and safety
+AU  - J He, R Ghosh, K Walia, J Chen, T Dhadiwal
+PY  - 2024
+DO  - 10.1145/3627673.3679105
+UR  - https://dl.acm.org/doi/abs/10.1145/3627673.3679105
+ID  - POST-0396
+ER  - 
+
+TY  - GEN
+TI  - Safeguard is a double-edged sword: Denial-of-service attack on large language models
+AU  - Q Zhang, Z Xiong, Z Mao
+PY  - 2024
+UR  - https://openreview.net/forum?id=B6Sdw56GQJ
+ID  - POST-0397
+ER  - 
+
+TY  - GEN
+TI  - Injectbench: An indirect prompt injection benchmarking framework
+AU  - NKS Kong
+PY  - 2024
+UR  - https://vtechworks.lib.vt.edu/items/c8a6b2f2-9b51-4e02-9778-aa4840fa30d8
+ID  - POST-0398
+ER  - 
+
+TY  - GEN
+TI  - Language game for evading privacy disclosure risks via LLM-based multi-agent simulation
+AU  - Y Yan, M Fan
+PY  - 2024
+DO  - 10.1007/978-981-96-4506-0\_28
+UR  - https://link.springer.com/chapter/10.1007/978-981-96-4506-0_28
+ID  - POST-0399
+ER  - 
+
+TY  - GEN
+TI  - Jailbreak-Resilient LLM Agents through Instruction Hierarchy, Input Gating, and Self-Verification
+AU  - R Garcia, Q Li, A Baker, F Wu
+PY  - 2024
+UR  - https://journal.jci.co.id/jitie/article/view/818
+ID  - POST-0400
+ER  - 
+
+TY  - GEN
+TI  - Not what you've signed up for: Compromising real-world llm-integrated applications with indirect prompt injection
+AU  - K Greshake, S Abdelnabi, S Mishra, C Endres
+PY  - 2023
+DO  - 10.1145/3605764.3623985
+UR  - https://dl.acm.org/doi/abs/10.1145/3605764.3623985
+ID  - POST-0401
+ER  - 
+
+TY  - GEN
+TI  - Prompt injection attack against llm-integrated applications
+AU  - Y Liu, G Deng, Y Li, K Wang, Z Wang, X Wang
+PY  - 2023
+UR  - https://arxiv.org/abs/2306.05499
+ID  - POST-0402
+ER  - 
+
+TY  - GEN
+TI  - From prompt injections to sql injection attacks: How protected is your llm-integrated web application?
+AU  - R Pedro, D Castro, P Carreira, N Santos
+PY  - 2023
+UR  - https://arxiv.org/abs/2308.01990
+ID  - POST-0403
+ER  - 
+
+TY  - GEN
+TI  - Towards large language model (llm) forensics using llm-based invocation log analysis
+AU  - M Chernyshev, Z Baig, RRM Doss
+PY  - 2023
+DO  - 10.1145/3689217.3690616
+UR  - https://dl.acm.org/doi/abs/10.1145/3689217.3690616
+ID  - POST-0404
+ER  - 
+
+TY  - GEN
+TI  - The Probe Detected the Banner, Not the Attack: Trace Diagnostics for an Agentic-AI Evaluation Failure
+AU  - Y Li, Z Fan, Z Zhuang
+PY  - Not shown on the Scholar card
+UR  - https://openreview.net/forum?id=RYRRoUkkeY
+ID  - POST-0405
+ER  - 
+
+TY  - GEN
+TI  - Vulnerabilities in autonomous execution: A survey of security threats and defenses in LLM-driven multi-agent systems
+AU  - V Sammartino
+PY  - Not shown on the Scholar card
+DO  - 10.2139/ssrn.7218206
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7218206
+ID  - POST-0406
+ER  - 
+
+TY  - GEN
+TI  - A Deep Learning Framework for Evaluating and Mitigating Prompt Injection in LLM Agents
+AU  - MHGM Najda Malik, T Alyas, WM Qazi, N Tabassum
+PY  - Not shown on the Scholar card
+DO  - 10.56979/1201/2026/1552
+UR  - https://www.researchgate.net/profile/Tahir-Alyas/publication/415467858_A_Deep_Learning_Framework_for_Evaluating_and_Mitigating_Prompt_Injection_in_LLM_Agents/links/6ac8717aec92f07b8d44af25/A-Deep-Learning-Framework-for-Evaluating-and-Mitigating-Prompt-Injection-in-LLM-Agents.pdf
+ID  - POST-0407
+ER  - 
+
+TY  - GEN
+TI  - AgenticPA: Toward Automated and Large-Scale Prompt Attacks on LLMs
+AU  - Y Wu, X Liu, R Duan, H Huang, Y Li, D Wu, Y Bai
+PY  - Not shown on the Scholar card
+UR  - https://openreview.net/forum?id=tX2mU5O0Ux
+ID  - POST-0408
+ER  - 
+
+TY  - GEN
+TI  - An RL Framework for Persistent Memory Attacks on LLM Agents
+AU  - A Arora, M Menon, Z Wang
+PY  - Not shown on the Scholar card
+UR  - https://cs224r.stanford.edu/projects/pdfs/Mihir%20S%20Menon%20Zihan%20Wang%20Aarav%20Arora%20submission_416237841/CS_224R_Final_Report.pdf
+ID  - POST-0409
+ER  - 
+
+TY  - GEN
+TI  - ARPIbench: Understanding Reflected Prompt Injection Vulnerabilities in Agents
+AU  - A Becker
+PY  - Not shown on the Scholar card
+UR  - https://www.alexcbecker.net/arpibench_paper.pdf
+ID  - POST-0410
+ER  - 
+
+TY  - GEN
+TI  - Benchmarking Vulnerabilities in LLM-based Computer-Use Agents
+AU  - R Keil
+PY  - Not shown on the Scholar card
+UR  - https://richartkeil.com/benchmarking-vulnerabilities-in-llm-based-computer-use-agents.pdf
+ID  - POST-0411
+ER  - 
+
+TY  - GEN
+TI  - FROM ATTACK SUCCESS TO ATTACK SEVERITY: COUN-TERFACTUAL MEMORY ATTACKS ON LLM AGENTS
+AU  - TM ATTACKS
+PY  - Not shown on the Scholar card
+UR  - https://openreview.net/forum?id=A77bt8Tjw1
+ID  - POST-0412
+ER  - 
+
+TY  - GEN
+TI  - Improved Robustness against Indirect Prompt Injection Can Be Built into LLMs
+AU  - M Özdinçer, S Simko, B Schölkopf, Z Jin
+PY  - Not shown on the Scholar card
+UR  - https://openreview.net/forum?id=3lo27Z3ctk
+ID  - POST-0413
+ER  - 
+
+TY  - GEN
+TI  - MCP Servers in Agentic AI: Architecture, Adoption, and Security of the Model Context Protocol
+AU  - D Rajagopal
+PY  - Not shown on the Scholar card
+UR  - https://www.researchgate.net/profile/Deepthi-Rajagopal/publication/413985457_MCP_Servers_in_Agentic_AI_Architecture_Adoption_and_Security_of_the_Model_Context_Protocol/links/6a9aca8123b19b6ecea1436f/MCP-Servers-in-Agentic-AI-Architecture-Adoption-and-Security-of-the-Model-Context-Protocol.pdf
+ID  - POST-0414
+ER  - 
+
+TY  - GEN
+TI  - MEMORYDOJO: BENCHMARKING POISONING THROUGH LLM AGENT MEMORY
+AU  - TLLMA MEMORY
+PY  - Not shown on the Scholar card
+UR  - https://openreview.net/pdf?id=NZ78mRBqgv
+ID  - POST-0415
+ER  - 
+
+TY  - GEN
+TI  - Model Context Protocol in Enterprise AI Systems: Architecture, Failure Modes, and Production Patterns
+AU  - S Vangala
+PY  - Not shown on the Scholar card
+UR  - https://www.researchgate.net/profile/Siddardha-Vangala-2/publication/404353677_Model_Context_Protocol_in_Enterprise_AI_Systems_Architecture_Failure_Modes_and_Production_Patterns/links/69f4d4aeb2e0972eb41cfaf7/Model-Context-Protocol-in-Enterprise-AI-Systems-Architecture-Failure-Modes-and-Production-Patterns.pdf
+ID  - POST-0416
+ER  - 
+
+TY  - GEN
+TI  - Prompt Injection in Orbit: Evaluating and Defending LLM Agents in Satellite Mission Operations
+AU  - Z Petrov, H Meghwar, B Chetry
+PY  - Not shown on the Scholar card
+UR  - https://www.researchgate.net/profile/Zlatimir-Petrov/publication/412097078_Prompt_Injection_in_Orbit_Evaluating_and_Defending_LLM_Agents_in_Satellite_Mission_Operations/links/6a7a673b1420f01a51fe7cde/Prompt-Injection-in-Orbit-Evaluating-and-Defending-LLM-Agents-in-Satellite-Mission-Operations.pdf
+ID  - POST-0417
+ER  - 
+
+TY  - GEN
+TI  - The Model Context Protocol: A Systematic Survey of Architecture, Specification Evolution, Ecosystem Governance, Security Landscape, and Application …
+AU  - NK Ugwumba, PS Jaja
+PY  - Not shown on the Scholar card
+UR  - https://www.researchgate.net/profile/Nnaemeka-Ugwumba-3/publication/414034372_The_Model_Context_Protocol_A_Systematic_Survey_of_Architecture_Specification_Evolution_Ecosystem_Governance_Security_Landscape_and_Application_Domains/links/6a9de005ff8c7a47697d5853/The-Model-Context-Protocol-A-Systematic-Survey-of-Architecture-Specification-Evolution-Ecosystem-Governance-Security-Landscape-and-Application-Domains.pdf
+ID  - POST-0418
+ER  - 
+
+TY  - GEN
+TI  - What Did You Do Behind My Back?! Covert Indirect Prompt Injection on Tool-Using LLM Agents
+AU  - Y Lee, Y Kim, W Lee
+PY  - Not shown on the Scholar card
+UR  - https://openreview.net/forum?id=ozJ54HKqBe
+ID  - POST-0419
+ER  - 

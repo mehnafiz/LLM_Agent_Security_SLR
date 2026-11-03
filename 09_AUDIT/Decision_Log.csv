@@ -1,0 +1,10 @@
+Date,Decision,Evidence
+2026-11-03,PRE stacks 164 IEEE rows and 270 Scholar rows,07_ZOTERO/PRE/Merged_IEEE_and_Scholar.xlsx
+2026-11-03,POST keeps 419 rows; 15 exact DOI or title duplicates removed; IEEE row kept,07_ZOTERO/POST/Duplicate_Removal_Log.xlsx
+2026-11-03,"IEEE folder holds 30 PDFs, one copy each, no subfolder",04_FULL_TEXT_PDFS/IEEE
+2026-11-03,A Top 30 rank is linked to a PDF only when the register says PDF_Link = Linked,02_SCREENING/IEEE_Top30_Register.xlsx
+2026-11-03,Short-paper title on Top 30 rank 12 is Excluded,Title begins with [Short Paper]
+2026-11-03,"14 proceedings-host PDFs are candidates, not final inclusions",03_SELECTED_LITERATURE/Final_Selected_Papers.xlsx
+2026-11-03,Crossref hits are metadata only,Supplementary_Crossref_Search.xlsx Record_Status column
+2026-11-03,No JCR or CiteScore quartile was assigned,Venue_Quality_Report.md
+2026-11-03,Zotero the application was not modified,07_ZOTERO/Zotero_Change_Log.md
