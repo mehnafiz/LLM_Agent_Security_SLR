@@ -1,4 +1,4 @@
-# Defence note — LLM-Based Agent Security Evaluation
+# Note — LLM-Based Agent Security Evaluation
 
 Ei file ta puro kajer hisab. Start theke 3 November 2026 porjonto ki kora hoyeche, kothay rakha hoyeche, keno, ar kivabe. Ja record e nei, seta ekhane likha hoyni. Kono DOI, quartile, abstract, ba paper identity ekhane banano hoyni.
 
