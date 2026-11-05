@@ -8,3 +8,29 @@ Date,Decision,Evidence
 2026-11-03,Crossref hits are metadata only,Supplementary_Crossref_Search.xlsx Record_Status column
 2026-11-03,No JCR or CiteScore quartile was assigned,Venue_Quality_Report.md
 2026-11-03,Zotero the application was not modified,07_ZOTERO/Zotero_Change_Log.md
+2026-11-05,Prior screening labels in Master database are retained as unverified legacy suggestions; new title/abstract and full-text evidence fields state Not screened because abstract and review rationale are absent,02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Unlinked IEEE Top 30 items changed from Excluded to Pending because missing local PDF is not an eligibility exclusion,02_SCREENING/IEEE_Top30_Register.xlsx
+2026-11-05,Exclusion register entries relabeled as historical suggestions pending independent re-screen,02_SCREENING/Exclusion_Register.xlsx
+2026-11-05,Rebuilt PRE as complete 434-row merged source table with all source-native fields,07_ZOTERO/PRE/Merged_IEEE_and_Scholar.xlsx
+2026-11-05,Rebuilt POST as complete 419-row deduplicated table and expanded the 15-row removal log to include full removed and retained source records,07_ZOTERO/POST/Duplicate_Removal_Log.xlsx
+2026-11-05,Screened 128 Master rows using title plus partial Scholar snippet as title-stage triage; abstract remains explicitly pending,02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Reviewed 28 Master-linked local PDFs for relevance; 26 in scope and 2 out of scope; version/venue/index gates remain separate,02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Screened all 30 IEEE Top 30 rows using DOI-matched IEEE source abstracts; 26 retain 1 uncertain 3 exclude,02_SCREENING/IEEE_Top30_Register.xlsx
+2026-11-05,Reviewed all 12 linked Top 30 PDFs; 9 relevant 1 uncertain 2 out of scope,02_SCREENING/IEEE_Top30_Register.xlsx
+2026-11-05,Rebuilt Exclusion_Register with 8 title-stage and 2 full-text Master exclusions and evidence sources,02_SCREENING/Exclusion_Register.xlsx
+2026-11-05,Reformatted all Zotero XLSX files as actual record tables with row-1 headers and full title/BibTeX entries; summary-only rows removed,07_ZOTERO/Zotero_Change_Log.md
+2026-11-05,Retrieved 122 official abstracts for Master records and stored each source URL; added abstract-based relevance decisions while leaving six title/snippet-only records explicitly unupgraded,02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Reconciled Master exclusions from current stage decisions: 4 title/abstract and 2 full-text; each register row now links its evidence source,02_SCREENING/Exclusion_Register.xlsx
+2026-11-05,Updated screening report and PRISMA-style status from current workbook counts; register overlap and unresolved protocol gates remain explicit,08_REPORTS/Screening_Report.md; 08_REPORTS/PRISMA_Flow.md
+2026-11-05,Retrieved 122 official abstracts for Master records and stored each source URL; added abstract-based relevance decisions while leaving six title/snippet-only records explicitly unupgraded,02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Reconciled Master exclusions from current stage decisions: 4 title/abstract and 2 full-text; each register row now links its evidence source,02_SCREENING/Exclusion_Register.xlsx
+2026-11-05,Updated screening report and PRISMA-style status from current workbook counts; register overlap and unresolved protocol gates remain explicit,08_REPORTS/Screening_Report.md; 08_REPORTS/PRISMA_Flow.md
+2026-11-05,Retrieved 122 official abstracts for Master records and stored each source URL; added abstract-based relevance decisions while leaving six title/snippet-only records explicitly unupgraded,02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Reconciled Master exclusions from current stage decisions: 4 title/abstract and 2 full-text; each register row now links its evidence source,02_SCREENING/Exclusion_Register.xlsx
+2026-11-05,Updated screening report and PRISMA-style status from current workbook counts; register overlap and unresolved protocol gates remain explicit,08_REPORTS/Screening_Report.md; 08_REPORTS/PRISMA_Flow.md
+2026-11-05,Reviewed the local arXiv v2 full text matching Master record SLR-A-0319; in-scope security relevance recorded separately from pending version/indexing/venue gates,02_SCREENING/Master_Literature_Database.xlsx; 04_FULL_TEXT_PDFS/IEEE/IEEE_63_Securing_Multiagent_GIS_Systems_Risk_Evaluatio_2026.pdf
+2026-11-05,Manually adjudicated official abstracts against protocol scope; reclassified generic LLM/RAG and agent-as-offensive-tool studies as excluded/uncertain where justified,02_SCREENING/Master_Literature_Database.xlsx; 00_PROTOCOL/Eligibility_Criteria.md
+2026-11-05,Repaired Master full-text evidence paths to original local PDFs; verified 29 Master and 12 Top 30 reviewed PDF paths resolve,02_SCREENING/Master_Literature_Database.xlsx; 02_SCREENING/IEEE_Top30_Register.xlsx
+2026-11-05,"Re-audited abstract-stage decisions against protocol distinctions for agent-system security, generic LLM security, safety-only work, and agents used to exploit other software",00_PROTOCOL/Eligibility_Criteria.md; 02_SCREENING/Master_Literature_Database.xlsx
+2026-11-05,Screened four additional full texts from directly linked arXiv PDFs; three were retained for relevance review and one in-scope workshop paper was excluded by the publication-type protocol gate,02_SCREENING/Master_Literature_Database.xlsx; source PDF URLs recorded in column T
+2026-11-05,"Reviewed three additional arXiv full texts covering multi-agent pipeline attacks, prompt-injection defense training, and agent-targeted red teaming; each retained for protocol eligibility review",02_SCREENING/Master_Literature_Database.xlsx; source PDF URLs recorded in column T

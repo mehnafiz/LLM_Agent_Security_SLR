@@ -1,16 +1,17 @@
-# Validation (2026-11-03)
+# Validation (2026-11-05)
+
+## Screening artifacts
 
 | Check | Result |
-|-------|--------|
-| Source IEEE and Scholar workbooks edited | No. Copies in `01_SOURCE_DATABASES/` were not reformatted |
-| PRE rows | 434 |
-| POST rows | 419 |
-| Exact duplicates removed | 15 |
-| IEEE PDFs in `04_FULL_TEXT_PDFS/IEEE/` | 30, no subfolder |
-| Top 30 ranks with a linked PDF | See the IEEE register. Unlinked ranks are labeled Not linked |
-| Candidate papers | 14. Venue quality pending |
-| Final venue-verified inclusions | 0 |
-| Audit CSV files | Real CSV. The earlier `.csv` files were Excel zip files and were replaced |
-| Invented DOI, quartile, or abstract | None added in this pass |
+|---|---|
+| Master register | 158 records; 122 additional official abstracts now stored with source URLs; six lack official abstracts; four have separate full-text decisions |
+| Master title/abstract decisions | 152 abstract-screened records: 123 retain, 18 uncertain, 11 exclude; six title-only decisions remain explicitly distinct from abstract screens; four have separate full-text decisions |
+| Master full-text review | 36 reviewed: 34 in scope, 2 out of scope; evidence paths resolve to local PDFs or the cited source PDF URLs; 122 have no completed full-text review |
+| Master exclusion register | 15 records, reconciled to current database decisions: 11 abstract-stage, 1 snippet-only, 2 full-text relevance exclusions, and 1 workshop-type exclusion |
+| IEEE Top 30 | 30 title/abstract decisions; 12 linked PDFs reviewed, 18 full-text pending |
+| Final eligibility | 0 verified; indexing, publication/version and dated venue-quality gates remain outstanding |
+| Abstract evidence | Official source URL recorded for every newly abstract-screened Master row; six no-abstract records are explicitly marked title-only; four have separately reviewed full text |
 
-`Agent_Type` in the analysis matrix was set back to Not Reported where the cell repeated the threat-model excerpt. The excerpt itself remains in `Threat_Model`.
+## Limitations
+
+The registers overlap and have not been deduplicated against each other for unique PRISMA counts. Full-text coverage remains incomplete, and no final eligibility claims are made. Abstract-screen decisions are screening-stage relevance judgments, not publisher-version or venue verification.

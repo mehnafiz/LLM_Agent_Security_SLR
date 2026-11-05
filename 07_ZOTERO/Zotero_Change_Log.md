@@ -1,22 +1,15 @@
-# Zotero change log (2026-11-03)
+# Zotero bibliography preparation log (2026-11-05)
 
-## Application
+## Workbook contents
 
-Zotero was not opened and no library was modified.
+All three XLSX files are paper-record tables. The first row is the column header; the rows below it contain actual records. There are no summary or instruction sheets in these workbooks.
 
-## PRE
+- `PRE/Merged_IEEE_and_Scholar.xlsx`: 434 paper records (164 IEEE + 270 Google Scholar), with `Record_ID`, `Source`, `Title`, and the source workbook's full `BibTeX` entry. Both sides of duplicates remain.
+- `POST/Deduplicated_Literature.xlsx`: 419 retained paper records, with the same four columns and each retained record's full source BibTeX.
+- `POST/Duplicate_Removal_Log.xlsx`: 15 removed duplicate paper records. Each row contains the removed paper's title and full BibTeX, plus the kept record's ID/title and the match key/reason.
 
-`PRE/Merged_IEEE_and_Scholar.xlsx` stacks the IEEE `All_Collected_Papers` sheet (164 rows) and the Google Scholar `All_Related` sheet (270 rows). Total 434. Both copies of a duplicate are present.
+Deduplication follows the existing decision crosswalk: exact DOI when available, otherwise normalized title; IEEE is retained when both sources match.
 
-## POST
+## Application status
 
-`POST/Deduplicated_Literature.xlsx` has 419 rows.
-
-Removal rule: same DOI, otherwise the same normalized title. The IEEE row is kept when both sources match. 15 rows are listed in `POST/Duplicate_Removal_Log.xlsx` and are absent from the unique sheet.
-
-`POST/Deduplicated_Literature.ris` is an import file for a person to add later. Importing it is not part of this log.
-
-## Not done
-
-- No existing Zotero collection was deleted or overwritten.
-- PRE is not a Zotero export of a live library. It is the merge of the two project workbooks.
+Zotero was not opened and no live library was modified. `POST/Deduplicated_Literature.ris` remains available for a later manual import; importing it was not performed here.

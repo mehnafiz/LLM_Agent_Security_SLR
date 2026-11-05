@@ -57,9 +57,9 @@ Each project workbook opens with a **How_To_Read** sheet.
 
 | File | Rows | Rule |
 |------|-----:|------|
-| `07_ZOTERO/PRE/Merged_IEEE_and_Scholar.xlsx` | 434 | Both source tables, duplicates kept |
-| `07_ZOTERO/POST/Deduplicated_Literature.xlsx` | 419 | One row per exact DOI or exact title |
-| `07_ZOTERO/POST/Duplicate_Removal_Log.xlsx` | 15 | Scholar rows dropped because they matched an IEEE row |
+| `07_ZOTERO/PRE/Merged_IEEE_and_Scholar.xlsx` | 434 | 434 actual paper rows with source, title, and full BibTeX; duplicates kept |
+| `07_ZOTERO/POST/Deduplicated_Literature.xlsx` | 419 | 419 actual paper rows with source, title, and full BibTeX |
+| `07_ZOTERO/POST/Duplicate_Removal_Log.xlsx` | 15 | 15 actual removed papers with full BibTeX and kept-match details |
 | `07_ZOTERO/POST/Deduplicated_Literature.ris` | 419 | For a later manual Zotero import |
 
 `07_ZOTERO/Zotero_Change_Log.md` records that these files were prepared and not imported.
