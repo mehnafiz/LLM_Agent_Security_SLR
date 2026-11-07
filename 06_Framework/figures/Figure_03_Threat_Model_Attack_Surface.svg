@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="980" viewBox="0 0 1760 980">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text { font-family: Helvetica, Arial, sans-serif; }</style>
+
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1C2833"/>
+          </marker>
+          <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#922B21"/>
+          </marker>
+          <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#196F3D"/>
+          </marker>
+          <marker id="arrOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#B9770E"/>
+          </marker>
+          <marker id="arrBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1A5276"/>
+          </marker>
+        </defs>
+        
+<text x="36.0" y="36.0" font-size="20" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="36.0" dy="0">Figure 3. Threat-model map</tspan></text>
+<text x="36.0" y="60.0" font-size="13" fill="#5D6D7E" text-anchor="start"><tspan x="36.0" dy="0">One row is one actor. Dashed rows are waived unless Stage 1 puts that input inside the system under test.</tspan></text>
+<rect x="36.0" y="78.0" width="16.0" height="16.0" rx="3" fill="#EAF2F8" stroke="#1A5276" stroke-width="1.4"/>
+<text x="58.0" y="91.0" font-size="12" fill="#1C2833" text-anchor="start"><tspan x="58.0" dy="0">Agent path</tspan></text>
+<rect x="166.0" y="78.0" width="16.0" height="16.0" rx="3" fill="#FDEDEC" stroke="#922B21" stroke-width="1.4"/>
+<text x="188.0" y="91.0" font-size="12" fill="#1C2833" text-anchor="start"><tspan x="188.0" dy="0">Threat or attack carrier</tspan></text>
+<rect x="408.0" y="78.0" width="16.0" height="16.0" rx="3" fill="#FEF5E7" stroke="#B9770E" stroke-width="1.4"/>
+<text x="430.0" y="91.0" font-size="12" fill="#1C2833" text-anchor="start"><tspan x="430.0" dy="0">Evaluation gate</tspan></text>
+<rect x="578.0" y="78.0" width="16.0" height="16.0" rx="3" fill="#E8F8F5" stroke="#196F3D" stroke-width="1.4"/>
+<text x="600.0" y="91.0" font-size="12" fill="#1C2833" text-anchor="start"><tspan x="600.0" dy="0">Control</tspan></text>
+<rect x="684.0" y="78.0" width="16.0" height="16.0" rx="3" fill="#F4F6F7" stroke="#5D6D7E" stroke-width="1.4"/>
+<text x="706.0" y="91.0" font-size="12" fill="#1C2833" text-anchor="start"><tspan x="706.0" dy="0">External or record</tspan></text>
+<rect x="36.0" y="120.0" width="1688.0" height="36.0" rx="6" fill="#F4F6F7" stroke="#5D6D7E" stroke-width="1.6"/>
+<text x="48.0" y="144.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Actor</tspan></text>
+<text x="312.0" y="144.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="312.0" dy="0">Can</tspan></text>
+<text x="556.0" y="144.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="556.0" dy="0">Boundary</tspan></text>
+<text x="820.0" y="144.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="820.0" dy="0">Surface</tspan></text>
+<text x="1084.0" y="144.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="1084.0" dy="0">Asset harmed</tspan></text>
+<text x="1378.0" y="144.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="1378.0" dy="0">Scored objective</tspan></text>
+<rect x="36.0" y="170.0" width="1688.0" height="92.0" rx="8" fill="#FDEDEC" stroke="#922B21" stroke-width="1.4"/>
+<text x="48.0" y="202.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Content injector</tspan></text>
+<text x="312.0" y="202.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="312.0" dy="0">Write text the agent will</tspan><tspan x="312.0" dy="17">read</tspan></text>
+<text x="556.0" y="202.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="556.0" dy="0">TB1</tspan></text>
+<text x="820.0" y="202.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="820.0" dy="0">Untrusted content</tspan></text>
+<text x="1084.0" y="202.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1084.0" dy="0">Task, data, tool effect</tspan></text>
+<text x="1378.0" y="202.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1378.0" dy="0">Replacement, exfiltration,</tspan><tspan x="1378.0" dy="17">unauthorized call</tspan></text>
+<rect x="36.0" y="270.0" width="1688.0" height="92.0" rx="8" fill="#FDEDEC" stroke="#922B21" stroke-width="1.4"/>
+<text x="48.0" y="302.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Instruction adversary</tspan></text>
+<text x="312.0" y="302.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="312.0" dy="0">Supply the user</tspan><tspan x="312.0" dy="17">instruction</tspan></text>
+<text x="556.0" y="302.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="556.0" dy="0">TB1</tspan></text>
+<text x="820.0" y="302.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="820.0" dy="0">Instruction channel</tspan></text>
+<text x="1084.0" y="302.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1084.0" dy="0">Tool effect, user data</tspan></text>
+<text x="1378.0" y="302.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1378.0" dy="0">Unauthorized tool effect</tspan><tspan x="1378.0" dy="17">only</tspan></text>
+<rect x="36.0" y="370.0" width="1688.0" height="92.0" rx="8" fill="#FDEDEC" stroke="#922B21" stroke-width="1.4"/>
+<text x="48.0" y="402.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Tool publisher</tspan></text>
+<text x="312.0" y="402.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="312.0" dy="0">Publish a manual or</tspan><tspan x="312.0" dy="17">implementation</tspan></text>
+<text x="556.0" y="402.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="556.0" dy="0">TB2</tspan></text>
+<text x="820.0" y="402.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="820.0" dy="0">Description or code</tspan></text>
+<text x="1084.0" y="402.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1084.0" dy="0">Tool effect, user data</tspan></text>
+<text x="1378.0" y="402.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1378.0" dy="0">Wrong tool, or a hidden</tspan><tspan x="1378.0" dy="17">effect</tspan></text>
+<rect x="36.0" y="470.0" width="1688.0" height="92.0" rx="8" fill="#FDEDEC" stroke="#922B21" stroke-width="1.4"/>
+<text x="48.0" y="502.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Peer agent</tspan></text>
+<text x="312.0" y="502.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="312.0" dy="0">Send a message</tspan></text>
+<text x="556.0" y="502.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="556.0" dy="0">TB4</tspan></text>
+<text x="820.0" y="502.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="820.0" dy="0">Peer message</tspan></text>
+<text x="1084.0" y="502.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1084.0" dy="0">Tool effect on receiver</tspan></text>
+<text x="1378.0" y="502.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1378.0" dy="0">Peer-caused call, scored</tspan><tspan x="1378.0" dy="17">alone</tspan></text>
+<rect x="36.0" y="570.0" width="1688.0" height="92.0" rx="8" fill="#FBFCFC" stroke="#5D6D7E" stroke-width="1.4" stroke-dasharray="7 4"/>
+<text x="48.0" y="602.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Model or trace supplier</tspan></text>
+<text x="312.0" y="602.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="312.0" dy="0">Poison weights or tool-use</tspan><tspan x="312.0" dy="17">traces</tspan></text>
+<text x="556.0" y="602.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="556.0" dy="0">Supply chain</tspan></text>
+<text x="820.0" y="602.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="820.0" dy="0">Model or tool code</tspan></text>
+<text x="1084.0" y="602.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1084.0" dy="0">Tool effect</tspan></text>
+<text x="1378.0" y="602.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1378.0" dy="0">Only if that pipeline is</tspan><tspan x="1378.0" dy="17">listed</tspan></text>
+<rect x="36.0" y="670.0" width="1688.0" height="92.0" rx="8" fill="#FBFCFC" stroke="#5D6D7E" stroke-width="1.4" stroke-dasharray="7 4"/>
+<text x="48.0" y="702.0" font-size="13" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="48.0" dy="0">Internal evolution</tspan></text>
+<text x="312.0" y="702.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="312.0" dy="0">Write a later session’s</tspan><tspan x="312.0" dy="17">state</tspan></text>
+<text x="556.0" y="702.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="556.0" dy="0">TB3</tspan></text>
+<text x="820.0" y="702.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="820.0" dy="0">Memory or registry</tspan></text>
+<text x="1084.0" y="702.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1084.0" dy="0">Memory, user task</tspan></text>
+<text x="1378.0" y="702.0" font-size="13" fill="#1C2833" text-anchor="start"><tspan x="1378.0" dy="0">Only if the agent</tspan><tspan x="1378.0" dy="17">self-updates</tspan></text>
+<rect x="36.0" y="790.0" width="1688.0" height="150.0" rx="10" fill="#F4F6F7" stroke="#5D6D7E" stroke-width="1.6"/>
+<text x="52.0" y="822.0" font-size="15" fill="#1C2833" text-anchor="start" font-weight="600"><tspan x="52.0" dy="0">Out of scope for this map</tspan></text>
+<text x="52.0" y="852.0" font-size="14" fill="#1C2833" text-anchor="start"><tspan x="52.0" dy="0">Chat-only jailbreak. Host compromise that never appears as a listed carrier. Training-time poisoning when the pipeline is unlisted.</tspan></text>
+<text x="52.0" y="876.0" font-size="14" fill="#1C2833" text-anchor="start"><tspan x="52.0" dy="0">A peer or a self-update that Stage 1 waived. Any objective that cannot be written as a tool, memory, message, or task check.</tspan></text>
+<text x="52.0" y="908.0" font-size="14" fill="#1C2833" text-anchor="start"><tspan x="52.0" dy="0">Psychological multi-agent scores are not given an attack-success cell. They use a different observation and are not added to tool traces.</tspan></text>
+</svg>

@@ -1,0 +1,54 @@
+{
+  "source_records": 3059,
+  "selected": 486,
+  "excluded": 2573,
+  "missing": 0,
+  "both": 0,
+  "dup_doi_keys": 0,
+  "dup_doi_extra_rows": 0,
+  "dup_title_keys": 3,
+  "dup_title_extra_rows": 3,
+  "priority_counts": {
+    "Other peer-reviewed conferences and workshops": 486
+  },
+  "ieee_conf_selected": 307,
+  "ieee_journal_selected": 0,
+  "non_ieee_selected": 179,
+  "workshop_selected": 55,
+  "exclusion_groups": {
+    "Journal; quartile and indexing not verified": 334,
+    "Proceedings item; container not verified as a conference or workshop": 112,
+    "Proceedings item; publisher not verified for category 12": 11,
+    "Proceedings item outside the retained full-paper set": 3,
+    "Preprint": 1863,
+    "Book": 6,
+    "Book chapter": 64,
+    "Dissertation": 2,
+    "Monograph": 3,
+    "report": 2,
+    "review": 1,
+    "Peer review": 1,
+    "Report component": 1,
+    "IEEE record; type unverified": 9,
+    "Unverified venue": 161
+  },
+  "ieee_excluded": {
+    "IEEE journal": 58,
+    "IEEE conference proceedings": 3,
+    "IEEE record; type not a verified journal or conference": 19
+  },
+  "crossref_status": {
+    "retrieved": 1134,
+    "no_doi": 952,
+    "not_in_crossref": 973
+  },
+  "zotero_rows": 3059,
+  "zotero_ids_missing_from_source": [
+    "Z-9XY6VHXI"
+  ],
+  "source_ids_missing_from_zotero": [
+    "P000818",
+    "P000873",
+    "P002352"
+  ]
+}

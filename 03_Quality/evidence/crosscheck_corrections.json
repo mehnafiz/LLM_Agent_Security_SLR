@@ -1,0 +1,3034 @@
+{
+  "summary": {
+    "original_selected": 486,
+    "original_excluded": 2573,
+    "final_selected": 606,
+    "final_excluded": 2453,
+    "missing": 0,
+    "both": 0,
+    "unique_accounted": 3059,
+    "priority": {
+      "2": 145,
+      "4": 21,
+      "7": 39,
+      "9": 12,
+      "12": 389
+    },
+    "moved_s_to_e": 0,
+    "moved_e_to_s": 120,
+    "reclassified_in_selected": 179,
+    "corrections": 299,
+    "source_ids": 3059,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "preview": {
+    "selected_stay_12": 316,
+    "selected_rank_A*": 101,
+    "selected_rank_B": 37,
+    "selected_rank_A": 21,
+    "selected_rank_C": 11,
+    "selected_nonletter_note": 9,
+    "excluded_stay": 2453,
+    "excluded_to_rank_A*": 44,
+    "excluded_procedia_to_12": 2,
+    "excluded_ceur_to_12": 1,
+    "excluded_to_rank_C": 1,
+    "excluded_findings_to_12": 68,
+    "excluded_to_rank_B": 2,
+    "excluded_sbseg_to_12": 1,
+    "excluded_ieee_name_to_12": 1
+  },
+  "corrections": [
+    {
+      "Paper_ID": "P002542",
+      "Title": "<scp>ReplicatorBench:</scp> Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (KDD A*)",
+      "Reason": "ICORE2026 ranks KDD A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/26/"
+    },
+    {
+      "Paper_ID": "P001677",
+      "Title": "A Federated MCP Gateway: Enforceable Isolation and Measuring Residual Semantic Attacks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (NOMS B)",
+      "Reason": "ICORE2026 ranks NOMS B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/723/"
+    },
+    {
+      "Paper_ID": "P001686",
+      "Title": "A First Look at the Security Issues in the Model Context Protocol Ecosystem",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (DSN A)",
+      "Reason": "ICORE2026 ranks DSN A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/787/"
+    },
+    {
+      "Paper_ID": "P002590",
+      "Title": "A Security Analysis of the OpenClaw AI Agent Framework",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (ICCCN B)",
+      "Reason": "ICORE2026 ranks ICCCN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2038/"
+    },
+    {
+      "Paper_ID": "P002743",
+      "Title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000883",
+      "Title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P000906",
+      "Title": "AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000918",
+      "Title": "AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SIGIR A*)",
+      "Reason": "ICORE2026 ranks SIGIR A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/29/"
+    },
+    {
+      "Paper_ID": "P000922",
+      "Title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000968",
+      "Title": "AgentFuzz: Trace-Level Fuzzing for Prompt Spillover in LLM Multi-Agent Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (ICMLA C)",
+      "Reason": "ICORE2026 ranks ICMLA C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1122/"
+    },
+    {
+      "Paper_ID": "P001007",
+      "Title": "Agentic Service-Oriented Computing: A Manifesto for the Next Frontier of Service-Oriented Computing",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICWS A)",
+      "Reason": "ICORE2026 ranks ICWS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/678/"
+    },
+    {
+      "Paper_ID": "P001040",
+      "Title": "AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P001041",
+      "Title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ICSE A*)",
+      "Reason": "ICORE2026 ranks ICSE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1209/"
+    },
+    {
+      "Paper_ID": "P001052",
+      "Title": "AGSSA: Agentic Guardian System for SOC Analysts",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (ISI C)",
+      "Reason": "ICORE2026 ranks ISI C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/658/"
+    },
+    {
+      "Paper_ID": "P001069",
+      "Title": "ALERT: Zero-shot LLM Jailbreak Detection via Internal Discrepancy Amplification",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P001076",
+      "Title": "ALIoTh: Orchestrating Multi-Agent LLMs for Autonomous IoT Penetration Testing",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (NOMS B)",
+      "Reason": "ICORE2026 ranks NOMS B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/723/"
+    },
+    {
+      "Paper_ID": "P002247",
+      "Title": "An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (DCOSS B)",
+      "Reason": "ICORE2026 ranks DCOSS B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/644/"
+    },
+    {
+      "Paper_ID": "P001116",
+      "Title": "Assessing Defenses Against Prompt Injection Attacks in LLM Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P001123",
+      "Title": "ATAG: AI-Agent Application Threat Assessment with Attack Graphs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (AsiaCCS A)",
+      "Reason": "ICORE2026 ranks AsiaCCS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/61/"
+    },
+    {
+      "Paper_ID": "P001131",
+      "Title": "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P001134",
+      "Title": "ATTN-Defense: Attention-Guided Detection, Location and Removal for Indirect Prompt Injection",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P001135",
+      "Title": "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P001176",
+      "Title": "AVDA: Autonomous Vibe Detection Authoring for Cybersecurity",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (FSE A*)",
+      "Reason": "ICORE2026 ranks FSE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/52/"
+    },
+    {
+      "Paper_ID": "P001187",
+      "Title": "Behavior-Guided Decompilation of AVR Firmware with Autonomous LLM Agents : Paper Type: Practical Experience Report",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (DSN A)",
+      "Reason": "ICORE2026 ranks DSN A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/787/"
+    },
+    {
+      "Paper_ID": "P001240",
+      "Title": "BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P001271",
+      "Title": "Bypassing Prompt Injection Detectors through Evasive Injections",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P001317",
+      "Title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P001372",
+      "Title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P001388",
+      "Title": "Context-Construction-Based Prompt Injection in Document-Centric LLM Decision Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P001506",
+      "Title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICWS A)",
+      "Reason": "ICORE2026 ranks ICWS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/678/"
+    },
+    {
+      "Paper_ID": "P001578",
+      "Title": "Efficient LLM Safety Evaluation through Multi-Agent Debate",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P001599",
+      "Title": "Enhancing Risk Awareness in LLM Agents via Probing Safety Boundaries",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P001649",
+      "Title": "EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P001685",
+      "Title": "FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P001728",
+      "Title": "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P001797",
+      "Title": "Guardrailing LLM and Agentic Decisions for 6G AI-RAN",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IEEE CCNC B)",
+      "Reason": "ICORE2026 ranks IEEE CCNC B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/616/"
+    },
+    {
+      "Paper_ID": "P001800",
+      "Title": "HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human\u2013LLM Collaborative Writing",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P001831",
+      "Title": "How Your Credentials Are Leaked by LLM Agent Skills: An Empirical Study",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ASE A*)",
+      "Reason": "ICORE2026 ranks ASE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/279/"
+    },
+    {
+      "Paper_ID": "P001835",
+      "Title": "Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICWS A)",
+      "Reason": "ICORE2026 ranks ICWS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/678/"
+    },
+    {
+      "Paper_ID": "P001913",
+      "Title": "Invisible to Humans, Triggered by Agents: Stealthy Jailbreak Attacks on Mobile Vision\u2013Language Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P001915",
+      "Title": "IPI <sup>2</sup> : Mitigating Indirect Prompt Injections on Unmanned Aerial Vehicle Agents Using Physical Invariants",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P001978",
+      "Title": "Linguistic Pattern\u2013Enriched Transformers for Prompt Injection Detection in LLM Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (FUZZ-IEEE B)",
+      "Reason": "ICORE2026 ranks FUZZ-IEEE B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/649/"
+    },
+    {
+      "Paper_ID": "P001984",
+      "Title": "LLM Agent-based Shilling Attack on Recommender Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (WSDM A)",
+      "Reason": "ICORE2026 ranks WSDM A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/31/"
+    },
+    {
+      "Paper_ID": "P002006",
+      "Title": "LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (ICCCN B)",
+      "Reason": "ICORE2026 ranks ICCCN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2038/"
+    },
+    {
+      "Paper_ID": "P002013",
+      "Title": "LLM-VA: Resolving the Jailbreak-Overrefusal Trade-off via Vector Alignment",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P002016",
+      "Title": "LLMS Do Not Always Say No: A Parallel Multi-Agent Jailbreak Framework Via Probabilistic Vulnerability",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P002026",
+      "Title": "LogicInception: Discourse-Level Indirect Prompt Injection via Causal Chain Construction",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002030",
+      "Title": "Loki's Gaze: An Efficient Detection Method of LLM Backdoor with Prompt Injection Attacks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICWS A)",
+      "Reason": "ICORE2026 ranks ICWS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/678/"
+    },
+    {
+      "Paper_ID": "P002055",
+      "Title": "Mapping the Design Space of User Experience for Computer Use Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (IUI A)",
+      "Reason": "ICORE2026 ranks IUI A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1101/"
+    },
+    {
+      "Paper_ID": "P002060",
+      "Title": "MazeBreaker: Multi-Agent Reinforcement Learning for Dynamic Jailbreaking of LLM Security Defenses",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ICSE A*)",
+      "Reason": "ICORE2026 ranks ICSE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1209/"
+    },
+    {
+      "Paper_ID": "P002099",
+      "Title": "Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002136",
+      "Title": "MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P002145",
+      "Title": "Mitigating Semantic Confusion in LLM-Integrated Web Services via Dynamic Dual-Stream Intent Matching",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICWS A)",
+      "Reason": "ICORE2026 ranks ICWS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/678/"
+    },
+    {
+      "Paper_ID": "P002207",
+      "Title": "Not Just Detection: Aligned-Driven Purification of Indirect Prompt Injection for Reliable Agent Interaction",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P002210",
+      "Title": "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P002261",
+      "Title": "P <scp>riv</scp> M <scp>em</scp> : Privacy-Preserving Temporal Motif Mining over Cross-User Agent Memory Graphs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (CIKM A)",
+      "Reason": "ICORE2026 ranks CIKM A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/25/"
+    },
+    {
+      "Paper_ID": "P002268",
+      "Title": "Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P002288",
+      "Title": "PIArena: A Platform for Prompt Injection Evaluation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P002294",
+      "Title": "PINA: Prompt Injection Attack Against Navigation Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P002295",
+      "Title": "PISanitizer: Preventing Prompt Injection to Long-Context LLMs via Prompt Sanitization",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002299",
+      "Title": "PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P002343",
+      "Title": "ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ASE A*)",
+      "Reason": "ICORE2026 ranks ASE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/279/"
+    },
+    {
+      "Paper_ID": "P002358",
+      "Title": "Prompt Injection as a Systemic Vulnerability in LLM-Based Tools: Threat Models, Empirical Analysis, and Mitigation Strategies",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (SERA C)",
+      "Reason": "ICORE2026 ranks SERA C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/9/"
+    },
+    {
+      "Paper_ID": "P002361",
+      "Title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P002393",
+      "Title": "PromptLocate: Localizing Prompt Injection Attacks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P002483",
+      "Title": "RIPE-II: Retrieval In-Place Poisoning Evaluation with Indirect Injections",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (DSN A)",
+      "Reason": "ICORE2026 ranks DSN A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/787/"
+    },
+    {
+      "Paper_ID": "P002487",
+      "Title": "Robust Multi-Agent LLMs under Byzantine Faults",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002513",
+      "Title": "Safeguarding LLM Agents from Misalignment through Provenance Analysis",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ASE A*)",
+      "Reason": "ICORE2026 ranks ASE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/279/"
+    },
+    {
+      "Paper_ID": "P002523",
+      "Title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P002550",
+      "Title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002630",
+      "Title": "Semantic Manipulation Attacks in Agentic AI Systems with Agent-to-Agent Communication and Model-Context-Protocol\u2013Based Tool Invocation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (INFOCOM A*)",
+      "Reason": "ICORE2026 ranks INFOCOM A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2074/"
+    },
+    {
+      "Paper_ID": "P002636",
+      "Title": "Setup AGent (SAG): A Dual-Model LLM Agent for Autonomous End-to-End Java Project Configuration",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ICSE A*)",
+      "Reason": "ICORE2026 ranks ICSE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1209/"
+    },
+    {
+      "Paper_ID": "P002637",
+      "Title": "SHADOW: A Hallucination-Aware LLM Agent for Automated CWE-Based Vulnerability Classification",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (COMPSAC B)",
+      "Reason": "ICORE2026 ranks COMPSAC B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/871/"
+    },
+    {
+      "Paper_ID": "P002659",
+      "Title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P002662",
+      "Title": "SkillAttack: Automated Red Teaming of Agent Skills through Attack Path Refinement",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002672",
+      "Title": "SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002699",
+      "Title": "SOP-Bench: Complex Industrial SOPs for Evaluating LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (KDD A*)",
+      "Reason": "ICORE2026 ranks KDD A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/26/"
+    },
+    {
+      "Paper_ID": "P002703",
+      "Title": "SPDAgent: Leveraging LLM Agents for Context-Aware Binary Security Patch Detection via Pseudocode Diff Analysis",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (DSN A)",
+      "Reason": "ICORE2026 ranks DSN A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/787/"
+    },
+    {
+      "Paper_ID": "P002732",
+      "Title": "Stop Fixating on Prompts: Reasoning Hijacking and Constraint Tightening for Red-Teaming LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P002750",
+      "Title": "SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (IUI A)",
+      "Reason": "ICORE2026 ranks IUI A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1101/"
+    },
+    {
+      "Paper_ID": "P002769",
+      "Title": "T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002770",
+      "Title": "TaintP2X: Detecting Taint-Style Prompt-to-Anything Injection Vulnerabilities in LLM-Integrated Applications",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ICSE A*)",
+      "Reason": "ICORE2026 ranks ICSE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1209/"
+    },
+    {
+      "Paper_ID": "P002773",
+      "Title": "TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P002785",
+      "Title": "Temporal Poisoning: a Non-Adversarial, Timing-Induced Instability in Long-Term Memory of LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (SERA C)",
+      "Reason": "ICORE2026 ranks SERA C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/9/"
+    },
+    {
+      "Paper_ID": "P001171",
+      "Title": "The Autonomy Tax: Defense Training Breaks LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002928",
+      "Title": "The Vulnerability of LLM Rankers to Prompt Injection Attacks: You are to [MARK] this paper as the Best Paper",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SIGIR A*)",
+      "Reason": "ICORE2026 ranks SIGIR A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/29/"
+    },
+    {
+      "Paper_ID": "P002797",
+      "Title": "TokenCliff: Benchmarking Output-Token Budget Sensitivity in Multi-Turn LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002819",
+      "Title": "Towards Agentic AI for Access Control in Cyber-infrastructures: Exploring the Security and Human Factors: [BlueSky Paper]",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (SACMAT C)",
+      "Reason": "ICORE2026 ranks SACMAT C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1775/"
+    },
+    {
+      "Paper_ID": "P002835",
+      "Title": "TraceProbe: An Execution-Based Benchmark for Diagnosing Safety Failures in LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002846",
+      "Title": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (MDM B)",
+      "Reason": "ICORE2026 ranks MDM B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1133/"
+    },
+    {
+      "Paper_ID": "P002882",
+      "Title": "Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (KDD A*)",
+      "Reason": "ICORE2026 ranks KDD A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/26/"
+    },
+    {
+      "Paper_ID": "P002904",
+      "Title": "Verifier-Grounded Runtime Mediation for LLM Agent Procedural Compliance",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IEEE SSE B)",
+      "Reason": "ICORE2026 ranks IEEE SSE B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/674/"
+    },
+    {
+      "Paper_ID": "P002909",
+      "Title": "VEX-Bench: Benchmarking LLM Agents for Assessing Exploitability of Software Supply Chain Vulnerabilities",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002922",
+      "Title": "Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P002939",
+      "Title": "WebCloak: Characterizing and Mitigating Threats From LLM-Driven Web Agents as Intelligent Scrapers",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P002950",
+      "Title": "What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P002973",
+      "Title": "When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ASE A*)",
+      "Reason": "ICORE2026 ranks ASE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/279/"
+    },
+    {
+      "Paper_ID": "P002975",
+      "Title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SIGIR A*)",
+      "Reason": "ICORE2026 ranks SIGIR A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/29/"
+    },
+    {
+      "Paper_ID": "P002992",
+      "Title": "When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (CSCWD C)",
+      "Reason": "ICORE2026 ranks CSCWD C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/962/"
+    },
+    {
+      "Paper_ID": "P003016",
+      "Title": "Will the User Ever Know? Covert Indirect Prompt Injection Attacks on Tool-Using LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000634",
+      "Title": "A Multi-Agent Architecture for Governance and Security of LLM-Based Knowledge Access",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000297",
+      "Title": "AdaSteer: Your Aligned LLM is Inherently an Adaptive Jailbreak Defender",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000325",
+      "Title": "Agentic Generative AI for Automation of Cyber Security Attack Chains in Tactical MANETs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (LCN B)",
+      "Reason": "ICORE2026 ranks LCN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/607/"
+    },
+    {
+      "Paper_ID": "P000329",
+      "Title": "Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000331",
+      "Title": "AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (CCS A*)",
+      "Reason": "ICORE2026 ranks CCS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/12/"
+    },
+    {
+      "Paper_ID": "P000341",
+      "Title": "Analyzing Code Injection Attacks on LLM-based Multi-Agent Systems in Software Development",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (ICMLA C)",
+      "Reason": "ICORE2026 ranks ICMLA C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1122/"
+    },
+    {
+      "Paper_ID": "P000366",
+      "Title": "AutoPentester: An LLM Agent-based Framework for Automated Pentesting",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (TrustCom B)",
+      "Reason": "ICORE2026 ranks TrustCom B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/790/"
+    },
+    {
+      "Paper_ID": "P000367",
+      "Title": "AutoTPA: Automated and Efficient Trigger-Targeted Data Poisoning in Retrieval-Augmented Generation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (ICPADS B)",
+      "Reason": "ICORE2026 ranks ICPADS B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1164/"
+    },
+    {
+      "Paper_ID": "P000371",
+      "Title": "Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (KDD A*)",
+      "Reason": "ICORE2026 ranks KDD A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/26/"
+    },
+    {
+      "Paper_ID": "P000380",
+      "Title": "Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000385",
+      "Title": "Can Indirect Prompt Injection Attacks Be Detected and Removed?",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000396",
+      "Title": "CityEQA: A Hierarchical LLM Agent on Embodied Question Answering Benchmark in City Space",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000398",
+      "Title": "Clouseau: A Hierarchical Multi-Agent Approach for Autonomous Attack Investigation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ACSAC A)",
+      "Reason": "ICORE2026 ranks ACSAC A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/117/"
+    },
+    {
+      "Paper_ID": "P000430",
+      "Title": "DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P000437",
+      "Title": "Defense Against Prompt Injection Attack by Leveraging Attack Techniques",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000446",
+      "Title": "DiffusionAttacker: Diffusion-Driven Prompt Manipulation for LLM Jailbreak",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000458",
+      "Title": "Effective Red-Teaming of Policy-Adherent Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000464",
+      "Title": "End-to-End Security Policy Automation with Multi-LLM Agents in Cloud-Native Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (TrustCom B)",
+      "Reason": "ICORE2026 ranks TrustCom B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/790/"
+    },
+    {
+      "Paper_ID": "P000465",
+      "Title": "Enhancing 6G Network Resilience through HORSE\u2019s LLM Agent-Based Security Mechanisms",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (GLOBECOM B)",
+      "Reason": "ICORE2026 ranks GLOBECOM B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2030/"
+    },
+    {
+      "Paper_ID": "P000473",
+      "Title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (KDD A*)",
+      "Reason": "ICORE2026 ranks KDD A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/26/"
+    },
+    {
+      "Paper_ID": "P000482",
+      "Title": "Exploring Potential Prompt Injection Attacks in Federated Military LLMs and Their Mitigation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000483",
+      "Title": "Exploring Privacy and Security Risks in LLMs: Data Leakage, Prompt Injection, and Membership Inference",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (ISM C)",
+      "Reason": "ICORE2026 ranks ISM C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/701/"
+    },
+    {
+      "Paper_ID": "P000491",
+      "Title": "Fine-tuned Large Language Models (LLMs): Improved Prompt Injection Attacks Detection",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (COMPSAC B)",
+      "Reason": "ICORE2026 ranks COMPSAC B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/871/"
+    },
+    {
+      "Paper_ID": "P000505",
+      "Title": "Fuzz-Testing Meets LLM-Based Agents: An Automated and Efficient Framework for Jailbreaking Text-to-Image Generation Models",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (SP A*)",
+      "Reason": "ICORE2026 ranks SP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/750/"
+    },
+    {
+      "Paper_ID": "P000506",
+      "Title": "G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000518",
+      "Title": "GuideBench: Benchmarking Domain-Oriented Guideline Following for LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000543",
+      "Title": "IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000588",
+      "Title": "MAJD: Intent-Aware Multi-Agent Framework for Jailbreak Defense",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (APSEC C)",
+      "Reason": "ICORE2026 ranks APSEC C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/186/"
+    },
+    {
+      "Paper_ID": "P000639",
+      "Title": "Multi-Step Adaptive Attack Agent: A Dynamic Approach for Jailbreaking Large Language Models",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (ICTAI B)",
+      "Reason": "ICORE2026 ranks ICTAI B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1251/"
+    },
+    {
+      "Paper_ID": "P000640",
+      "Title": "MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000654",
+      "Title": "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNLP B)",
+      "Reason": "ICORE2026 ranks IJCNLP B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1317/"
+    },
+    {
+      "Paper_ID": "P000664",
+      "Title": "PeerGuard: Defending Multi-Agent Systems Against Backdoor Attacks Through Mutual Reasoning",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label National: USA (IRI)",
+      "Reason": "ICORE2026 lists IRI as National: USA, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/657/"
+    },
+    {
+      "Paper_ID": "P000666",
+      "Title": "PentestAgent: Incorporating LLM Agents to Automated Penetration Testing",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (AsiaCCS A)",
+      "Reason": "ICORE2026 ranks AsiaCCS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/61/"
+    },
+    {
+      "Paper_ID": "P000670",
+      "Title": "PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICME A)",
+      "Reason": "ICORE2026 ranks ICME A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/664/"
+    },
+    {
+      "Paper_ID": "P000671",
+      "Title": "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense for Free",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000682",
+      "Title": "Prompt Crossing: Evaluating Whether LLM Response Stem from Jailbreak or Normal Prompt",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P000708",
+      "Title": "Quantifying Privacy Leakage in Multi-Agent LLMs: A Unified Theoretical and Empirical Analysis",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000710",
+      "Title": "RAG-Targeted Adversarial Attack on LLM-Based Threat Detection and Mitigation Framework",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000745",
+      "Title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (CCS A*)",
+      "Reason": "ICORE2026 ranks CCS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/12/"
+    },
+    {
+      "Paper_ID": "P000750",
+      "Title": "SecureFixAgent: A Hybrid LLM Agent for Automated Python Static Vulnerability Repair",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (ICMLA C)",
+      "Reason": "ICORE2026 ranks ICMLA C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1122/"
+    },
+    {
+      "Paper_ID": "P000767",
+      "Title": "Security Debt in LLM Agent Applications: A Measurement Study of Vulnerabilities and Mitigation Trade-offs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ASE A*)",
+      "Reason": "ICORE2026 ranks ASE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/279/"
+    },
+    {
+      "Paper_ID": "P000770",
+      "Title": "Security of LLM Agents: A Case Study Approach",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (TrustCom B)",
+      "Reason": "ICORE2026 ranks TrustCom B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/790/"
+    },
+    {
+      "Paper_ID": "P000773",
+      "Title": "Semantically-Aware LLM Agent to Enhance Privacy in Conversational AI Services",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000781",
+      "Title": "SHIELD: Security against Harmful Prompt Injection Evaluation and Language Detection Leveraging Ensemble Approach",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 9: CORE C Conference (IECON C)",
+      "Reason": "ICORE2026 ranks IECON C. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2321/"
+    },
+    {
+      "Paper_ID": "P000789",
+      "Title": "SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy Risks, and Mitigation",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (AsiaCCS A)",
+      "Reason": "ICORE2026 ranks AsiaCCS A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/61/"
+    },
+    {
+      "Paper_ID": "P000803",
+      "Title": "Swiss Cheese Model for AI Safety: A Taxonomy and Reference Architecture for Multi-Layered Guardrails of Foundation Model Based Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (ICSA A)",
+      "Reason": "ICORE2026 ranks ICSA A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/791/"
+    },
+    {
+      "Paper_ID": "P000812",
+      "Title": "Task Offloading for Collaborative Inference of LLM Agents at the Network Edge",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (MASS B)",
+      "Reason": "ICORE2026 ranks MASS B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/663/"
+    },
+    {
+      "Paper_ID": "P000817",
+      "Title": "Temporal Privacy Drift in Tool-Augmented Large Language Models: A Quantitative Framework for Big Data System Security",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000814",
+      "Title": "The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000828",
+      "Title": "TopicAttack: An Indirect Prompt Injection Attack via Topic Transition",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000836",
+      "Title": "Towards the Versioning of LLM-Agent-Based Software",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (FSE A*)",
+      "Reason": "ICORE2026 ranks FSE A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/52/"
+    },
+    {
+      "Paper_ID": "P000839",
+      "Title": "Transferable Direct Prompt Injection via Activation-Guided MCMC Sampling",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000845",
+      "Title": "Unveiling Privacy Risks in LLM Agent Memory",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000861",
+      "Title": "WebInject: Prompt Injection Attack to Web Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000136",
+      "Title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (CCS A*)",
+      "Reason": "ICORE2026 ranks CCS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/12/"
+    },
+    {
+      "Paper_ID": "P000199",
+      "Title": "A LLM-based agent for the automatic generation and generalization of IDS rules",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (TrustCom B)",
+      "Reason": "ICORE2026 ranks TrustCom B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/790/"
+    },
+    {
+      "Paper_ID": "P000203",
+      "Title": "A Low-cost Black-box Jailbreak Based on Custom Mapping Dictionary with Multi-round Induction",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (TrustCom B)",
+      "Reason": "ICORE2026 ranks TrustCom B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/790/"
+    },
+    {
+      "Paper_ID": "P000106",
+      "Title": "AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000109",
+      "Title": "Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (NAACL A)",
+      "Reason": "ICORE2026 ranks NAACL A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1648/"
+    },
+    {
+      "Paper_ID": "P000110",
+      "Title": "BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000120",
+      "Title": "CheatAgent: Attacking LLM-Empowered Recommender Systems via LLM Agent",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (KDD A*)",
+      "Reason": "ICORE2026 ranks KDD A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/26/"
+    },
+    {
+      "Paper_ID": "P000126",
+      "Title": "CRDA: Content Risk Drift Assessment of Large Language Models through Adversarial Multi-Agent Interaction",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P000127",
+      "Title": "CryptoTrade: A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000131",
+      "Title": "Defending Jailbreak Prompts via In-Context Adversarial Game",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000133",
+      "Title": "Demystifying RCE Vulnerabilities in LLM-Integrated Apps",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (CCS A*)",
+      "Reason": "ICORE2026 ranks CCS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/12/"
+    },
+    {
+      "Paper_ID": "P000147",
+      "Title": "Evaluating the Instruction-Following Robustness of Large Language Models to Prompt Injection",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000160",
+      "Title": "Frontiers of Large Language Model-Based Agentic Systems - Construction, Efficacy and Safety",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 4: CORE A / CCF B Conference (CIKM A)",
+      "Reason": "ICORE2026 ranks CIKM A. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/25/"
+    },
+    {
+      "Paper_ID": "P000161",
+      "Title": "FuzzLLM: A Novel and Universal Fuzzing Framework for Proactively Discovering Jailbreak Vulnerabilities in Large Language Models",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 12, CORE label Multiconference (ICASSP)",
+      "Reason": "ICORE2026 lists ICASSP as Multiconference, which is not an A*, A, B, or C rank, so the paper stays in category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2042/"
+    },
+    {
+      "Paper_ID": "P000163",
+      "Title": "Goal-Guided Generative Prompt Injection Attack on Large Language Models",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ICDM A*)",
+      "Reason": "ICORE2026 ranks ICDM A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/642/"
+    },
+    {
+      "Paper_ID": "P000204",
+      "Title": "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000206",
+      "Title": "MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (NDSS A*)",
+      "Reason": "ICORE2026 ranks NDSS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1840/"
+    },
+    {
+      "Paper_ID": "P000209",
+      "Title": "Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000217",
+      "Title": "Next-Generation Phishing: How LLM Agents Empower Cyber Attackers",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (BigData B)",
+      "Reason": "ICORE2026 ranks BigData B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/2274/"
+    },
+    {
+      "Paper_ID": "P000218",
+      "Title": "Optimization-based Prompt Injection Attack to LLM-as-a-Judge",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (CCS A*)",
+      "Reason": "ICORE2026 ranks CCS A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/12/"
+    },
+    {
+      "Paper_ID": "P000220",
+      "Title": "OSAgent: Copiloting Operating System with LLM-based Agent",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference (IJCNN B)",
+      "Reason": "ICORE2026 ranks IJCNN B. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/685/"
+    },
+    {
+      "Paper_ID": "P000238",
+      "Title": "PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (ACL A*)",
+      "Reason": "ICORE2026 ranks ACL A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/196/"
+    },
+    {
+      "Paper_ID": "P000255",
+      "Title": "Small LLMs Are Weak Tool Learners: A Multi-LLM Agent",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000281",
+      "Title": "Watch Every Step! LLM Agent Learning via Iterative Step-level Process Refinement",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P000035",
+      "Title": "HiddenTables and PyQTax: A Cooperative Game and Dataset For TableQA to Ensure Scale and Data Privacy Across a Myriad of Taxonomies",
+      "Original Workbook": "Selected",
+      "Final Workbook": "Selected",
+      "Original Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference* (EMNLP A*)",
+      "Reason": "ICORE2026 ranks EMNLP A*. The previous label was unranked category 12.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/448/"
+    },
+    {
+      "Paper_ID": "P001035",
+      "Title": "AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P001128",
+      "Title": "Attack the Messages, Not the Agents: A Multi-round Adaptive Stealthy Tampering Framework for LLM-MAS",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P001880",
+      "Title": "Influence Factors on RAG Poisoning",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "Procedia Computer Science is a conference-proceedings series, not a ranked journal quartile.",
+      "Evidence URL": "https://doi.org/10.1016/j.procs.2026.09.135"
+    },
+    {
+      "Paper_ID": "P002063",
+      "Title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with MCP-Mediated Tools",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P002084",
+      "Title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P002173",
+      "Title": "MPMA: Preference Manipulation Attack Against Model Context Protocol",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P002517",
+      "Title": "SafeSieve: From Heuristics to Experience in Progressive Pruning for LLM-based Multi-Agent Communication",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P002640",
+      "Title": "Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P002821",
+      "Title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 AAAI A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1629/"
+    },
+    {
+      "Paper_ID": "P000786",
+      "Title": "Simulation of prompt injection attacks on generative pre-trained transformers models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Journal; quartile and indexing not verified",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "Procedia Computer Science is a conference-proceedings series, not a ranked journal quartile.",
+      "Evidence URL": "https://doi.org/10.1016/j.procs.2025.08.292"
+    },
+    {
+      "Paper_ID": "P001703",
+      "Title": "A framework for efficient and secure LLM agency: a case for the GraphQL paradigm",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; publisher not verified for category 12",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "CEUR workshop proceedings are a peer-reviewed workshop series. No CORE letter rank.",
+      "Evidence URL": "https://doi.org/10.55056/cssesw2025/paper07"
+    },
+    {
+      "Paper_ID": "P002183",
+      "Title": "A Multi-Layered Large Language Model Firewall: Defense-in-Depth against Prompt Injection",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; publisher not verified for category 12",
+      "Corrected Classification": "Priority 9: CORE C Conference",
+      "Reason": "Venue matches ICORE2026 IC3K C. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/1316/"
+    },
+    {
+      "Paper_ID": "P000941",
+      "Title": "Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1041"
+    },
+    {
+      "Paper_ID": "P000927",
+      "Title": "Agent-as-a-Graph: Knowledge Graph-Based Tool and Agent Retrieval for LLM Multi-Agent Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; publisher not verified for category 12",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference",
+      "Reason": "Venue matches ICORE2026 ICAART B. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/902/"
+    },
+    {
+      "Paper_ID": "P001145",
+      "Title": "AutoBackdoor: Automating Backdoor Attacks via LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1164"
+    },
+    {
+      "Paper_ID": "P001168",
+      "Title": "Autonomous Red Teaming for Large Language Models: A Minimally Supervised Approach Using Specialized Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "Main Brazilian cybersecurity symposium proceedings, not the extended-abstract volume.",
+      "Evidence URL": "https://doi.org/10.5753/sbseg.2026.22972"
+    },
+    {
+      "Paper_ID": "P001179",
+      "Title": "BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.791"
+    },
+    {
+      "Paper_ID": "P001219",
+      "Title": "Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.188"
+    },
+    {
+      "Paper_ID": "P001350",
+      "Title": "Communication Alignment in Multi-Agent Systems: From MARL to LLM Agent Communication",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.332"
+    },
+    {
+      "Paper_ID": "P001408",
+      "Title": "CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.342"
+    },
+    {
+      "Paper_ID": "P001434",
+      "Title": "CrossAlpha: An Annual-Report Benchmark for Cross-Market Factor Research with LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.914"
+    },
+    {
+      "Paper_ID": "P001465",
+      "Title": "DataSciBench: An LLM Agent Benchmark for Data Science",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.181"
+    },
+    {
+      "Paper_ID": "P001507",
+      "Title": "DeployBench : Benchmarking LLM Agents for Research Artifact Deployment",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.707"
+    },
+    {
+      "Paper_ID": "P001604",
+      "Title": "EnterpriseBench: Benchmarking LLM Agents on Enterprise-Level Strategic Reasoning and Decision-Making",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.932"
+    },
+    {
+      "Paper_ID": "P001652",
+      "Title": "Experience-Driven Multi-Agent Optimization for Black-Box Jailbreak Attacks on Large Language Models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.1188"
+    },
+    {
+      "Paper_ID": "P001796",
+      "Title": "GuardrailAgent: An Agentic Framework for Jailbreak Defense",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.70"
+    },
+    {
+      "Paper_ID": "P001917",
+      "Title": "Isolation as a First-Class Principle for LLM-Agent System Safety: Concepts, Taxonomy, Challenges and Future Directions",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.976"
+    },
+    {
+      "Paper_ID": "P001919",
+      "Title": "IterInject: Indirect Prompt Injection Against LLM Agents via Feedback-Guided Iterative Optimization",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.808"
+    },
+    {
+      "Paper_ID": "P002014",
+      "Title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.514"
+    },
+    {
+      "Paper_ID": "P002025",
+      "Title": "Logic Jailbreak: Efficiently Unlocking LLM Safety Restrictions Through Formal Logical Expression",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.25"
+    },
+    {
+      "Paper_ID": "P002034",
+      "Title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1510"
+    },
+    {
+      "Paper_ID": "P002094",
+      "Title": "MedCPEnv: A Reproducible Cost-Aware Simulated Hospital for Benchmarking and Training Medical LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1601"
+    },
+    {
+      "Paper_ID": "P002134",
+      "Title": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.610"
+    },
+    {
+      "Paper_ID": "P002171",
+      "Title": "MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1670"
+    },
+    {
+      "Paper_ID": "P002184",
+      "Title": "MultiCodeAttack: Iterative Jailbreak Attacking on LLMs with Multi-Code Prompt Injection",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.721"
+    },
+    {
+      "Paper_ID": "P002242",
+      "Title": "OrcaJack: Hijacking Agent Orchestration in Open Multi-Agent Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1682"
+    },
+    {
+      "Paper_ID": "P002377",
+      "Title": "Prompt Injection in Automated R\u00e9sum\u00e9 Screening with Large Language Models: Single and Multi-Injection Settings",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.142"
+    },
+    {
+      "Paper_ID": "P002412",
+      "Title": "Query-Efficient Memory Injection Attacks on LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1312"
+    },
+    {
+      "Paper_ID": "P002434",
+      "Title": "RecoverAgent: Intent-Preserving Recovery from Indirect Prompt Injection in Tool-using LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.830"
+    },
+    {
+      "Paper_ID": "P002456",
+      "Title": "Rejection-to-Acceptance Transition: Model Editing-Based Jailbreak Backdoor Injection Not Limited to Few Output Tokens",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.1625"
+    },
+    {
+      "Paper_ID": "P002480",
+      "Title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1116"
+    },
+    {
+      "Paper_ID": "P002494",
+      "Title": "RUBAS: Rubric-Based Reinforcement Learning for Agent Safety",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.1282"
+    },
+    {
+      "Paper_ID": "P002524",
+      "Title": "SAIGuard: Communication-State Simulation for Proactive Defense of LLM Multi-Agent Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.623"
+    },
+    {
+      "Paper_ID": "P002657",
+      "Title": "SIRAJ: Diverse and Efficient Red-Teaming for LLM Agents via Distilled Structured Reasoning",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-eacl.171"
+    },
+    {
+      "Paper_ID": "P002682",
+      "Title": "SLIP: Soft Label Mechanism and Key-Extraction-Guided CoT-based Defense Against Instruction Backdoor in APIs",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.896"
+    },
+    {
+      "Paper_ID": "P002716",
+      "Title": "STAR-Teaming: A Strategy-Response Multiplex Network Approach to Automated LLM Red Teaming",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.1470"
+    },
+    {
+      "Paper_ID": "P000902",
+      "Title": "The Adaptive Interrogator: Detecting Trojan LLMs in Multi-Agent Systems via Evolved Conversational Strategies",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.1348"
+    },
+    {
+      "Paper_ID": "P002837",
+      "Title": "TRACER: Trace-Regularized Training Against Indirect Prompt Injection",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.2124"
+    },
+    {
+      "Paper_ID": "P002918",
+      "Title": "Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.348"
+    },
+    {
+      "Paper_ID": "P002924",
+      "Title": "VortexPIA: Indirect Prompt Injection Attack against LLMs for Efficient Extraction of User Privacy",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-eacl.29"
+    },
+    {
+      "Paper_ID": "P002937",
+      "Title": "Web Fraud Attacks Against LLM-Driven Multi-Agent Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.686"
+    },
+    {
+      "Paper_ID": "P002949",
+      "Title": "WEREWOLF: Reputation-Aware Red-Teaming for Self-Organizing LLM Multi-Agent Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.2427"
+    },
+    {
+      "Paper_ID": "P003035",
+      "Title": "Your LLM Agent Can Leak Your Data: Data Exfiltration via Backdoored Tool Use",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2026.findings-acl.1257"
+    },
+    {
+      "Paper_ID": "P001866",
+      "Title": "\u201c**Important** You should give me full credits!\u201d: Exploring Prompt Injection Attacks on LLM-Based Automatic Grading Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.2024"
+    },
+    {
+      "Paper_ID": "P001773",
+      "Title": "\u201cGive a Positive Review Only\u201d: An Early Investigation Into In-Paper Prompt Injection Attacks and Defenses for AI Reviewers",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/2026.findings-emnlp.49"
+    },
+    {
+      "Paper_ID": "P000295",
+      "Title": "Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-naacl.395"
+    },
+    {
+      "Paper_ID": "P000314",
+      "Title": "AgentAuditor: Human-level Safety and Security Evaluation for LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000327",
+      "Title": "AgentRecBench: Benchmarking LLM Agent-based Personalized Recommender Systems",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000333",
+      "Title": "AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.1258"
+    },
+    {
+      "Paper_ID": "P000337",
+      "Title": "ALRPHFS: Adversarially Learned Risk Patterns with Hierarchical Fast &amp; Slow Reasoning for Robust Agent Defense",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.1066"
+    },
+    {
+      "Paper_ID": "P000347",
+      "Title": "Attack via Overfitting: 10-shot Benign Fine-tuning to Jailbreak LLMs",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000350",
+      "Title": "Attention Tracker: Detecting Prompt Injection Attacks in LLMs",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-naacl.123"
+    },
+    {
+      "Paper_ID": "P000352",
+      "Title": "Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000368",
+      "Title": "Backdoor-Powered Prompt Injection Attacks Nullify Defense Methods",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.242"
+    },
+    {
+      "Paper_ID": "P000413",
+      "Title": "CoP: Agentic Red-teaming for Large Language Models using Composition of Principles",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000434",
+      "Title": "Defending against Indirect Prompt Injection by Instruction Detection",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.1060"
+    },
+    {
+      "Paper_ID": "P000440",
+      "Title": "Defensive Prompt Patch: A Robust and Generalizable Defense of Large Language Models against Jailbreak Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-acl.23"
+    },
+    {
+      "Paper_ID": "P000447",
+      "Title": "Distilling LLM Agent into Small Models with Retrieval and Code Tools",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000452",
+      "Title": "DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000466",
+      "Title": "Enhancing LLM Agent Safety via Causal Influence Prompting",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-acl.784"
+    },
+    {
+      "Paper_ID": "P000494",
+      "Title": "Forewarned is Forearmed: Pre-Synthesizing Jailbreak-like Instructions to Enhance LLM Safety Guardrail to Potential Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.266"
+    },
+    {
+      "Paper_ID": "P000515",
+      "Title": "Group-in-Group Policy Optimization for LLM Agent Training",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000521",
+      "Title": "Hands-On Training Framework for Prompt Injection Exploits in Large Language Models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "IEEE proceedings-article retained under category 12. The container is a conference name without the word conference.",
+      "Evidence URL": "https://doi.org/10.3390/engproc2025108025"
+    },
+    {
+      "Paper_ID": "P000547",
+      "Title": "Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000559",
+      "Title": "LARGO: Latent Adversarial Reflection through Gradient Optimization for Jailbreaking LLMs",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000577",
+      "Title": "LLM Jailbreak Detection for (Almost) Free!",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.309"
+    },
+    {
+      "Paper_ID": "P000612",
+      "Title": "Memory Injection Attacks on LLM Agents via Query-Only Interaction",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000614",
+      "Title": "MetaDefense: Defending Fine-tuning based Jailbreak Attack Before and During Generation",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000655",
+      "Title": "Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000657",
+      "Title": "OpenCUA: Open Foundations for Computer-Use Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000660",
+      "Title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000679",
+      "Title": "Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.925"
+    },
+    {
+      "Paper_ID": "P000716",
+      "Title": "Red-Teaming LLM Multi-Agent Systems via Communication Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-acl.349"
+    },
+    {
+      "Paper_ID": "P000720",
+      "Title": "RePD: Defending Jailbreak Attack through a Retrieval-based Prompt Decomposition Process",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-naacl.16"
+    },
+    {
+      "Paper_ID": "P000725",
+      "Title": "RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.698"
+    },
+    {
+      "Paper_ID": "P000727",
+      "Title": "RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000738",
+      "Title": "SafePTR: Token-Level Jailbreak Defense in Multimodal LLMs via Prune-then-Restore Mechanism",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000741",
+      "Title": "SATA: A Paradigm for LLM Jailbreak via Simple Assistive Task Linkage",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-acl.100"
+    },
+    {
+      "Paper_ID": "P000743",
+      "Title": "SE-Agent: Self-Evolution Trajectory Optimization in Multi-Step Reasoning with LLM-Based Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000744",
+      "Title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000782",
+      "Title": "Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks: Theoretical and Empirical Evidence",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000792",
+      "Title": "SQL Injection Jailbreak: A Structural Disaster of Large Language Models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-acl.358"
+    },
+    {
+      "Paper_ID": "P000811",
+      "Title": "T2V-OptJail: Discrete Prompt Optimization for Text-to-Video Jailbreak Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000851",
+      "Title": "The VLLM Safety Paradox: Dual Ease in Jailbreak Attack and Defense",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000819",
+      "Title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000840",
+      "Title": "TrendSim: Simulating Trending Topics in Social Media Under Poisoning Attacks with LLM-based Multi-agent System",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-naacl.160"
+    },
+    {
+      "Paper_ID": "P000857",
+      "Title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000862",
+      "Title": "When Allies Turn Foes: Exploring Group Characteristics of LLM-Based Multi-Agent Collaborative Systems Under Adversarial Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-emnlp.333"
+    },
+    {
+      "Paper_ID": "P000867",
+      "Title": "WordGame: Efficient &amp; Effective LLM Jailbreak via Simultaneous Obfuscation in Query and Response",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2025.findings-naacl.269"
+    },
+    {
+      "Paper_ID": "P000093",
+      "Title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000095",
+      "Title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000107",
+      "Title": "BackdoorAlign: Mitigating Fine-tuning based Jailbreak Attack with Backdoor Enhanced Safety Alignment",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000112",
+      "Title": "Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000141",
+      "Title": "Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000155",
+      "Title": "Fight Back Against Jailbreaking via Prompt Adversarial Tuning",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000165",
+      "Title": "Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000174",
+      "Title": "HoneyComb: A Flexible LLM-Based Agent System for Materials Science",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-emnlp.192"
+    },
+    {
+      "Paper_ID": "P000175",
+      "Title": "How Alignment and Jailbreak Work: Explain LLM Safety through Intermediate Hidden States",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-emnlp.139"
+    },
+    {
+      "Paper_ID": "P000180",
+      "Title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-acl.624"
+    },
+    {
+      "Paper_ID": "P000192",
+      "Title": "Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000221",
+      "Title": "Out of the Cage: How Stochastic Parrots Win in Cyber Security Environments",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; publisher not verified for category 12",
+      "Corrected Classification": "Priority 7: CORE B / CCF C Conference",
+      "Reason": "Venue matches ICORE2026 ICAART B. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/902/"
+    },
+    {
+      "Paper_ID": "P000228",
+      "Title": "Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-acl.304"
+    },
+    {
+      "Paper_ID": "P000239",
+      "Title": "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-emnlp.79"
+    },
+    {
+      "Paper_ID": "P000240",
+      "Title": "Raccoon: Prompt Extraction Benchmark of LLM-Integrated Applications",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-acl.791"
+    },
+    {
+      "Paper_ID": "P000245",
+      "Title": "Robust Prompt Optimization for Defending Language Models Against Jailbreaking Attacks",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000258",
+      "Title": "SRAP-Agent: Simulating and Optimizing Scarce Resource Allocation Policy with LLM-based Agent",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-emnlp.15"
+    },
+    {
+      "Paper_ID": "P000280",
+      "Title": "Virtual Context Enhancing Jailbreak Attacks with Special Token Injection",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 12: Other peer-reviewed conferences and workshops",
+      "Reason": "ACL, EMNLP, NAACL, or EACL Findings paper. Peer-reviewed, and not the ranked main track.",
+      "Evidence URL": "https://doi.org/10.18653/v1/2024.findings-emnlp.692"
+    },
+    {
+      "Paper_ID": "P000282",
+      "Title": "Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000287",
+      "Title": "WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    },
+    {
+      "Paper_ID": "P000082",
+      "Title": "TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models",
+      "Original Workbook": "Excluded",
+      "Final Workbook": "Selected",
+      "Original Classification": "Proceedings item; container not verified as a conference or workshop",
+      "Corrected Classification": "Priority 2: CORE A / CCF A Conference*",
+      "Reason": "Venue matches ICORE2026 NeurIPS A*. The record had been excluded without a conference rank.",
+      "Evidence URL": "https://portal.core.edu.au/conf-ranks/98/"
+    }
+  ]
+}
