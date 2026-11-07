@@ -43,15 +43,14 @@ Of the 68 PDFs: 41 are official proceedings copies and 27 are verified arXiv pre
 
 **01_Collection**
 
-- `RAW_LITERATURE_DATABASE.xlsx` — the collected bibliography, 4,500 rows.
+- `Before_Duplicate_Removal.xlsx` — every collected row, 4,500. Sheet `Collected_4500`. Of these, 3,059 are unique papers and 1,441 are exact duplicate copies of those papers. Paper IDs stop at `P003061` because the duplicate copies reuse the same ID.
 
 **02_Deduplication**
 
-- `RAW_LITERATURE_DATABASE_SORTED.xlsx` — 3,059 unique papers. This is the file used for the quality split.
-- `Zotero_After_Duplicate_Removal.xlsx` — the Zotero export of the same stage. It has 3,059 rows and 3,057 distinct IDs.
+- `After_Duplicate_Removal.xlsx` — 3,059 unique papers. Sheet `Unique_3059`. This is the file used for the quality split.
 - `Duplicate_Removal_Count.xlsx` — 4,500 before removal, 3,059 after.
 
-The Zotero before-removal workbook was a byte-identical copy of the raw collection, so one copy is kept.
+The Zotero export of this stage was not kept. It repeated two IDs, omitted `P000873` and `P002352`, and replaced `P000818` with a Zotero key. The before-removal Zotero workbook was a byte-identical copy of `Before_Duplicate_Removal.xlsx`, so that copy was not kept either.
 
 **03_Quality**
 

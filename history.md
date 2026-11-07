@@ -1,6 +1,8 @@
 # Note — LLM-Based Agent Security Evaluation
 
-Ei file ta puro kajer hisab. Start theke 3 November 2026 porjonto ki kora hoyeche, kothay rakha hoyeche, keno, ar kivabe. Ja record e nei, seta ekhane likha hoyni. Kono DOI, quartile, abstract, ba paper identity ekhane banano hoyni.
+Current record flow: 4,500 collected, 3,059 after duplicate removal, 606 kept for screening, 100 in the final set, 68 open PDFs. Those counts are in `README.md` and `SLR_Record_Flow.xlsx`.
+
+The rest of this file is the working note through 3 November 2026. Its 434 and 419 figures are that earlier IEEE and Google Scholar bibliography, not the current collection. Ja record e nei, seta ekhane likha hoyni. Kono DOI, quartile, abstract, ba paper identity ekhane banano hoyni.
 
 ---
 

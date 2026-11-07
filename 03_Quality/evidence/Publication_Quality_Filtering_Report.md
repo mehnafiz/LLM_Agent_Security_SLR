@@ -8,11 +8,11 @@ Date: 2026-11-07. Classification only. No original workbook, PDF, or framework f
 
 The classified file is the deduplicated bibliography:
 
-`02_Deduplication/RAW_LITERATURE_DATABASE_SORTED.xlsx`
+`02_Deduplication/After_Duplicate_Removal.xlsx`
 
-It has 3,059 data rows and 3,059 distinct `Paper_ID` values. The undeduplicated raw file has 4,500 data rows and was not reopened into the outputs.
+It has 3,059 data rows and 3,059 distinct `Paper_ID` values. The undeduplicated collection is `01_Collection/Before_Duplicate_Removal.xlsx`, which has 4,500 data rows and was not reopened into the outputs.
 
-`02_Deduplication/Zotero_After_Duplicate_Removal.xlsx` also has 3,059 rows, but 3,057 distinct IDs. It omits `P000873` and `P002352`, and it replaces `P000818` with Zotero key `Z-9XY6VHXI` for the same DOI `10.48550/arxiv.2504.00218`. Those two omitted records are kept by using the sorted raw file. The Zotero key is the same preprint, not an extra work.
+A Zotero export of the same stage also had 3,059 rows, but only 3,057 distinct IDs. It repeated `P000231` and `P000685`, omitted `P000873` and `P002352`, and replaced `P000818` with Zotero key `Z-9XY6VHXI` for DOI `10.48550/arxiv.2504.00218`. That export was not kept. This workbook keeps the three omitted or relabeled records under their original IDs.
 
 ## What was and was not verified
 
@@ -29,6 +29,8 @@ It has 3,059 data rows and 3,059 distinct `Paper_ID` values. The undeduplicated 
 A blank rank is not a low rank. Categories 1–11 and 13 are empty because the evidence those categories require was not available. That is not a finding that the corpus contains no Q1 journals.
 
 ## Counts
+
+These figures are the first pass. The workbooks were updated afterward: the cross-verification report records the current counts, 606 kept and 2,453 set aside.
 
 `3,059 = 486 selected + 2,573 excluded`
 
