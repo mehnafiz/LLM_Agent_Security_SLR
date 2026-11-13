@@ -20,7 +20,7 @@ Systematic literature review of the security of LLM-based agents. The review cov
 | The 100 final papers | `04_Screening/Final_Relevant_Literature.xlsx` |
 | Why a paper was kept or left out | `04_Screening/Title_Abstract_Screening_and_PDF_Retrieval_Report.md` |
 | An open PDF | `05_Full_Texts/`, then `Final_PDF_Verification.xlsx` for the path and status |
-| The proposed lifecycle | `06_Framework/Framework_Design.md` |
+| The proposed framework | `06_Framework/Framework_Design.md` |
 
 ## Record flow
 
@@ -79,13 +79,16 @@ AgentShield-LCE is a proposed evaluation lifecycle. It is a design. It has not b
 
 | File | Contents |
 |---|---|
-| `Framework_Design.md` | The design and what it does not claim as a new benchmark |
-| `Lifecycle_Architecture.md` | Stage order, inputs, outputs, and fail routes |
-| `Threat_Model.md` | Assets, attackers, and the check that an attack succeeded |
-| `Evaluation_Protocol.md` | Metrics, and the rule that a score must match a trace |
-| `Mitigation_Strategy.md` | Prevent, detect, respond, and recover |
-| `figures/` | Figures 1–6, as PNG and SVG |
-| `figures/stage_gates.md` | Gates G1–G4 |
+| `Framework_Design.md` | The design, and what it does not claim as a new benchmark |
+| `Lifecycle_Architecture.md` | The agent loop, stages 1–10, and where G1–G4 decide |
+| `Threat_Model.md` | Actors, assets, TB1–TB5, and surfaces |
+| `Mitigation_Strategy.md` | C1–C10, classes, evidence, and limits |
+| `Evaluation_Protocol.md` | The G2 record, the nine metrics, and the comparison rules |
+| `Architecture_Components.md` | Components and what each one takes and returns |
+| `Framework_Implementation_Guidelines.md` | How a harness would log and score a run |
+| `Framework_Limitations_and_Assumptions.md` | What the design cannot establish |
+| `Figure_Captions.md` | Captions for Figures 1–6 and the master sheet |
+| `figures/` | Figures 1–6 and the master sheet, SVG and PNG only |
 
 ## Scope of this workspace
 

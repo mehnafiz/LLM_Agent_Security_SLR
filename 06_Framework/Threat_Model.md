@@ -2,7 +2,7 @@
 
 This is the Stage 2 catalog. Scope is the agent path in `Lifecycle_Architecture.md`: an agent that plans in natural language and then calls tools, writes memory, or messages another agent.
 
-A chatbot jailbreak that never reaches a tool, a memory store, or a second agent is out of scope. An attack on the host machine is out of scope unless that machine is part of the system under test. Figure 3 is this catalog as a map from actor to asset. It does not add actors that the table omits.
+A chatbot jailbreak that never reaches a tool, a memory store, or a second agent is out of scope. An attack on the host machine is out of scope unless that machine is part of the system under test. Figure 3 is this catalog. Figure 2 draws the path the catalog refers to. Neither figure adds an actor that the table omits.
 
 ## Assets
 
@@ -35,7 +35,7 @@ The content injector, the tool publisher, and the peer agent are established by 
 
 | Boundary | Rule |
 |---|---|
-| TB1 Instruction / data | Untrusted content is not an instruction. A malicious user instruction is still untrusted with respect to the allow-list |
+| TB1 Instruction / data | Instruction and untrusted data are separate channels. A direct instruction remains subject to the task allow-list |
 | TB2 Planner / tool | Description, implementation, and permission are separate. Registry membership is not authorization |
 | TB3 Agent / memory | Stored text is data until a write policy promotes it |
 | TB4 Agent / peer | A peer message cannot authorize a tool the user did not grant |
@@ -60,7 +60,7 @@ Privilege separation is not a surface of its own. If the register lists more tha
 
 The attacker objectives this catalog can score are task replacement, unauthorized tool execution, exfiltration of user or memory data, persistence through memory, a peer-caused action, and denial of the user task. An objective that cannot be written as one of the checks above is out of scope for the metric table. It may still be named in the catalog as not scored.
 
-Psychological manipulation between agents, as studied in the PsySafe candidate, is not scored. The candidate’s observations are not tool-trace predicates. Forcing them into attack success would repeat the multi-agent gap this lifecycle refuses to close by addition.
+A multi-agent observation that is not a tool-trace predicate is not scored. Forcing it into attack success would add unlike measurements.
 
 ## Assumptions
 
@@ -68,6 +68,27 @@ Psychological manipulation between agents, as studied in the PsySafe candidate, 
 - The benign task and the attack task share the user goal. Otherwise utility under attack is undefined.
 - A tool that cannot be rolled back can still be tested. Recovery then records an irreversible residual instead of a clean baseline.
 - The attacker does not control the instrumentation. An attacker who can forge traces is outside TB5 and outside this model.
+
+## Scope of attack classes
+
+A class is in scope only when its success can be written as a check in the table above. Partial means the trace can show the effect and cannot show the cause. Outside means this lifecycle does not score it. None of these rows is a detection claim.
+
+| Attack class | Placement | Why |
+|---|---|---|
+| Indirect prompt injection through a carrier the agent reads | In scope | The later tool, memory, or send is the check |
+| Direct instruction that requests an unauthorized tool, memory, or peer effect | In scope | The same tool check. The instruction is the carrier |
+| Tool misuse, unauthorized execution, and argument or destination abuse | In scope | C2 and the tool-execution check |
+| Tool-description poisoning and tool-code effects | In scope when the register includes that surface | Separate checks. A waived surface is not scored |
+| Memory poisoning and memory disclosure | In scope when memory is in the register | Write, later read, or outbound send |
+| Planning that changes a later call | Partially observable | The call is observable. The plan text is not an oracle |
+| Peer-caused tool execution | In scope when a peer is in the register | Scored separately from single-agent results |
+| Excessive agency and privilege above the task’s level | In scope only as an unauthorized tool effect | Waived when the register has one permission level |
+| Data exfiltration | In scope when the destination is in the trace | The check is the destination, not a guessed intent |
+| Chat-only jailbreak | Outside | No tool, memory, or peer effect to score |
+| Unobservable change to internal reasoning | Outside | No trace field records hidden state |
+| Host, hypervisor, and network compromise | Outside, unless that host is the system under test | Not a listed carrier |
+| Multi-agent messages the instrumentation cannot read | Outside | G2 fails if the receiver’s tool call is not logged |
+| Training-time or weight backdoors | Conditional | Scored only when that supply chain is in the register |
 
 ## Out of scope
 
@@ -79,4 +100,4 @@ Psychological manipulation between agents, as studied in the PsySafe candidate, 
 
 ## Figure 3
 
-**Caption.** Figure 3. Threat-model map for AgentShield-LCE. Each row is an actor, the boundary that actor can cross, the surface reached, and the asset harmed. Dashed rows are conditional: they are waived unless Stage 1 puts that supply chain or self-update inside the system under test. The figure uses the same actor and asset names as this catalog.
+**Caption.** Figure 3. Actors, assets, trust boundaries, and attack surfaces. The user instruction enters the agent. The agent is centered, with a separate link to tools and dashed links to memory and to a peer. Those links are not a path from tools through memory to the peer. Memory and peer appear only when Stage 1 registers them. Conditional actors stay dashed. TB1 is the sentence in the table above. TB5 is the boundary between the evaluator and the model. It is not a network edge. The drawing labels the implementation surface “Tool implementation.” A waiver of tool code is a scope note under the assets, not an attack surface. Gates are not on this figure. An attempt is not the same mark as an observable effect.

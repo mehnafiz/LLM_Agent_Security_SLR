@@ -1,10 +1,10 @@
 # Lifecycle
 
-Read `Framework_Design.md` first. This file specifies the agent path that is measured and the evaluation stages that measure it. Gate evidence is specified in `figures/stage_gates.md`.
+Read `Framework_Design.md` first. This file specifies the agent path that is measured and the evaluation stages that measure it. The G2 field list and the gate pass rules are in `Evaluation_Protocol.md`.
 
 ## Agent path
 
-The path in Figure 2 is the system under test, not a second set of evaluation stages. A box is included only where the threat model has a surface. Planning is included because later tool and memory operations are conditioned on it. The plan text itself is not an oracle.
+The path in Figure 2 is the system under test, not the G1–G4 evaluation checkpoints. A box is included only where the threat model has a surface. Planning is included because later tool and memory operations are conditioned on it. The plan text itself is not an oracle.
 
 | Point | What crosses the boundary | Exposure | Control that can bind here | Trace fields |
 |---|---|---|---|---|
@@ -31,7 +31,7 @@ If the register has no peer, no memory, or no distinct permission levels, the mi
 
 ## Evaluation stages
 
-Figure 2 records where each observation point is exercised. The stage order is Figure 4.
+Figure 2 records where each observation point is exercised. The evaluation order is Figure 6. The gate decisions are Figure 4.
 
 | Stage | Inputs | Work | Outputs | Leave only when |
 |---:|---|---|---|---|
@@ -39,7 +39,7 @@ Figure 2 records where each observation point is exercised. The stage order is F
 | 2 Threat model | Register | For each surface, write adversary, goal, and precondition, or a waiver | Surface catalog | G1 passes |
 | 3 Requirements | Catalog | Write each forbidden effect and the user task that must still succeed, as one requirement identifier | Requirement list | Every forbidden effect has an observable check |
 | 4 Tests | Requirement list | Build one benign case and one attack case for the same user task. Declare the check as a predicate over trace fields. Declare the carrier the real system reads | Test manifest | Every requirement has at least one pair |
-| 5 Run | Manifest | Sandbox tools. Log the fields in the agent-path table. Log a runner failure instead of inventing a trace | One trace per case | G2 passes |
+| 5 Run | Manifest | Sandbox tools. Log the G2 record in `Evaluation_Protocol.md`. The agent-path table says which boundary produces the tool, memory, and destination fields. Log a runner failure instead of inventing a trace | One G2 record per case | G2 passes |
 | 6 Score | Traces | Apply only the pre-declared checks. Compute the metrics in `Evaluation_Protocol.md` | Metric table | G3 passes |
 | 7 Detect | Metric table and detector flags | Mark each successful attack as flagged before the effect, flagged after it, missed, or not monitored. Apply the same detector to benign cases | Coverage report | Every successful attack has one of those four marks |
 | 8 Mitigate | Coverage report | Add named controls, rerun the same pairs, and rerun a pre-declared changed attack set or record a waiver | Before-and-after table | G4 passes |
@@ -61,8 +61,12 @@ Stage 9 does not have a fifth gate. An irreversible effect is a listed residual,
 
 ## Figure 2
 
-**Caption.** Figure 2. Security along the agent path. Each observation point shows the exposure and the control class that can bind there. Dashed lines are trust boundaries TB1–TB4. Trace capture is an evaluation action at Stage 5, not an agent component. Gates G1–G4 do not appear on this path; they are specified in Figure 4.
+**Caption.** Figure 2. The agent under test as a loop. Instruction leads to planning. Selection and execution are the next node, with C3 on selection and C2 and C4 on execution. C1 is on the tool result, before that result is treated as an instruction. Re-plan returns to planning. Task completion leaves the loop. Configuration carries C3 only. Commit carries C6. C10 is the rerun after commit. Memory (C7) and peer exchange (C9) are dashed and appear only when the register includes them. C8 is the outbound call after a memory read. Gates G1–G4 are not on this path. C5 detects a plan change and does not stop the call.
 
 ## Figure 4
 
-The decision diagram for the four gates is Figure 4 in `figures/stage_gates.md`. The stage table above is the specification of inputs and outputs. Figure 4 is the specification of pass, fail, and return. The two descriptions use the same stage names and the same return targets.
+The decision diagram for the four gates is Figure 4. The stage table above is the specification of inputs and outputs. Figure 4 uses those ten stage names and the same return targets. G1 is decided on the Stage 2 catalog. Stages 3 and 4 follow that pass and are not a second gate. A scored case at G2 needs a complete trace. A runner failure is logged apart. It is not a passing trace, not a defense success, and it is outside every denominator. G3 returns to Stage 4 when the check or the carrier is wrong, and to Stage 6 when only the arithmetic is wrong. G4 is decided on the Stage 8 record. Stage 9 is not a gate.
+
+## Figure 6
+
+Figure 6 is the same ten stages drawn as a researcher’s sequence. The Stage 5 box states that a runner failure is excluded from metric denominators. Stage 9, recovery, and Stage 10, the release record, are separate boxes. Neither is a gate. It does not add a stage.
