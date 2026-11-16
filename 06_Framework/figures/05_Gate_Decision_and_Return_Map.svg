@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2460" height="2564" viewBox="0 0 2460 2564" font-family="Helvetica, Arial, sans-serif">
+<title>Figure 5. Gate decision and return map</title>
+<desc>Evidence, pass, fail, destinations, waiver, and runner-failure handling for G1–G4.</desc>
+<defs>
+<marker id="mkB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1F4E79"/>
+</marker>
+<marker id="mkG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1B7A45"/>
+</marker>
+<marker id="mkR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#B42318"/>
+</marker>
+<marker id="mkA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#8A5A00"/>
+</marker>
+<marker id="mkY" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#5E6A75"/>
+</marker>
+<marker id="mkN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#17324D"/>
+</marker>
+<marker id="mkT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#0F5F63"/>
+</marker>
+</defs>
+<rect width="2460" height="2564" fill="#FFFFFF"/>
+<rect x="0.0" y="0.0" width="2460.0" height="64.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="32.0" y="28.0" fill="#D6E2EE" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" letter-spacing="0.6">FIGURE 5</text>
+<text x="32.0" y="50.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Gate decision and return map</text>
+<text x="32.0" y="90.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">A gate checks the evaluation record. A pass means the named evidence is present. It is not a finding that the agent is secure. Stage 7, Stage 9, and Stage 10 are not gates.</text>
+<rect x="24.0" y="108.0" width="2412.0" height="542.0" rx="12" fill="#FFFFFF" stroke="#5C3F86" stroke-width="2"/>
+<rect x="24.0" y="108.0" width="2412.0" height="58.0" rx="12" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<rect x="24.0" y="144.0" width="2412.0" height="22.0" rx="0" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="44.0" y="146.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">G1</text>
+<text x="130.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="start">Evaluation point: after Stage 2 Threat model. The next stage on a pass is Stage 3 Requirements.</text>
+<text x="44.0" y="194.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">REQUIRED EVIDENCE</text>
+<text x="980.0" y="194.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">PASS</text>
+<text x="1680.0" y="194.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">FAIL</text>
+<text x="44.0" y="220.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">
+<tspan x="44.0" dy="0">• Stage 2 surface catalog.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Adversary, goal, and precondition for each in-scope surface,</tspan>
+<tspan x="44.0" dy="22">or an explicit waiver with reason and affected surface.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Permission levels, or a statement that only one level</tspan>
+<tspan x="44.0" dy="22">exists.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Memory, peers, and tool code registered or waived. Actuators</tspan>
+<tspan x="44.0" dy="22">registered or recorded as not applicable.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• No runtime trace. Declared test checks are Stage 4, after</tspan>
+<tspan x="44.0" dy="22">this pass, and are not G1 evidence.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+</text>
+<text x="980.0" y="220.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="980.0" dy="0">Every in-scope surface is named or</tspan>
+<tspan x="980.0" dy="22">explicitly waived.</tspan>
+<tspan x="980.0" dy="22"></tspan>
+<tspan x="980.0" dy="22">Destination: Stage 3 Requirements. Stages</tspan>
+<tspan x="980.0" dy="22">3 and 4 are not a second gate.</tspan>
+</text>
+<text x="1680.0" y="220.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="1680.0" dy="0">A surface is neither named nor waived.</tspan>
+<tspan x="1680.0" dy="22"></tspan>
+<tspan x="1680.0" dy="22">Destination: Stage 2 Threat model. Do</tspan>
+<tspan x="1680.0" dy="22">not write tests for that surface.</tspan>
+</text>
+<rect x="44.0" y="516.0" width="2360.0" height="112.0" rx="8" fill="#F8FAFC" stroke="#D5DDE5" stroke-width="1"/>
+<text x="60.0" y="540.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Waiver. The waiver meets the named-or-waived rule for that surface only. It is not a pass and not verification.</tspan>
+</text>
+<text x="60.0" y="572.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Runner failure. Not used at G1.</tspan>
+</text>
+<text x="60.0" y="604.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">If evidence is unavailable. A missing adversary, goal, precondition, or waiver fails G1 and returns to Stage 2.</tspan>
+</text>
+<rect x="24.0" y="664.0" width="2412.0" height="586.0" rx="12" fill="#FFFFFF" stroke="#5C3F86" stroke-width="2"/>
+<rect x="24.0" y="664.0" width="2412.0" height="58.0" rx="12" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<rect x="24.0" y="700.0" width="2412.0" height="22.0" rx="0" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="44.0" y="702.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">G2</text>
+<text x="130.0" y="700.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="start">Evaluation point: after Stage 5 Run. The next stage on a pass is Stage 6 Score.</text>
+<text x="44.0" y="750.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">REQUIRED EVIDENCE</text>
+<text x="980.0" y="750.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">PASS</text>
+<text x="1680.0" y="750.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">FAIL</text>
+<text x="44.0" y="776.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">
+<tspan x="44.0" dy="0">• Ordered trace for each scored case, linked to the run</tspan>
+<tspan x="44.0" dy="22">manifest.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Case, requirement, pair, and role. Agent and model version.</tspan>
+<tspan x="44.0" dy="22">Tool-registry version.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Tool name, arguments, result, committed flag. Sequence</tspan>
+<tspan x="44.0" dy="22">number. Timestamp if stored.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Memory, peer, or actuator events only when that component is</tspan>
+<tspan x="44.0" dy="22">registered.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Integrity, completeness, provenance, and timestamp</tspan>
+<tspan x="44.0" dy="22">consistency all hold.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+</text>
+<text x="980.0" y="776.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="980.0" dy="0">The trace passes those checks. A raw log</tspan>
+<tspan x="980.0" dy="22">that fails them is not scoring evidence.</tspan>
+<tspan x="980.0" dy="22"></tspan>
+<tspan x="980.0" dy="22">Destination: Stage 6 Score.</tspan>
+</text>
+<text x="1680.0" y="776.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="1680.0" dy="0">Any of the four checks fails, or a tool</tspan>
+<tspan x="1680.0" dy="22">log is missing.</tspan>
+<tspan x="1680.0" dy="22"></tspan>
+<tspan x="1680.0" dy="22">Destination: Stage 5 Run. Do not invent</tspan>
+<tspan x="1680.0" dy="22">the missing call from the model’s</tspan>
+<tspan x="1680.0" dy="22">sentence.</tspan>
+</text>
+<rect x="44.0" y="1094.0" width="2360.0" height="134.0" rx="8" fill="#F8FAFC" stroke="#D5DDE5" stroke-width="1"/>
+<text x="60.0" y="1118.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Waiver. Waived surfaces add no events. That absence is not a G2 failure and is not verification.</tspan>
+</text>
+<text x="60.0" y="1150.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Runner failure. No trace was produced. Log it apart and stop. Not a G2 pass. Not a defense success. Not a security finding. Outside every</tspan>
+<tspan x="60.0" dy="22">denominator. No retry count is defined.</tspan>
+</text>
+<text x="60.0" y="1204.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">If evidence is unavailable. If those fields cannot be logged, G2 fails and the run is not reported as an evaluation.</tspan>
+</text>
+<rect x="24.0" y="1264.0" width="2412.0" height="630.0" rx="12" fill="#FFFFFF" stroke="#5C3F86" stroke-width="2"/>
+<rect x="24.0" y="1264.0" width="2412.0" height="58.0" rx="12" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<rect x="24.0" y="1300.0" width="2412.0" height="22.0" rx="0" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="44.0" y="1302.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">G3</text>
+<text x="130.0" y="1300.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="start">Evaluation point: after Stage 6 Score. The next stage on a pass is Stage 7 Detect. G3 does not check DC, FN, or FP.</text>
+<text x="44.0" y="1350.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">REQUIRED EVIDENCE</text>
+<text x="980.0" y="1350.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">PASS</text>
+<text x="1680.0" y="1350.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">THREE RETURNS</text>
+<text x="44.0" y="1376.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">
+<tspan x="44.0" dy="0">• Carrier the system actually reads. A payload pasted only</tspan>
+<tspan x="44.0" dy="22">into the system prompt fails this gate.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Stage 4 predicate over trace fields, and the observed</tspan>
+<tspan x="44.0" dy="22">outcome of that predicate.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• TS, AS, UA, and CS, each recomputed with its protocol</tspan>
+<tspan x="44.0" dy="22">numerator and denominator.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• The same pairs for task success and attack success.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Not detection timing. Stage 7 assigns pre-commit,</tspan>
+<tspan x="44.0" dy="22">post-commit, missed, and not monitored after the pass.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+</text>
+<text x="980.0" y="1376.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="980.0" dy="0">The Stage 6 numbers recompute from the</tspan>
+<tspan x="980.0" dy="22">predicates and the trace fields.</tspan>
+<tspan x="980.0" dy="22"></tspan>
+<tspan x="980.0" dy="22">Destination: Stage 7 Detect.</tspan>
+</text>
+<rect x="1672.0" y="1358.0" width="740.0" height="82.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.8"/>
+<text x="1688.0" y="1376.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="1688.0" dy="0">Wrong check or carrier</tspan>
+<tspan x="1688.0" dy="22">Stage 4 Tests. Includes a payload</tspan>
+<tspan x="1688.0" dy="22">pasted only into the system prompt.</tspan>
+</text>
+<rect x="1672.0" y="1452.0" width="740.0" height="82.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.8"/>
+<text x="1688.0" y="1470.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="1688.0" dy="0">Arithmetic only</tspan>
+<tspan x="1688.0" dy="22">Stage 6 Score. The predicate and the</tspan>
+<tspan x="1688.0" dy="22">carrier stay as declared.</tspan>
+</text>
+<rect x="1672.0" y="1546.0" width="740.0" height="126.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.8"/>
+<text x="1688.0" y="1564.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="1688.0" dy="0">System change</tspan>
+<tspan x="1688.0" dy="22">Stage 2 Threat model. Model, tool</tspan>
+<tspan x="1688.0" dy="22">registry, memory policy, peer set,</tspan>
+<tspan x="1688.0" dy="22">or actuator set. Not the G1 failure.</tspan>
+<tspan x="1688.0" dy="22">Do not attribute it to the control.</tspan>
+</text>
+<rect x="44.0" y="1738.0" width="2360.0" height="134.0" rx="8" fill="#F8FAFC" stroke="#D5DDE5" stroke-width="1"/>
+<text x="60.0" y="1762.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Waiver. A waiver is not a G3 pass. An empty metric cell is not a waived pass.</tspan>
+</text>
+<text x="60.0" y="1794.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Runner failure. Does not reach G3. Excluded at G2.</tspan>
+</text>
+<text x="60.0" y="1826.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">If evidence is unavailable. A predicate or field that cannot be recomputed fails the gate. Carrier or predicate: Stage 4. Arithmetic: Stage 6. A</tspan>
+<tspan x="60.0" dy="22">changed system returns to Stage 2, as its own path.</tspan>
+</text>
+<rect x="24.0" y="1908.0" width="2412.0" height="586.0" rx="12" fill="#FFFFFF" stroke="#5C3F86" stroke-width="2"/>
+<rect x="24.0" y="1908.0" width="2412.0" height="58.0" rx="12" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<rect x="24.0" y="1944.0" width="2412.0" height="22.0" rx="0" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="44.0" y="1946.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">G4</text>
+<text x="130.0" y="1944.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="500" text-anchor="start">Evaluation point: after Stage 8 Mitigate. The next stage on a pass is Stage 9 Recover.</text>
+<text x="44.0" y="1994.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">REQUIRED EVIDENCE</text>
+<text x="980.0" y="1994.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">PASS</text>
+<text x="1680.0" y="1994.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0.5">FAIL</text>
+<text x="44.0" y="2020.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">
+<tspan x="44.0" dy="0">• Named controls with class and observation point.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Same pairs, rerun, with new protected-run traces.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Baseline TS and protected TS, each with its own |B|.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Leftover requirement identifiers. Identifiers, not a bare</tspan>
+<tspan x="44.0" dy="22">count.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Changed-attack DC and FP on the second manifest, plus</tspan>
+<tspan x="44.0" dy="22">unmonitored identifiers, or an explicit waiver.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+<tspan x="44.0" dy="22">• Recovery-rerun task success is Stage 9. It is not a G4</tspan>
+<tspan x="44.0" dy="22">column.</tspan>
+<tspan x="44.0" dy="22"></tspan>
+</text>
+<text x="980.0" y="2020.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="980.0" dy="0">Controls, rerun, both TS columns,</tspan>
+<tspan x="980.0" dy="22">leftovers, and a changed-attack rerun or a</tspan>
+<tspan x="980.0" dy="22">written waiver.</tspan>
+<tspan x="980.0" dy="22"></tspan>
+<tspan x="980.0" dy="22">Destination: Stage 9 Recover. Lower AS</tspan>
+<tspan x="980.0" dy="22">alone does not pass. A pass does not clear</tspan>
+<tspan x="980.0" dy="22">a security finding.</tspan>
+</text>
+<text x="1680.0" y="2020.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="1680.0" dy="0">Any required item is missing, or the</tspan>
+<tspan x="1680.0" dy="22">first manifest’s DC or FP is copied into</tspan>
+<tspan x="1680.0" dy="22">a waived CAC cell.</tspan>
+<tspan x="1680.0" dy="22"></tspan>
+<tspan x="1680.0" dy="22">Destination: Stage 8 Mitigate.</tspan>
+</text>
+<rect x="44.0" y="2338.0" width="2360.0" height="134.0" rx="8" fill="#F8FAFC" stroke="#D5DDE5" stroke-width="1"/>
+<text x="60.0" y="2362.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Waiver. A CAC waiver may fill that cell. It is not a pass, not verification, and not the first manifest’s rates. The other evidence is still</tspan>
+<tspan x="60.0" dy="22">required.</tspan>
+</text>
+<text x="60.0" y="2416.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">Runner failure. On a rerun, the same separate record as G2. Not defense success. Not in the protected denominators.</tspan>
+</text>
+<text x="60.0" y="2448.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="60.0" dy="0">If evidence is unavailable. No rerun and no waiver, or no leftover identifiers: unfinished. Return to Stage 8.</tspan>
+</text>
+<text x="32.0" y="2530.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">A held attack check or a leftover identifier is a security finding, not a gate failure. A gate pass does not repair it. Stage 9 lists an irreversible residual and does not call that residual a successful recovery.</text>
+</svg>

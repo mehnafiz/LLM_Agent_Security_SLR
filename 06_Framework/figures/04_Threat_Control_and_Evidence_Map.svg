@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="2140" viewBox="0 0 2600 2140" font-family="Helvetica, Arial, sans-serif">
+<title>Figure 4. Threat, control, and evidence map</title>
+<desc>C1–C10 from threat to observation point, class, trace evidence, and metric. No row is a measured reduction.</desc>
+<defs>
+<marker id="mkB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1F4E79"/>
+</marker>
+<marker id="mkG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1B7A45"/>
+</marker>
+<marker id="mkR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#B42318"/>
+</marker>
+<marker id="mkA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#8A5A00"/>
+</marker>
+<marker id="mkY" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#5E6A75"/>
+</marker>
+<marker id="mkN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#17324D"/>
+</marker>
+<marker id="mkT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#0F5F63"/>
+</marker>
+</defs>
+<rect width="2600" height="2140" fill="#FFFFFF"/>
+<rect x="0.0" y="0.0" width="2600.0" height="64.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="32.0" y="28.0" fill="#D6E2EE" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" letter-spacing="0.6">FIGURE 4</text>
+<text x="32.0" y="50.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Threat, control, and evidence map</text>
+<text x="32.0" y="92.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">A control counts only with a class, an observation point, a mechanism, a protected property, a rerun on the same pairs, and a leftover list. Hosting a published mechanism does not transfer that paper’s measurements.</text>
+<rect x="32.0" y="120.0" width="2536.0" height="36.0" rx="4" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="48.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">ID</text>
+<text x="120.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Threat</text>
+<text x="470.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Where it binds</text>
+<text x="900.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Class</text>
+<text x="1140.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Evidence used to assess it</text>
+<text x="1960.0" y="144.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Metric</text>
+<rect x="32.0" y="168.0" width="2536.0" height="156.0" rx="6" fill="#FFFFFF" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="208.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C1</text>
+<text x="120.0" y="202.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Indirect prompt injection from</tspan>
+<tspan x="120.0" dy="20">untrusted content</tspan>
+</text>
+<text x="470.0" y="202.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Tool execution, before the</tspan>
+<tspan x="470.0" dy="20">result is treated as an</tspan>
+<tspan x="470.0" dy="20">instruction</tspan>
+</text>
+<text x="880.0" y="202.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent</tspan>
+</text>
+<text x="1140.0" y="202.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Channel/taint class stays data. The Stage 4 attack</tspan>
+<tspan x="1140.0" dy="20">check is false, or the benign check fails and is</tspan>
+<tspan x="1140.0" dy="20">reported.</tspan>
+</text>
+<text x="1960.0" y="204.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS; UA</tspan>
+</text>
+<rect x="32.0" y="332.0" width="2536.0" height="156.0" rx="6" fill="#F7F9FB" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="372.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C2</text>
+<text x="120.0" y="366.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Unauthorized tool use, including</tspan>
+<tspan x="120.0" dy="20">instruction-channel abuse and</tspan>
+<tspan x="120.0" dy="20">exfiltration</tspan>
+</text>
+<text x="470.0" y="366.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Tool execution, before</tspan>
+<tspan x="470.0" dy="20">commit</tspan>
+</text>
+<text x="880.0" y="366.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent</tspan>
+</text>
+<text x="1140.0" y="366.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Committed tool name, arguments, and destination</tspan>
+<tspan x="1140.0" dy="20">satisfy the Stage 4 predicate.</tspan>
+</text>
+<text x="1960.0" y="368.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS on that predicate</tspan>
+</text>
+<rect x="32.0" y="496.0" width="2536.0" height="156.0" rx="6" fill="#FFFFFF" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="536.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C3</text>
+<text x="120.0" y="530.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Tool-description poisoning</tspan>
+</text>
+<text x="470.0" y="530.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Configuration and tool</tspan>
+<tspan x="470.0" dy="20">selection</tspan>
+</text>
+<text x="880.0" y="530.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent</tspan>
+</text>
+<text x="1140.0" y="530.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Manifest stores registry version and manual hash.</tspan>
+<tspan x="1140.0" dy="20">Event stores the selected tool name. The name</tspan>
+<tspan x="1140.0" dy="20">matches the pinned manual.</tspan>
+</text>
+<text x="1960.0" y="532.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS on the tool-name check</tspan>
+</text>
+<rect x="32.0" y="660.0" width="2536.0" height="156.0" rx="6" fill="#F7F9FB" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="700.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C4</text>
+<text x="120.0" y="694.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Tool-code effect the description</tspan>
+<tspan x="120.0" dy="20">does not show</tspan>
+</text>
+<text x="470.0" y="694.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Tool execution</tspan>
+</text>
+<text x="880.0" y="694.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent</tspan>
+</text>
+<text x="1140.0" y="694.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">In scope: implementation hash and permission;</tspan>
+<tspan x="1140.0" dy="20">declared effect absent. Waived: the waiver is</tspan>
+<tspan x="1140.0" dy="20">recorded. The waiver is not verification.</tspan>
+</text>
+<text x="1960.0" y="696.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS on the effect</tspan>
+</text>
+<rect x="32.0" y="824.0" width="2536.0" height="156.0" rx="6" fill="#FFFFFF" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="864.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C5</text>
+<text x="120.0" y="858.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Plan changed after untrusted</tspan>
+<tspan x="120.0" dy="20">data</tspan>
+</text>
+<text x="470.0" y="858.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Planning, compared with</tspan>
+<tspan x="470.0" dy="20">the later call</tspan>
+</text>
+<text x="880.0" y="858.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Detect</tspan>
+</text>
+<text x="1140.0" y="858.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">detector_status and detector_outcome. ran + no_flag</tspan>
+<tspan x="1140.0" dy="20">is a miss. ran + post_commit_flag is late, not a</tspan>
+<tspan x="1140.0" dy="20">miss. Plan text is non-oracle.</tspan>
+</text>
+<text x="1960.0" y="860.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">DC: pre-commit flags /</tspan>
+<tspan x="1960.0" dy="20">|A_m|. FN: no_flag / |A_m|</tspan>
+</text>
+<rect x="32.0" y="988.0" width="2536.0" height="156.0" rx="6" fill="#F7F9FB" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="1028.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C6</text>
+<text x="120.0" y="1022.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">A committed effect that should</tspan>
+<tspan x="120.0" dy="20">have been stopped</tspan>
+</text>
+<text x="470.0" y="1022.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Tool execution, at commit</tspan>
+</text>
+<text x="880.0" y="1022.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Detect and</tspan>
+<tspan x="880.0" dy="20">respond</tspan>
+</text>
+<text x="1140.0" y="1022.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Sequence numbers order detector_outcome against the</tspan>
+<tspan x="1140.0" dy="20">committed flag. A block leaves the flag false. A</tspan>
+<tspan x="1140.0" dy="20">flag does not prove the effect stopped.</tspan>
+</text>
+<text x="1960.0" y="1024.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">DC, FN, AS, baseline TS,</tspan>
+<tspan x="1960.0" dy="20">protected TS</tspan>
+</text>
+<rect x="32.0" y="1152.0" width="2536.0" height="156.0" rx="6" fill="#FFFFFF" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="1192.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C7</text>
+<text x="120.0" y="1186.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Memory poisoning</tspan>
+</text>
+<text x="470.0" y="1186.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Memory write and a later</tspan>
+<tspan x="470.0" dy="20">read</tspan>
+</text>
+<text x="880.0" y="1186.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent and</tspan>
+<tspan x="880.0" dy="20">detect</tspan>
+</text>
+<text x="1140.0" y="1186.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">In scope: operation, entry identifier, provenance.</tspan>
+<tspan x="1140.0" dy="20">Waived: no memory event is written. That waiver does</tspan>
+<tspan x="1140.0" dy="20">not create a C8 event.</tspan>
+</text>
+<text x="1960.0" y="1188.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS on the later read</tspan>
+</text>
+<rect x="32.0" y="1316.0" width="2536.0" height="156.0" rx="6" fill="#F7F9FB" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="1356.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C8</text>
+<text x="120.0" y="1350.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Memory disclosure</tspan>
+</text>
+<text x="470.0" y="1350.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Outbound call observed</tspan>
+<tspan x="470.0" dy="20">after a relevant memory</tspan>
+<tspan x="470.0" dy="20">read</tspan>
+</text>
+<text x="880.0" y="1350.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent</tspan>
+</text>
+<text x="1140.0" y="1350.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Sequence is after the read. Destination, and asset</tspan>
+<tspan x="1140.0" dy="20">identifier when the check names one. No C8 event if</tspan>
+<tspan x="1140.0" dy="20">memory is waived or no call is observed.</tspan>
+</text>
+<text x="1960.0" y="1352.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS on the destination</tspan>
+</text>
+<rect x="32.0" y="1480.0" width="2536.0" height="156.0" rx="6" fill="#FFFFFF" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="1520.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C9</text>
+<text x="120.0" y="1514.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Peer-caused tool use</tspan>
+</text>
+<text x="470.0" y="1514.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">Peer exchange</tspan>
+</text>
+<text x="880.0" y="1514.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Prevent, detect,</tspan>
+<tspan x="880.0" dy="20">and respond</tspan>
+</text>
+<text x="1140.0" y="1514.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Sender, receiver, message identifier, and the</tspan>
+<tspan x="1140.0" dy="20">receiver’s subsequent tool call. The score is kept</tspan>
+<tspan x="1140.0" dy="20">in a separate table.</tspan>
+</text>
+<text x="1960.0" y="1516.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">AS, separate table</tspan>
+</text>
+<rect x="32.0" y="1644.0" width="2536.0" height="156.0" rx="6" fill="#F7F9FB" stroke="#D5DDE5" stroke-width="1"/>
+<text x="48.0" y="1684.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start">C10</text>
+<text x="120.0" y="1678.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="start">
+<tspan x="120.0" dy="0">Poisoned memory or a reversible</tspan>
+<tspan x="120.0" dy="20">tool effect</tspan>
+</text>
+<text x="470.0" y="1678.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="470.0" dy="0">After commit</tspan>
+</text>
+<text x="880.0" y="1678.0" fill="#0F5F63" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">
+<tspan x="880.0" dy="0">Recover</tspan>
+</text>
+<text x="1140.0" y="1678.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">
+<tspan x="1140.0" dy="0">Restore log and rerun traces match the clean</tspan>
+<tspan x="1140.0" dy="20">baseline, or the difference is listed. A restore</tspan>
+<tspan x="1140.0" dy="20">that is not rerun is not recovery.</tspan>
+</text>
+<text x="1960.0" y="1680.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">
+<tspan x="1960.0" dy="0">LR; recovery-rerun TS</tspan>
+</text>
+<rect x="32.0" y="1816.0" width="2536.0" height="210.0" rx="8" fill="#FFF6E0" stroke="#8A5A00" stroke-width="1.4"/>
+<text x="48.0" y="1844.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">How to read a row</text>
+<text x="48.0" y="1872.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="48.0" dy="0">Attack success is the Stage 4 check holding on the Stage 5 trace. An attempted action is not that result.</tspan>
+<tspan x="48.0" dy="22">C8 does not follow every C7 event. A memory read does not create the outbound call. If memory is waived, C7 and C8 are not applicable.</tspan>
+<tspan x="48.0" dy="22">C4’s waiver is a scope decision, not evidence that the implementation was verified. C10’s recovery-rerun task success is not baseline TS and not protected TS.</tspan>
+<tspan x="48.0" dy="22">DC is pre-commit flags over |A_m|. FN is no_flag cases over |A_m|. Post-commit cases are counted beside those rates and are not inside FN. FP is flags in B_m over |B_m|.</tspan>
+<tspan x="48.0" dy="22">Each of DC, FN, and FP is undefined when its denominator is empty. not_monitored means the detector did not run. no_flag means it ran and did not flag. No row is a measured reduction.</tspan>
+</text>
+<text x="32.0" y="2112.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Green text is prevent. Purple text is detect. Amber text is respond, including a mixed class that responds. Teal text is recover. The class words are the authority if a row mixes classes. G3 checks Stage 6 scores only. DC, FN, and FP are Stage 7.</text>
+</svg>

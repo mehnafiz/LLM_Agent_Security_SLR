@@ -79,16 +79,16 @@ AgentShield-LCE is a proposed evaluation lifecycle. It is a design. It has not b
 
 | File | Contents |
 |---|---|
-| `Framework_Design.md` | The design, and what it does not claim as a new benchmark |
-| `Lifecycle_Architecture.md` | The agent loop, stages 1–10, and where G1–G4 decide |
+| `Framework_Design.md` | The design, the provisional literature comparison, and the limitations |
+| `Lifecycle_Architecture.md` | The agent loop, stages 1–10, gates, components, and harness guidance |
+| `Architecture_Components.md` | Component names. It does not add a stage beyond the lifecycle file |
 | `Threat_Model.md` | Actors, assets, TB1–TB5, and surfaces |
+| `Evaluation_Protocol.md` | Run manifest, ordered trace, detector fields, and metric denominators |
 | `Mitigation_Strategy.md` | C1–C10, classes, evidence, and limits |
-| `Evaluation_Protocol.md` | The G2 record, the nine metrics, and the comparison rules |
-| `Architecture_Components.md` | Components and what each one takes and returns |
-| `Framework_Implementation_Guidelines.md` | How a harness would log and score a run |
-| `Framework_Limitations_and_Assumptions.md` | What the design cannot establish |
-| `Figure_Captions.md` | Captions for Figures 1–6 and the master sheet |
-| `figures/` | Figures 1–6 and the master sheet, SVG and PNG only |
+| `Figure_Captions.md` | Captions for the six figures |
+| `figures/` | The six final figures. SVG is the source. PNG and PDF are exports. `build_figures.py` regenerates the SVG files |
+
+Full texts for the screened set are in `05_Full_Texts/`. The older path `04_FULL_TEXT_PDFS/` is not a directory in this repository. Mentions of that older path in `history.md` describe a previous layout.
 
 ## Scope of this workspace
 

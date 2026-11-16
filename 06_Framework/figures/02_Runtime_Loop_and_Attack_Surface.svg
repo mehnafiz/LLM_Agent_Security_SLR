@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2480" height="1760" viewBox="0 0 2480 1760" font-family="Helvetica, Arial, sans-serif">
+<title>Figure 2. Runtime loop and attack surface</title>
+<desc>Instruction, planning, tool selection, tool execution, tool result, and re-plan. Memory and peer are conditional. Gates are not on this path.</desc>
+<defs>
+<marker id="mkB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1F4E79"/>
+</marker>
+<marker id="mkG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1B7A45"/>
+</marker>
+<marker id="mkR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#B42318"/>
+</marker>
+<marker id="mkA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#8A5A00"/>
+</marker>
+<marker id="mkY" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#5E6A75"/>
+</marker>
+<marker id="mkN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#17324D"/>
+</marker>
+<marker id="mkT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#0F5F63"/>
+</marker>
+</defs>
+<rect width="2480" height="1760" fill="#FFFFFF"/>
+<rect x="0.0" y="0.0" width="2480.0" height="64.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="32.0" y="28.0" fill="#D6E2EE" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" letter-spacing="0.6">FIGURE 2</text>
+<text x="32.0" y="50.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Runtime loop and attack surface</text>
+<text x="32.0" y="90.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">This is the system under test. Gates G1–G4 are not steps in this loop. An attempt is not the scored effect. The effect is the pre-declared check on the trace.</text>
+<rect x="40.0" y="112.0" width="400.0" height="100.0" rx="10" fill="#E7F0F8" stroke="#1F4E79" stroke-width="1.75"/>
+<rect x="40.0" y="112.0" width="7.0" height="100.0" rx="0" fill="#1F4E79" stroke="#1F4E79" stroke-width="0"/>
+<text x="58.0" y="136.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool description</text>
+<text x="58.0" y="158.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">Manual or schema text.</tspan>
+<tspan x="58.0" dy="18">C3 stores the pin and hash in the manifest.</tspan>
+</text>
+<rect x="460.0" y="112.0" width="440.0" height="100.0" rx="10" fill="#E7F0F8" stroke="#1F4E79" stroke-width="1.75"/>
+<rect x="460.0" y="112.0" width="7.0" height="100.0" rx="0" fill="#1F4E79" stroke="#1F4E79" stroke-width="0"/>
+<text x="478.0" y="136.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool implementation</text>
+<text x="478.0" y="158.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="478.0" dy="0">Code behind the tool name.</tspan>
+<tspan x="478.0" dy="18">C4 pins the hash and permission, or records a</tspan>
+<tspan x="478.0" dy="18">waiver.</tspan>
+</text>
+<rect x="920.0" y="112.0" width="380.0" height="100.0" rx="10" fill="#F3F5F7" stroke="#5E6A75" stroke-width="1.75"/>
+<rect x="920.0" y="112.0" width="7.0" height="100.0" rx="0" fill="#5E6A75" stroke="#5E6A75" stroke-width="0"/>
+<text x="938.0" y="136.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Permissions</text>
+<text x="938.0" y="158.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="938.0" dy="0">Recorded levels, or one level.</tspan>
+<tspan x="938.0" dy="18">Not a separate attack surface.</tspan>
+</text>
+<rect x="40.0" y="300.0" width="400.0" height="130.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.75"/>
+<rect x="40.0" y="300.0" width="7.0" height="130.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="58.0" y="324.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">1  Instruction</text>
+<text x="58.0" y="346.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">The user task enters here.</tspan>
+<tspan x="58.0" dy="18">In scope only when the check is a tool,</tspan>
+<tspan x="58.0" dy="18">memory, or peer effect.</tspan>
+</text>
+<rect x="520.0" y="300.0" width="420.0" height="130.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.75"/>
+<rect x="520.0" y="300.0" width="7.0" height="130.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="538.0" y="324.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">2  Planning</text>
+<text x="538.0" y="346.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="538.0" dy="0">Plan text may be stored.</tspan>
+<tspan x="538.0" dy="18">It is marked non-oracle.</tspan>
+<tspan x="538.0" dy="18">C5 compares it with a later call and does not</tspan>
+<tspan x="538.0" dy="18">stop that call.</tspan>
+</text>
+<rect x="1020.0" y="300.0" width="440.0" height="130.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.75"/>
+<rect x="1020.0" y="300.0" width="7.0" height="130.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="1038.0" y="324.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">3  Tool selection</text>
+<text x="1038.0" y="346.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1038.0" dy="0">The chosen tool name.</tspan>
+<tspan x="1038.0" dy="18">C3: the name matches the pinned manual.</tspan>
+<tspan x="1038.0" dy="18">The description is not the implementation.</tspan>
+</text>
+<rect x="1020.0" y="520.0" width="440.0" height="150.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.75"/>
+<rect x="1020.0" y="520.0" width="7.0" height="150.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="1038.0" y="544.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">4  Tool execution</text>
+<text x="1038.0" y="566.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1038.0" dy="0">Arguments, destination, channel class, and the</tspan>
+<tspan x="1038.0" dy="18">committed flag.</tspan>
+<tspan x="1038.0" dy="18">C2 applies the allow-list before commit.</tspan>
+<tspan x="1038.0" dy="18">C4 applies when tool code is in scope.</tspan>
+</text>
+<rect x="40.0" y="520.0" width="500.0" height="150.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.75"/>
+<rect x="40.0" y="520.0" width="7.0" height="150.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="58.0" y="544.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">5  Tool result</text>
+<text x="58.0" y="566.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">Tool result, page, email, or retrieved passage.</tspan>
+<tspan x="58.0" dy="18">C1 keeps that text in the data channel.</tspan>
+<tspan x="58.0" dy="18">It is not copied into the instruction channel.</tspan>
+</text>
+<line x1="440.0" y1="365.0" x2="520.0" y2="365.0" stroke="#1F4E79" stroke-width="2.6" fill="none" marker-end="url(#mkB)"/>
+<line x1="940.0" y1="365.0" x2="1020.0" y2="365.0" stroke="#1F4E79" stroke-width="2.6" fill="none" marker-end="url(#mkB)"/>
+<line x1="1240.0" y1="430.0" x2="1240.0" y2="520.0" stroke="#1F4E79" stroke-width="2.6" fill="none" marker-end="url(#mkB)"/>
+<line x1="1020.0" y1="595.0" x2="540.0" y2="595.0" stroke="#1F4E79" stroke-width="2.6" fill="none" marker-end="url(#mkB)"/>
+<path d="M 290 520 L 290 478 L 730 478 L 730 432" fill="none" stroke="#1F4E79" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mkB)"/>
+<text x="500.0" y="468.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">Re-plan</text>
+<line x1="250.0" y1="670.0" x2="250.0" y2="760.0" stroke="#17324D" stroke-width="2.6" fill="none" marker-end="url(#mkN)"/>
+<text x="270.0" y="740.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Task end leaves the loop</text>
+<path d="M 240 212 L 240 246 L 1240 246 L 1240 300" fill="none" stroke="#1F4E79" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mkB)"/>
+<text x="900.0" y="272.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">C3 pin → selection</text>
+<path d="M 680 212 L 680 228 L 1540 228 L 1540 595 L 1462 595" fill="none" stroke="#1F4E79" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mkB)"/>
+<text x="1268.0" y="272.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">C4 pin → execution</text>
+<rect x="40.0" y="790.0" width="1560.0" height="280.0" rx="12" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="58.0" y="816.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">MEMORY BRANCH  ·  present only when Stage 1 registers memory. A waiver removes the whole branch, including C8.</text>
+<rect x="60.0" y="840.0" width="340.0" height="120.0" rx="10" fill="#E6F4F4" stroke="#0F5F63" stroke-width="1.75" stroke-dasharray="6 4"/>
+<rect x="60.0" y="840.0" width="7.0" height="120.0" rx="0" fill="#0F5F63" stroke="#0F5F63" stroke-width="0"/>
+<text x="78.0" y="864.0" fill="#0F5F63" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">C7  Memory write</text>
+<text x="78.0" y="886.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="78.0" dy="0">Operation, entry identifier, and</tspan>
+<tspan x="78.0" dy="18">provenance.</tspan>
+<tspan x="78.0" dy="18">A write is not an outbound call.</tspan>
+</text>
+<rect x="480.0" y="840.0" width="360.0" height="120.0" rx="10" fill="#E6F4F4" stroke="#0F5F63" stroke-width="1.75" stroke-dasharray="6 4"/>
+<rect x="480.0" y="840.0" width="7.0" height="120.0" rx="0" fill="#0F5F63" stroke="#0F5F63" stroke-width="0"/>
+<text x="498.0" y="864.0" fill="#0F5F63" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">C7  Later memory read</text>
+<text x="498.0" y="886.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="498.0" dy="0">Same entry fields on a later read.</tspan>
+<tspan x="498.0" dy="18">A read is not an outbound call.</tspan>
+</text>
+<rect x="930.0" y="840.0" width="500.0" height="160.0" rx="10" fill="#FFFFFF" stroke="#0F5F63" stroke-width="1.75" stroke-dasharray="6 4"/>
+<rect x="930.0" y="840.0" width="7.0" height="160.0" rx="0" fill="#0F5F63" stroke="#0F5F63" stroke-width="0"/>
+<text x="948.0" y="864.0" fill="#0F5F63" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">C8  Outbound call</text>
+<text x="948.0" y="886.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="948.0" dy="0">Drawn only when the call is observed after a relevant read.</tspan>
+<tspan x="948.0" dy="18">C8 does not follow every C7 event.</tspan>
+<tspan x="948.0" dy="18">If memory is waived, this node is absent.</tspan>
+<tspan x="948.0" dy="18">Not applicable is a scope state, not a pass.</tspan>
+</text>
+<line x1="400.0" y1="900.0" x2="480.0" y2="900.0" stroke="#0F5F63" stroke-width="2.6" fill="none" marker-end="url(#mkT)"/>
+<line x1="840.0" y1="900.0" x2="930.0" y2="900.0" stroke="#0F5F63" stroke-width="2.6" fill="none" marker-end="url(#mkT)"/>
+<rect x="40.0" y="1100.0" width="1560.0" height="200.0" rx="12" fill="#E6F4F4" stroke="#0F5F63" stroke-width="1.6"/>
+<text x="58.0" y="1128.0" fill="#0F5F63" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">OFF THE LOOP  ·  commit and recovery are not steps of the solid loop</text>
+<rect x="60.0" y="1150.0" width="620.0" height="120.0" rx="10" fill="#FFFFFF" stroke="#5C3F86" stroke-width="1.75"/>
+<rect x="60.0" y="1150.0" width="7.0" height="120.0" rx="0" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="78.0" y="1174.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">C6  Commit boundary</text>
+<text x="78.0" y="1196.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="78.0" dy="0">Detect, then respond: leave the committed flag false, or record approval</tspan>
+<tspan x="78.0" dy="18">of that call.</tspan>
+<tspan x="78.0" dy="18">A detector flag is not evidence that the effect was stopped.</tspan>
+<tspan x="78.0" dy="18">A post-commit flag is a late detection, not a miss.</tspan>
+</text>
+<rect x="780.0" y="1150.0" width="640.0" height="120.0" rx="10" fill="#FFFFFF" stroke="#0F5F63" stroke-width="1.75"/>
+<rect x="780.0" y="1150.0" width="7.0" height="120.0" rx="0" fill="#0F5F63" stroke="#0F5F63" stroke-width="0"/>
+<text x="798.0" y="1174.0" fill="#0F5F63" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">C10  Restore, then rerun</text>
+<text x="798.0" y="1196.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="798.0" dy="0">Quarantine or delete the entry, roll back a reversible effect, or list the</tspan>
+<tspan x="798.0" dy="18">residual.</tspan>
+<tspan x="798.0" dy="18">A restore that is not rerun is not recovery.</tspan>
+<tspan x="798.0" dy="18">Recovery-rerun task success is Stage 9, not this arrow.</tspan>
+</text>
+<line x1="680.0" y1="1210.0" x2="780.0" y2="1210.0" stroke="#0F5F63" stroke-width="2.6" fill="none" marker-end="url(#mkT)"/>
+<rect x="1640.0" y="112.0" width="800.0" height="1288.0" rx="12" fill="#FBFCFD" stroke="#D5DDE5" stroke-width="1.2"/>
+<rect x="1660.0" y="132.0" width="760.0" height="130.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.75" stroke-dasharray="6 4"/>
+<rect x="1660.0" y="132.0" width="7.0" height="130.0" rx="0" fill="#5E6A75" stroke="#5E6A75" stroke-width="0"/>
+<text x="1678.0" y="156.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Peer exchange  ·  C9</text>
+<text x="1678.0" y="178.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1678.0" dy="0">Dashed: only if Stage 1 registers a peer.</tspan>
+<tspan x="1678.0" dy="18">Log sender, receiver, message identifier, and the receiver’s next tool call.</tspan>
+<tspan x="1678.0" dy="18">Not a step after memory. The score stays in a separate table.</tspan>
+</text>
+<text x="1660.0" y="300.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">Attack surfaces on this path</text>
+<text x="1660.0" y="326.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1660.0" dy="0">The carrier is where untrusted content can enter.</tspan>
+<tspan x="1660.0" dy="20">The check is the later observable effect.</tspan>
+<tspan x="1660.0" dy="20">Placing a carrier is an attempt, not attack success.</tspan>
+</text>
+<rect x="1660.0" y="410.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="422.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Untrusted content — tool result, page, email, retrieval</text>
+<rect x="1660.0" y="444.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="456.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Tool description — separate from tool implementation</text>
+<rect x="1660.0" y="478.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="490.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Tool implementation — the effect, not the manual</text>
+<rect x="1660.0" y="512.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="524.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Tool selection — the chosen tool name</text>
+<rect x="1660.0" y="546.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="558.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Tool execution — name, arguments, destination, commit</text>
+<rect x="1660.0" y="580.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="592.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Tool result — data channel, not a new instruction</text>
+<rect x="1660.0" y="614.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="626.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Memory write, then a later read — C7</text>
+<rect x="1660.0" y="648.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="660.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Outbound call after a relevant read — C8, only if observed</text>
+<rect x="1660.0" y="682.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="694.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Peer message — only if a peer is registered</text>
+<rect x="1660.0" y="716.0" width="10.0" height="10.0" rx="1" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1680.0" y="728.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Instruction channel — only as a tool, memory, or peer effect</text>
+<text x="1660.0" y="778.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">
+<tspan x="1660.0" dy="0">A waiver of tool code, memory, or peers removes that branch.</tspan>
+<tspan x="1660.0" dy="20">The waiver is a scope note. It is not a surface and not a pass.</tspan>
+<tspan x="1660.0" dy="20">A chat-only jailbreak has no check on this loop.</tspan>
+</text>
+<text x="1660.0" y="880.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Control class on this figure</text>
+<rect x="1660.0" y="902.0" width="16.0" height="16.0" rx="2" fill="#1B7A45" stroke="#1B7A45" stroke-width="0"/>
+<text x="1686.0" y="914.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start">
+<tspan x="1686.0" dy="0">Prevent — C1, C2, C3, C4; also the prevent part of C7, C8, C9</tspan>
+</text>
+<rect x="1660.0" y="938.0" width="16.0" height="16.0" rx="2" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="1686.0" y="950.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start">
+<tspan x="1686.0" dy="0">Detect — C5; also the detect part of C6, C7, C9</tspan>
+</text>
+<rect x="1660.0" y="974.0" width="16.0" height="16.0" rx="2" fill="#8A5A00" stroke="#8A5A00" stroke-width="0"/>
+<text x="1686.0" y="986.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start">
+<tspan x="1686.0" dy="0">Respond — C6 blocks or records approval; C9 can drop the message</tspan>
+</text>
+<rect x="1660.0" y="1010.0" width="16.0" height="16.0" rx="2" fill="#0F5F63" stroke="#0F5F63" stroke-width="0"/>
+<text x="1686.0" y="1022.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start">
+<tspan x="1686.0" dy="0">Recover — C10, after commit, and only if the restore is rerun</tspan>
+</text>
+<rect x="1660.0" y="1046.0" width="16.0" height="16.0" rx="2" fill="#5E6A75" stroke="#5E6A75" stroke-width="0"/>
+<text x="1686.0" y="1058.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="start">
+<tspan x="1686.0" dy="0">Dashed outline — drawn only when Stage 1 registers that component</tspan>
+</text>
+<text x="32.0" y="1732.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">C5 does not stop the call. A memory read does not create C8. Gates are on Figures 1 and 5. No control on this figure has been measured.</text>
+</svg>

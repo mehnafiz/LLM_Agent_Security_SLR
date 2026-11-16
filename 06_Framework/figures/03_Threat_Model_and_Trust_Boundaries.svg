@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1880" viewBox="0 0 2400 1880" font-family="Helvetica, Arial, sans-serif">
+<title>Figure 3. Threat model and trust boundaries</title>
+<desc>Actors, assets, TB1–TB5, and attack surfaces. Conditional actors and conditional components are dashed. An attempt is not the scored effect.</desc>
+<defs>
+<marker id="mkB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1F4E79"/>
+</marker>
+<marker id="mkG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1B7A45"/>
+</marker>
+<marker id="mkR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#B42318"/>
+</marker>
+<marker id="mkA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#8A5A00"/>
+</marker>
+<marker id="mkY" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#5E6A75"/>
+</marker>
+<marker id="mkN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#17324D"/>
+</marker>
+<marker id="mkT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#0F5F63"/>
+</marker>
+</defs>
+<rect width="2400" height="1880" fill="#FFFFFF"/>
+<rect x="0.0" y="0.0" width="2400.0" height="64.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="32.0" y="28.0" fill="#D6E2EE" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" letter-spacing="0.6">FIGURE 3</text>
+<text x="32.0" y="50.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Threat model and trust boundaries</text>
+<text x="32.0" y="92.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Stage 2 catalog. A stronger actor is a different row, not an implication. Gates are not on this figure. TB5 is an evaluation boundary, not a network edge.</text>
+<text x="40.0" y="130.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.8">ACTORS</text>
+<rect x="40.0" y="146.0" width="500.0" height="154.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.6"/>
+<text x="56.0" y="172.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Content injector</text>
+<text x="370.0" y="172.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">In the catalog</text>
+<text x="56.0" y="196.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="56.0" dy="0">Places text the agent will read: page, email, retrieval, or</tspan>
+<tspan x="56.0" dy="17">tool result.</tspan>
+<tspan x="56.0" dy="17">Not capable of: Cannot call tools directly or change</tspan>
+<tspan x="56.0" dy="17">weights.</tspan>
+<tspan x="56.0" dy="17">Included if any untrusted carrier exists.</tspan>
+</text>
+<rect x="560.0" y="146.0" width="500.0" height="154.0" rx="10" fill="#FFFFFF" stroke="#17324D" stroke-width="1.6"/>
+<text x="576.0" y="172.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Instruction adversary</text>
+<text x="890.0" y="172.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">In the catalog</text>
+<text x="576.0" y="196.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="576.0" dy="0">Supplies the instruction channel.</tspan>
+<tspan x="576.0" dy="17">Not capable of: Reaches a tool only through the agent.</tspan>
+<tspan x="576.0" dy="17">In scope when the check is a tool, memory, or peer effect.</tspan>
+</text>
+<rect x="1080.0" y="146.0" width="500.0" height="154.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="1096.0" y="172.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool publisher</text>
+<text x="1410.0" y="172.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Conditional</text>
+<text x="1096.0" y="196.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1096.0" dy="0">Publishes a description, an implementation, or both.</tspan>
+<tspan x="1096.0" dy="17">Not capable of: Cannot impersonate the user.</tspan>
+<tspan x="1096.0" dy="17">When the agent installs or selects third-party tools.</tspan>
+</text>
+<rect x="40.0" y="314.0" width="500.0" height="154.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="56.0" y="340.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Peer agent</text>
+<text x="370.0" y="340.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Conditional</text>
+<text x="56.0" y="364.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="56.0" dy="0">Sends a message the receiver treats as input.</tspan>
+<tspan x="56.0" dy="17">Not capable of: Cannot bypass the receiver’s tool boundary</tspan>
+<tspan x="56.0" dy="17">except by that message.</tspan>
+<tspan x="56.0" dy="17">When a peer is in the register. Otherwise waived.</tspan>
+</text>
+<rect x="560.0" y="314.0" width="500.0" height="154.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="576.0" y="340.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Model or trace supplier</text>
+<text x="890.0" y="340.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Conditional</text>
+<text x="576.0" y="364.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="576.0" dy="0">Poisons weights or tool-use traces before deployment.</tspan>
+<tspan x="576.0" dy="17">Not capable of: Does not act at runtime without a trigger</tspan>
+<tspan x="576.0" dy="17">in an in-scope carrier.</tspan>
+<tspan x="576.0" dy="17">Only if that supply chain is in the register.</tspan>
+</text>
+<rect x="1080.0" y="314.0" width="500.0" height="154.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="1096.0" y="340.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Internal evolution</text>
+<text x="1410.0" y="340.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Conditional</text>
+<text x="1096.0" y="364.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1096.0" dy="0">Writes memory, tools, or workflow a later session will</tspan>
+<tspan x="1096.0" dy="17">trust.</tspan>
+<tspan x="1096.0" dy="17">Not capable of: No external party is required.</tspan>
+<tspan x="1096.0" dy="17">Only if the system updates itself. Otherwise waived.</tspan>
+</text>
+<text x="40.0" y="510.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.8">TRUST BOUNDARIES ON THE AGENT PATH</text>
+<rect x="40.0" y="530.0" width="300.0" height="120.0" rx="10" fill="#E7F0F8" stroke="#1F4E79" stroke-width="1.75"/>
+<rect x="40.0" y="530.0" width="7.0" height="120.0" rx="0" fill="#1F4E79" stroke="#1F4E79" stroke-width="0"/>
+<text x="58.0" y="554.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">User instruction</text>
+<text x="58.0" y="576.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">Instruction channel.</tspan>
+<tspan x="58.0" dy="18">Still subject to the task</tspan>
+<tspan x="58.0" dy="18">allow-list.</tspan>
+</text>
+<rect x="40.0" y="670.0" width="300.0" height="110.0" rx="10" fill="#FDECEC" stroke="#B42318" stroke-width="1.75"/>
+<rect x="40.0" y="670.0" width="7.0" height="110.0" rx="0" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="58.0" y="694.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Untrusted content</text>
+<text x="58.0" y="716.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">Data channel.</tspan>
+<tspan x="58.0" dy="18">Not an extra stage. A carrier at</tspan>
+<tspan x="58.0" dy="18">memory, a tool result, or</tspan>
+<tspan x="58.0" dy="18">retrieval.</tspan>
+</text>
+<rect x="430.0" y="580.0" width="280.0" height="160.0" rx="12" fill="#FFFFFF" stroke="#17324D" stroke-width="2.2"/>
+<text x="570.0" y="640.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Agent</text>
+<text x="450.0" y="670.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="450.0" dy="0">Plans, then calls tools.</tspan>
+<tspan x="450.0" dy="18">Memory and peers are optional.</tspan>
+</text>
+<line x1="340.0" y1="590.0" x2="430.0" y2="640.0" stroke="#1F4E79" stroke-width="2.2" fill="none" marker-end="url(#mkB)"/>
+<line x1="340.0" y1="720.0" x2="430.0" y2="700.0" stroke="#B42318" stroke-width="2.2" fill="none" marker-end="url(#mkR)"/>
+<text x="360.0" y="560.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">TB1</text>
+<text x="360.0" y="800.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start">
+<tspan x="360.0" dy="0">TB1  Instruction and data are separate channels.</tspan>
+</text>
+<rect x="800.0" y="530.0" width="360.0" height="110.0" rx="10" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.75"/>
+<rect x="800.0" y="530.0" width="7.0" height="110.0" rx="0" fill="#1F4E79" stroke="#1F4E79" stroke-width="0"/>
+<text x="818.0" y="554.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool description</text>
+<text x="818.0" y="576.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="818.0" dy="0">Manual or schema.</tspan>
+<tspan x="818.0" dy="18">Registry membership is not authorization.</tspan>
+</text>
+<rect x="800.0" y="660.0" width="360.0" height="110.0" rx="10" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.75"/>
+<rect x="800.0" y="660.0" width="7.0" height="110.0" rx="0" fill="#1F4E79" stroke="#1F4E79" stroke-width="0"/>
+<text x="818.0" y="684.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool implementation</text>
+<text x="818.0" y="706.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="818.0" dy="0">Code and permission are separate</tspan>
+<tspan x="818.0" dy="18">from the description.</tspan>
+</text>
+<rect x="1180.0" y="580.0" width="300.0" height="140.0" rx="10" fill="#E7F0F8" stroke="#17324D" stroke-width="1.75"/>
+<rect x="1180.0" y="580.0" width="7.0" height="140.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="1198.0" y="604.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool execution</text>
+<text x="1198.0" y="626.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1198.0" dy="0">Name, arguments, destination,</tspan>
+<tspan x="1198.0" dy="18">and whether the effect committed.</tspan>
+</text>
+<line x1="710.0" y1="620.0" x2="800.0" y2="580.0" stroke="#1F4E79" stroke-width="2" fill="none" marker-end="url(#mkB)"/>
+<line x1="710.0" y1="690.0" x2="800.0" y2="710.0" stroke="#1F4E79" stroke-width="2" fill="none" marker-end="url(#mkB)"/>
+<line x1="1160.0" y1="575.0" x2="1180.0" y2="620.0" stroke="#1F4E79" stroke-width="2" fill="none" marker-end="url(#mkB)"/>
+<line x1="1160.0" y1="720.0" x2="1180.0" y2="680.0" stroke="#1F4E79" stroke-width="2" fill="none" marker-end="url(#mkB)"/>
+<text x="748.0" y="548.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">TB2</text>
+<rect x="1500.0" y="540.0" width="360.0" height="120.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.75" stroke-dasharray="6 4"/>
+<rect x="1500.0" y="540.0" width="7.0" height="120.0" rx="0" fill="#5E6A75" stroke="#5E6A75" stroke-width="0"/>
+<text x="1518.0" y="564.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Memory</text>
+<text x="1518.0" y="586.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1518.0" dy="0">Stored text is data until a write policy</tspan>
+<tspan x="1518.0" dy="18">promotes it.</tspan>
+<tspan x="1518.0" dy="18">Dashed unless Stage 1 registers it.</tspan>
+</text>
+<rect x="1500.0" y="690.0" width="360.0" height="120.0" rx="10" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.75" stroke-dasharray="6 4"/>
+<rect x="1500.0" y="690.0" width="7.0" height="120.0" rx="0" fill="#5E6A75" stroke="#5E6A75" stroke-width="0"/>
+<text x="1518.0" y="714.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Peer agent</text>
+<text x="1518.0" y="736.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="1518.0" dy="0">A peer message cannot authorize a tool</tspan>
+<tspan x="1518.0" dy="18">the user did not grant.</tspan>
+<tspan x="1518.0" dy="18">Dashed unless a peer is registered.</tspan>
+</text>
+<path d="M 1480 620 C 1490 620 1490 590 1500 600" fill="none" stroke="#5E6A75" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mkY)"/>
+<path d="M 1480 700 C 1490 700 1490 750 1500 750" fill="none" stroke="#5E6A75" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mkY)"/>
+<text x="1455.0" y="560.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">TB3</text>
+<text x="1455.0" y="780.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" paint-order="stroke fill" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round">TB4</text>
+<text x="800.0" y="820.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="500" text-anchor="start">
+<tspan x="800.0" dy="0">These links are not a path from tools through memory to the peer.</tspan>
+<tspan x="800.0" dy="18">A memory read is not an outbound call.</tspan>
+</text>
+<rect x="40.0" y="860.0" width="1820.0" height="120.0" rx="10" fill="#F3EEF8" stroke="#5C3F86" stroke-width="1.8"/>
+<text x="58.0" y="892.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">TB5  ·  Evaluator / model</text>
+<text x="58.0" y="918.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">Three records stay distinct: the agent’s self-report is not evidence; a raw execution trace is not scoring evidence;</tspan>
+<tspan x="58.0" dy="18">validated scoring evidence is the trace that passed integrity, completeness, provenance, and timestamp checks.</tspan>
+<tspan x="58.0" dy="18">This boundary does not claim that instrumentation is tamper-proof. An attacker who can alter the instrumentation is outside the actors scored here.</tspan>
+</text>
+<text x="1900.0" y="130.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.6">PROTECTED ASSETS</text>
+<rect x="1900.0" y="150.0" width="460.0" height="70.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.5"/>
+<text x="1916.0" y="176.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">User data</text>
+<text x="1916.0" y="200.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">A tool call or message sends a secret the task did not allow.</text>
+<rect x="1900.0" y="228.0" width="460.0" height="70.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.5"/>
+<text x="1916.0" y="254.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Tool effect</text>
+<text x="1916.0" y="278.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">A tool or argument the task did not authorize.</text>
+<rect x="1900.0" y="306.0" width="460.0" height="70.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.5"/>
+<text x="1916.0" y="332.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Memory</text>
+<text x="1916.0" y="356.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">A later task follows a poisoned entry, or a stored secret is sent.</text>
+<rect x="1900.0" y="384.0" width="460.0" height="70.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.5"/>
+<text x="1916.0" y="410.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Peer agents</text>
+<text x="1916.0" y="434.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">A peer message causes a tool call the user did not request.</text>
+<rect x="1900.0" y="462.0" width="460.0" height="70.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.5"/>
+<text x="1916.0" y="488.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">User task</text>
+<text x="1916.0" y="512.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">The benign check fails, or the attacker’s task replaces it.</text>
+<text x="1916.0" y="560.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start">
+<tspan x="1916.0" dy="0">Availability in this catalog means the user task.</tspan>
+<tspan x="1916.0" dy="18">It does not mean uptime of the model server.</tspan>
+<tspan x="1916.0" dy="18">A waiver under these assets is a scope note, not a surface.</tspan>
+</text>
+<text x="40.0" y="1020.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.8">ATTACK SURFACES AND WHAT THE CHECK LOOKS AT</text>
+<text x="1180.0" y="1020.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">An attempted carrier is not the observed forbidden effect.</text>
+<rect x="40.0" y="1040.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.5"/>
+<text x="56.0" y="1068.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Untrusted content</text>
+<text x="56.0" y="1096.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Tool result, page, email, retrieval</text>
+<text x="56.0" y="1120.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="56.0" dy="0">Check looks at: Later tool call, arguments, or destination</tspan>
+</text>
+<rect x="630.0" y="1040.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.5"/>
+<text x="646.0" y="1068.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool description</text>
+<text x="646.0" y="1096.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Manual or schema text</text>
+<text x="646.0" y="1120.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="646.0" dy="0">Check looks at: Selected tool name</tspan>
+</text>
+<rect x="1220.0" y="1040.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.5"/>
+<text x="1236.0" y="1068.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Tool implementation</text>
+<text x="1236.0" y="1096.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Code behind the name</text>
+<text x="1236.0" y="1120.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="1236.0" dy="0">Check looks at: The effect, not the description</tspan>
+</text>
+<rect x="1810.0" y="1040.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1826.0" y="1068.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Memory</text>
+<text x="1826.0" y="1096.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Entry written earlier</text>
+<text x="1826.0" y="1120.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="1826.0" dy="0">Check looks at: Later read, the write, and provenance</tspan>
+</text>
+<text x="1826.0" y="1158.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">Conditional. Absent unless registered. Not a pass.</text>
+<rect x="40.0" y="1190.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="56.0" y="1218.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Outbound after a read</text>
+<text x="56.0" y="1246.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Destination named before the run</text>
+<text x="56.0" y="1270.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="56.0" dy="0">Check looks at: Only if observed after a relevant memory read</tspan>
+</text>
+<text x="56.0" y="1308.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">Conditional. Absent unless registered. Not a pass.</text>
+<rect x="630.0" y="1190.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="646.0" y="1218.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Peer message</text>
+<text x="646.0" y="1246.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Agent-to-agent payload</text>
+<text x="646.0" y="1270.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="646.0" dy="0">Check looks at: Sender, receiver, message, receiver’s call</tspan>
+</text>
+<text x="646.0" y="1308.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">Conditional. Absent unless registered. Not a pass.</text>
+<rect x="1220.0" y="1190.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#5E6A75" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1236.0" y="1218.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Actuator</text>
+<text x="1236.0" y="1246.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: Named actuator event</text>
+<text x="1236.0" y="1270.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="1236.0" dy="0">Check looks at: Identifier, target, action, committed flag</tspan>
+</text>
+<text x="1236.0" y="1308.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">Conditional. Absent unless registered. Not a pass.</text>
+<rect x="1810.0" y="1190.0" width="570.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#B42318" stroke-width="1.5"/>
+<text x="1826.0" y="1218.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Instruction channel</text>
+<text x="1826.0" y="1246.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Carrier: User instruction</text>
+<text x="1826.0" y="1270.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="1826.0" dy="0">Check looks at: The tool call. No check for text-only jailbreak</tspan>
+</text>
+<text x="40.0" y="1360.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="40.0" dy="0">Privilege separation is not its own surface. More than one permission level: a higher level than the task allows is an unauthorized tool effect.</tspan>
+<tspan x="40.0" dy="20">One permission level: privilege separation is waived at G1. Actuators with no registration are recorded as not applicable, not as a waiver of a measured corpus finding.</tspan>
+<tspan x="40.0" dy="20">Objectives that can be scored: task replacement, unauthorized tool execution, exfiltration, persistence through memory, a peer-caused action, and denial of the user task.</tspan>
+</text>
+<rect x="40.0" y="1460.0" width="2320.0" height="150.0" rx="10" fill="#F3F5F7" stroke="#5E6A75" stroke-width="1.4"/>
+<text x="58.0" y="1490.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.6">OUTSIDE THIS CATALOG</text>
+<text x="58.0" y="1518.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">
+<tspan x="58.0" dy="0">Chat-only jailbreak. Unobservable change to internal reasoning. Host, hypervisor, and network compromise unless that host is the system under test.</tspan>
+<tspan x="58.0" dy="22">Multi-agent messages the instrumentation cannot read: G2 fails if the receiver’s tool call is not logged. Training-time or weight backdoors only when that supply chain is in the register.</tspan>
+<tspan x="58.0" dy="22">Self-evolution only when the agent writes a later session’s memory, tools, or workflow. Attacks are not invented to fill an unused category.</tspan>
+</text>
+<text x="40.0" y="1660.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Planning that changes a later call is partially observable: the call is the check. The plan text is not scoring evidence. A detector that did not run is not monitored.</text>
+<text x="40.0" y="1690.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">A post-commit flag is a late detection, not a miss. A detector that ran and did not flag is a missed detection (no_flag). Those marks are Stage 7, not this figure’s actors.</text>
+<text x="40.0" y="1848.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Proposed catalog. No attack on this figure was run in this project. A waived surface is not drawn as if it were present, and a waiver is not a finding that the surface was safe.</text>
+</svg>

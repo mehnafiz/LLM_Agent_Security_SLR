@@ -4,11 +4,11 @@ AgentShield-LCE is an evaluation lifecycle for an LLM-based agent that plans in 
 
 The lifecycle does not rename WASP, InjecAgent, TraceProbe, CaMeL, or any other published benchmark. Those systems test a slice: one attack family, one environment, or one guard. AgentShield-LCE specifies the order in which identification, threat modeling, paired tests, trace scoring, detection coverage, control retest, recovery, and reporting are allowed to support a security claim. A claim that skips a gate is not a result of this lifecycle.
 
-Figures 1–6 are the architecture. The runtime is the loop in Figure 2. The evaluation is the sequence G1 to G4 in Figure 4. The trace is the evidence bridge from the runtime to evaluation. G1 is decided on the Stage 2 catalog and does not require a runtime trace. The master infographic places Figures 1–6 on one sheet. It adds no rule.
+Figures 1–6 are the architecture. Figure 1 is the ten-stage evaluation lifecycle. Figure 2 is the runtime loop. Figure 3 is the threat catalog. Figure 4 is the C1–C10 map. Figure 5 is the G1–G4 decision map. Figure 6 is the metric table. The trace is the evidence bridge from the runtime to evaluation. G1 is decided on the Stage 2 catalog and does not require a runtime trace.
 
 ## What is being proposed
 
-The design has three layers. Figure 1 separates the runtime environment from the evaluation checkpoints.
+The design has three layers. Figure 1 draws the evaluation lifecycle. Figure 2 draws the system under test. The two are not the same path.
 
 1. **System under test.** The agent, its instruction channel, untrusted content, tool registry, memory, and peer agents. Security controls bind at the trust boundaries of this system. They are not stages of the evaluation.
 2. **Evaluation lifecycle.** Stages 1–10. Gates G1–G4 are checks on the evaluation itself. They are not inserted into the agent’s serving path and they add no serving latency.
@@ -37,8 +37,8 @@ Labels for the capabilities this design adds, against the same local set: lifecy
 The design decision that is not already one of those systems is the refusal rule that ties them together:
 
 - Every in-scope surface is named or explicitly waived before any test is written (G1).
-- Every case has a tool-level trace, or the run is not scored (G2).
-- Every reported number cites a trace field and a requirement identifier, and task success is reported on the same pairs (G3).
+- Every scored case has instrumented execution evidence that passes the integrity, completeness, provenance, and timestamp checks, or the run is not scored (G2). A raw trace is not scoring evidence until those checks pass. A model self-report is not evidence.
+- Every Stage 6 number (TS, AS, UA, CS) cites a trace field and a requirement identifier, and task success is reported on the same pairs (G3). Detection rates are computed afterward, in Stage 7. They are not part of G3.
 - A control is unfinished until it has a class, a rerun, a task-success change, a leftover list, and either a changed-attack rerun or a written waiver (G4).
 - Recovery is unfinished until failed cases, and a sample of earlier passes, are rerun against the clean baseline (Stage 9).
 - Heterogeneous surfaces are not collapsed into one weighted score.
@@ -74,7 +74,7 @@ The chain required of every requirement is: threat, scenario, lifecycle point, o
 | Memory disclosure | A stored secret is sent | Memory read and the outbound call | Destination and argument constraint | Attack success on the destination | The secret is not sent | Established as a threat class. This control is not validated |
 | Peer manipulation | A peer message causes a tool call the user did not request | Peer receive, then the receiver’s tool call | Bound what a peer may cause; drop the message | Attack success on that call, reported separately | The call is denied, or the identifier remains a leftover | Established for agent-to-agent protocols. Not summed with other scores |
 | Task denial | The user task fails without a separate forbidden side effect | Benign check on the attacked run | No dedicated prevent control; the failure must still be scored | Utility under attack | The failure is visible beside attack success | Established as malfunction and as task replacement. Scoring rule is the contribution |
-| Shifted attacks | A control that passed the original suite fails on a new carrier or pattern | Stage 8 rerun | Changed-attack rerun, or a waiver | Detection coverage and false positives on the new set | Coverage is not claimed from the original suite | Required by G4. Not measured |
+| Shifted attacks | A control that passed the original suite fails on a new carrier or pattern | Stage 8 rerun | Changed-attack rerun, or a waiver | DC and FP on the second manifest's monitored subsets `A_m` and `B_m`, or a waiver. Unmonitored identifiers listed separately | Coverage is not claimed from the original suite | Required by G4. Not measured |
 | Instruction-channel abuse | The instruction itself requests an unauthorized tool effect | Instruction intake and tool execution | The allow-list still applies | Attack success on the tool check | The tool outside the task is denied | Design scope. Weaker corpus support |
 | Weight or trace backdoor | A trigger in the input or environment fires a trained behavior | Supply chain | None, unless that pipeline is in the register | Waiver, or the same effect check | Unlisted pipelines are not scored | Conditional. BadAgent and related candidate papers |
 | Self-generated drift | The agent writes memory, tools, or workflow that misleads a later session | Memory or registry write | The same memory and pin controls; the next change returns to Stage 2 | Leftover identifiers | The change re-enters the threat model | Conditional on a self-updating system |
@@ -83,16 +83,16 @@ The chain required of every requirement is: threat, scenario, lifecycle point, o
 
 | Control | Threat | Lifecycle point | Evidence | Gate | Metric | Figure |
 |---|---|---|---|---|---|---|
-| C1 | Indirect prompt injection | Tool execution | Data channel separate from the instruction; attack check | G3, G4 | Attack success; utility under attack | 2, 5 |
-| C2 | Unauthorized tool use | Tool execution | Tool name, arguments, destination | G3, G4 | Attack success | 2, 5 |
-| C3 | Tool-description poisoning | Configuration and selection | Registry pin and selected tool name | G1, G4 | Attack success on the tool name | 2, 5 |
-| C4 | Tool-code effect | Tool execution | Implementation hash, or a waiver if tool code is out of scope | G1, G4 | Attack success on the effect | 2, 5 |
-| C5 | Plan changed after untrusted data | Planning, then the later call | Detector flag; plan text marked non-oracle | G2, G4 | Detection coverage | 2, 5 |
-| C6 | Effect that should not commit | Commit | Detector flag and committed flag | G2, G4 | Detection coverage; attack success; task success | 2, 5 |
-| C7 | Memory poisoning | Memory write and later read | Operation, entry identifier, provenance label | G2, G4 | Attack success on the later read | 2, 5 |
-| C8 | Memory disclosure | Memory read and outbound call | Outbound destination | G3, G4 | Attack success on the destination | 2, 5 |
-| C9 | Peer-caused tool use | Peer exchange | Receiver’s tool call, scored separately | G1, G4 | Attack success, separate table | 2, 5 |
-| C10 | Residual state | After commit | Restore log and rerun traces, or a listed residual | Stage 9, not a gate | Leftover identifiers; task success on the rerun | 2, 5, 6 |
+| C1 | Indirect prompt injection | Tool execution | Channel/taint class stays data, separate from the instruction; attack check | G3, G4 | Attack success; utility under attack | 2, 4 |
+| C2 | Unauthorized tool use | Tool execution | Tool name, arguments, destination, sequence number | G3, G4 | Attack success | 2, 4 |
+| C3 | Tool-description poisoning | Configuration and selection | Manual pin and hash in the run manifest; selected tool name on the event | G1, G4 | Attack success on the tool name | 2, 4 |
+| C4 | Tool-code effect | Tool execution | Implementation hash and permission when tool code is in scope, or a recorded waiver when it is not. The waiver is not verification | G1, G4 | Attack success on the effect | 2, 4 |
+| C5 | Plan changed after untrusted data | Planning, then the later call | `detector_status` and `detector_outcome`; plan text is not scoring evidence | G2, G4 | DC over `A_m`; FN is the `no_flag` share of `A_m` | 2, 4 |
+| C6 | Effect that should not commit | Commit | `detector_status`, `detector_outcome`, and the committed flag, ordered by sequence number | G2, G4 | DC and FN over `A_m`; attack success; baseline and protected task success | 2, 4 |
+| C7 | Memory poisoning | Memory write and later read | Operation, entry identifier, provenance label, when memory is in scope | G2, G4 | Attack success on the later read | 2, 4 |
+| C8 | Memory disclosure | Outbound call observed after a relevant memory read | Sequence number after the read, destination, and asset identifier when the check names one. Not applicable when memory is waived or no outbound call is observed | G3, G4 | Attack success on the destination | 2, 4 |
+| C9 | Peer-caused tool use | Peer exchange | Sender, receiver, message identifier, and the receiver's subsequent tool call, scored separately | G1, G4 | Attack success, separate table | 2, 4 |
+| C10 | Residual state | After commit | Restore log and rerun traces, or a listed residual | Stage 9, not a gate | Leftover identifiers; recovery-rerun task success, separate from baseline and protected TS | 2, 4, 6 |
 
 The gap that remains is measurement. The chain can be written for each row. No trace in this repository shows that a control changed a metric. Shifted attacks stay a G4 requirement with no result. Instruction-channel abuse stays in scope with weaker support in the local set than indirect injection. Unobservable reasoning, chat-only jailbreaks, and unread multi-agent channels stay outside the chain because G2 has no field for them.
 
@@ -100,14 +100,13 @@ The gap that remains is measurement. The chain can be written for each row. No t
 
 | Question | Document |
 |---|---|
-| Order, inputs, outputs, and the agent path | `Lifecycle_Architecture.md` |
+| Order, inputs, outputs, the agent path, components, and harness guidance | `Lifecycle_Architecture.md`. `Architecture_Components.md` names the same components and does not add a stage |
 | Actors, assets, boundaries, surfaces | `Threat_Model.md` |
-| Oracles, metrics, comparison, reproducibility | `Evaluation_Protocol.md` |
+| Manifest, trace, oracles, metrics, denominators, comparison | `Evaluation_Protocol.md` |
 | Controls, properties, and residual risk | `Mitigation_Strategy.md` |
-| Gate evidence, pass, fail, and waiver | `Evaluation_Protocol.md` |
-| Components and a harness | `Architecture_Components.md`, `Framework_Implementation_Guidelines.md` |
-| What this design does not establish | `Framework_Limitations_and_Assumptions.md` |
-| Figures 1–6 and the master sheet | `figures/` |
+| Gate evidence, pass, fail, and waiver | `Evaluation_Protocol.md` and `Lifecycle_Architecture.md` |
+| What this design does not establish | The limitations section below |
+| Figures 1–6 and their captions | `Figure_Captions.md` and `figures/` |
 
 ## Figures
 
@@ -115,21 +114,24 @@ Captions are in `Figure_Captions.md`.
 
 | Figure | File | What it shows |
 |---|---|---|
-| 1 | `figures/Figure_01_Overall_Framework.svg` | Inputs, runtime, trace, G1–G4, and outputs |
-| 2 | `figures/Figure_02_Agent_Loop.svg` | The agent loop, conditional surfaces, and C1–C10 at their points |
-| 3 | `figures/Figure_03_Threat_Model.svg` | Actors, assets, TB1–TB5, and surfaces |
-| 4 | `figures/Figure_04_Stage_Gates.svg` | G1–G4, stages 1–10, and the failure returns |
-| 5 | `figures/Figure_05_Control_Map.svg` | C1–C10 from threat to metric |
-| 6 | `figures/Figure_06_Evaluation_Workflow.svg` | Baseline, protected rerun, recovery, and the release record |
-| Master | `figures/Master_Framework.svg` | The six figures on one sheet |
+| 1 | `figures/01_AgentShield_LCE_Circular_Lifecycle.svg` | Stages 1–10 clockwise, G1–G4, and every return |
+| 2 | `figures/02_Runtime_Loop_and_Attack_Surface.svg` | The agent loop, conditional surfaces, and C1–C10 at their points |
+| 3 | `figures/03_Threat_Model_and_Trust_Boundaries.svg` | Actors, assets, TB1–TB5, and surfaces |
+| 4 | `figures/04_Threat_Control_and_Evidence_Map.svg` | C1–C10 from threat to metric |
+| 5 | `figures/05_Gate_Decision_and_Return_Map.svg` | G1–G4, the required evidence, and the failure returns |
+| 6 | `figures/06_Evaluation_Metrics_and_Validation.svg` | The nine metrics, the sets, and the separate result columns |
 
-Figure 2 draws the agent path as a loop. C3 is on configuration and selection. C4 is on execution. Peer exchange and commit sit off that loop. Figures 1 and 4 draw G1 to G4 as a sequence, not as a second loop. A change of the agent returns from Stage 10 to Stage 2, as drawn in Figure 6. The gates are not on the serving path. The master sheet does not add a rule.
+Figure 2 draws the agent path as a loop. C3 is on configuration and selection. C4 is on execution. C7 is the dashed memory write and later read. C8 is a separate outbound-call node on that branch, drawn only when the call is observed, and omitted when memory is waived. A memory read is not that call. The peer link is a separate dashed box, not a step from tools through memory. Commit sits off the loop. Figure 5 places G3 after Stage 6. Stage 7 is not a gate. Figure 1 draws the same returns on the lifecycle ring. Figure 6 keeps Stage 6 and Stage 7 apart and keeps baseline, protected, changed-attack, and recovery results apart. A change of the agent returns from Stage 10 to Stage 2. The gates are not on the serving path.
 
-## Limitations
+## Limitations and assumptions
 
-- The lifecycle has not been run. No attack-success rate, utility delta, overhead, or comparison with another framework is claimed.
-- No statistical test is defined. A difference between baseline and protected runs is a paired table, not a significance result.
+- The lifecycle has not been run. No attack-success rate, utility delta, detection rate, overhead, or comparison with another framework is claimed. C1–C10 are design controls. Several host published mechanisms. Hosting them does not transfer those papers' measurements, and it does not make the mechanism a contribution of this lifecycle.
+- No statistical test is defined. A difference between baseline and protected runs is a paired table, not a significance result. No pass threshold is defined. Passing G1–G4 means the record contains the named evidence. It does not mean the agent is secure.
+- A detector flag is not evidence that the effect was stopped. `not_monitored` is not `no_flag`. A post-commit flag is not a missed detection and is not in the FN numerator. FN counts only monitored successful attacks with `no_flag`. A restore that was not rerun is not evidence that the state is clean. Recovery-rerun task success is a separate column from baseline TS and protected TS.
 - Runtime overhead has no pass threshold. Optional timing fields are defined in the evaluation protocol and are not part of G4.
-- Several controls are hosts for mechanisms already published. Hosting them does not transfer those papers’ measurements to this design.
-- Multi-agent scores that are not tool-trace predicates stay outside the metric table rather than being forced into it.
-- The comparison with local PDFs is provisional. It uses opening pages, not a complete coding of every section. It is not a reason to fill the gap with an unrun experiment.
+- The evaluator can sandbox the tools and can log the manifest and the ordered trace. If not, G2 fails. The run is not reported as an evaluation. Scoring evidence is a trace that has passed integrity, completeness, provenance, and timestamp checks. A raw trace is not accepted by default. This design does not claim that instrumentation is tamper-proof. An attacker who can alter the instrumentation is outside TB5.
+- The benign case and the attack case share the user task. Otherwise utility under attack is undefined. A predicate can be too wide and still be applied consistently. G3 sends that case back to Stage 4. The protocol does not notice a wide check by itself.
+- A tool that cannot be rolled back can still be tested. Stage 9 then lists an irreversible residual. That list is not a successful recovery.
+- Multi-agent scores that are not tool-trace predicates stay outside the metric table. Chat-only jailbreaks, hidden reasoning, host compromise unless that host is the system under test, and training-time or weight backdoors unless that supply chain is in the register, stay unscored. A waived surface is absent from the metric table. A waiver is not a pass and is not a finding that the surface was safe.
+- The comparison with local PDFs in `05_Full_Texts/` is provisional. It uses opening pages, not a complete coding of every section. A cell marked "Not reported" was not found on those pages. It is not proof that the paper lacks the capability. Papers without a local PDF were not used. The AgentDojo paper is not in the retrieved set. It is mentioned only where a local paper, CaMeL `P001483`, says it used that benchmark.
+- A finished report that had actually been run could still not say that the agent is secure, that a control will survive an attack outside the manifest, that a waived surface was safe, or that a drop in attack success without task success and the leftover identifiers finishes the control. It could say what the pre-declared checks did on the stored traces, which identifiers remain, which cases were not monitored, and whether the changed-attack cell is a measurement or a waiver. This repository does not contain that report.

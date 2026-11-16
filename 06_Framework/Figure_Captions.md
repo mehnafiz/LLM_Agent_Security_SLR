@@ -1,61 +1,42 @@
 # Figure captions
 
-No PDF figures were produced. Each SVG is the editable source. Each PNG is a render of that SVG. The master sheet nests the same six drawings. It does not add a rule.
+These captions describe the six figures in `figures/`. Each SVG is the editable source. The PNG is a render of that SVG, and the PDF is an export of the same SVG. The figures are a proposed procedure. No number on them has been measured.
 
-Abbreviations used on the figures: G1–G4 are the evaluation checkpoints. C1–C10 are the controls in `Mitigation_Strategy.md`. TB1–TB5 are the trust boundaries in `Threat_Model.md`. TS, AS, UA, CS, DC, FN, FP, LR, and CAC are the metrics in `Evaluation_Protocol.md`. A waiver is not a pass.
+Abbreviations: G1–G4 are evaluation gates. C1–C10 are the controls in `Mitigation_Strategy.md`. TB1–TB5 are the trust boundaries in `Threat_Model.md`. TS, AS, UA, CS, DC, FN, FP, LR, and CAC are the nine metrics in `Evaluation_Protocol.md`. A waiver is a scope decision, not a pass. A runner failure is outside every metric denominator.
 
-Color: navy title bars; blue for the runtime; purple for evaluation; red for threats and failure returns; green for controls and the release record; orange for inputs and configuration; grey for the trace.
 
-## Figure 1
+# Figure 1. AgentShield-LCE circular lifecycle
 
-File: `figures/Figure_01_Overall_Framework.svg`
+Files: `figures/01_AgentShield_LCE_Circular_Lifecycle.svg`, `figures/01_AgentShield_LCE_Circular_Lifecycle.png`, and `figures/01_AgentShield_LCE_Circular_Lifecycle.pdf`.
 
-**Caption.** AgentShield-LCE at a glance. Inputs enter the agent runtime. Memory is drawn dashed because Stage 1 either registers it or waives it. The trace is the evidence bridge from runtime to evaluation. G1–G4 are evaluation gates, not runtime steps. They assess the record produced at each stage. G1 uses the threat model and the surface register and does not require a runtime trace. Outputs are the release record. A control is a new execution, not an arrow from a gate into the loop.
+**Caption.** Ten stages run clockwise: Identify, Threat model, Requirements, Tests, Run, Score, Detect, Mitigate, Recover, and Report. Blue arrows are the forward path. Purple boxes are gates, not stages. A green arrow is a pass. A red arrow is a fail and names the stage it returns to. G1 sits after Stage 2 and passes to Stage 3, or returns to Stage 2. G2 sits after Stage 5 and passes to Stage 6, or returns to Stage 5. G3 sits after Stage 6 and passes to Stage 7. A wrong check or carrier returns to Stage 4. Arithmetic only returns to Stage 6. A change of model, tool registry, memory policy, peer set, or actuator set returns to Stage 2, and that return is not the G1 failure. G4 sits after Stage 8 and passes to Stage 9, or returns to Stage 8. Stage 7, Stage 9, and Stage 10 are marked as having no gate. Stage 10 stores the release record and the run stops. A later system change is a dashed path that re-enters at Stage 2 and does not enter Stage 1. A waiver is not a pass. A runner failure is not scored. The center states that AgentShield-LCE is an evidence-driven lifecycle security evaluation. It is not a defense algorithm and not a step on the serving path. No number on this figure was measured.
 
-**Placement.** Opening of the framework section.
+# Figure 2. Runtime loop and attack surface
 
-## Figure 2
+Files: `figures/02_Runtime_Loop_and_Attack_Surface.svg`, `figures/02_Runtime_Loop_and_Attack_Surface.png`, and `figures/02_Runtime_Loop_and_Attack_Surface.pdf`.
 
-File: `figures/Figure_02_Agent_Loop.svg`
+**Caption.** The system under test, not the evaluation gates. Instruction leads to planning, then tool selection, then tool execution, then the tool result. Re-plan returns to planning, not to the instruction. Task completion leaves the loop. Tool description, tool implementation, and permissions are separate. C3 pins the description into selection. C4 pins the implementation into execution when tool code is in scope. C1 keeps the tool result in the data channel. C2 and C4 act at execution. C5 may compare a stored plan with a later call and does not stop that call. The plan text is not an oracle. Memory is a dashed branch, present only when Stage 1 registers it: a write, a later read, and an outbound call only when that call is observed after a relevant read. A memory read is not an outbound call, and C8 does not follow every C7 event. A waiver of memory removes the branch, including C8. Peer exchange is a separate dashed box, not a step after memory. Commit and restore sit off the solid loop. A restore that is not rerun is not recovery. An attempted carrier is not the scored effect. Gates G1–G4 are not on this path. No control on this figure has been measured.
 
-**Caption.** The agent loop, with the attack surfaces and C1–C10 beside it. Instruction leads to planning (C5), then selection (C3) and execution (C2 and C4), then the tool result (C1). Re-plan returns to planning. Task completion leaves the loop. Configuration carries C3 only. C4 is on execution, not on that box. C6 is the commit boundary. C10 is the later rerun. Memory (C7) and peer exchange (C9) are dashed and appear only when Stage 1 registers them. C8 is the outbound call after a memory read. Tool implementation is a surface. A waiver of tool code is a scope decision, not a surface. C5 does not stop the call. Gates are not on this figure. TB5 is not drawn, because it is not a network edge.
+# Figure 3. Threat model and trust boundaries
 
-**Placement.** With `Lifecycle_Architecture.md`.
+Files: `figures/03_Threat_Model_and_Trust_Boundaries.svg`, `figures/03_Threat_Model_and_Trust_Boundaries.png`, and `figures/03_Threat_Model_and_Trust_Boundaries.pdf`.
 
-## Figure 3
+**Caption.** Actors, protected assets, trust boundaries, and attack surfaces for the Stage 2 catalog. Solid actors are in the catalog when an untrusted carrier or the instruction channel is in scope. Dashed actors are conditional: a tool publisher, a peer, a model or trace supplier, and internal evolution appear only when Stage 1 registers that supply chain or that self-update. TB1 keeps the user instruction and untrusted content in separate channels. TB2 separates tool description from tool implementation, and both from tool execution. TB3 is memory and TB4 is a peer; both links are dashed unless Stage 1 registers them, and they are not a path from tools through memory to the peer. TB5 is the boundary between the evaluator and the model. A self-report is not evidence. A raw trace is not scoring evidence until it passes integrity, completeness, provenance, and timestamp checks. TB5 is not a network edge, and instrumentation is not claimed to be tamper-proof. Each surface names the carrier and the later check. An attempted carrier is not the observed forbidden effect. A waiver is a scope note, not a finding that the surface was safe. No attack on this figure was run in this project.
 
-File: `figures/Figure_03_Threat_Model.svg`
+# Figure 4. Threat, control, and evidence map
 
-**Caption.** Actors, assets, trust boundaries, and surfaces. The user instruction enters the agent. The agent sits in the center, with a separate link to tools, a dashed link to memory, and a dashed link to a peer. Those links are not a sequence from tools through memory to the peer. Memory and peer appear only when Stage 1 registers them. Dashed actors stay conditional. TB1 keeps instruction and untrusted data in separate channels, and a direct instruction still faces the task allow-list. TB5 is the evaluator and the trace. It is not a network edge. The surface is labeled tool implementation. A waiver of tool code is a scope note, not a surface. An attempt is not the scored effect.
+Files: `figures/04_Threat_Control_and_Evidence_Map.svg`, `figures/04_Threat_Control_and_Evidence_Map.png`, and `figures/04_Threat_Control_and_Evidence_Map.pdf`.
 
-**Placement.** With `Threat_Model.md`.
+**Caption.** One row for each of C1–C10, from the threat to the observation point, the class, the trace evidence, and the metric. The class word is printed. Prevent is green, detect is purple, a class that responds is amber, and recover is teal. C1 is scored by attack success and utility under attack. C2, C3, C4, C7, and C8 are scored by attack success on the named check. C5 reports detection coverage as pre-commit flags over `|A_m|` and false negatives as `no_flag` cases over `|A_m|`. A post-commit flag is late, not a miss. C6 reports those detection rates, attack success, and both task-success columns, baseline and protected. C9 reports attack success in a separate table. C10 reports leftover requirement identifiers and recovery-rerun task success. That recovery column is not baseline task success and not protected task success. A waiver of tool code or of memory is a scope record, not verification. Hosting a published mechanism does not transfer that paper’s measurements. No row is a measured reduction.
 
-## Figure 4
+# Figure 5. Gate decision and return map
 
-File: `figures/Figure_04_Stage_Gates.svg`
+Files: `figures/05_Gate_Decision_and_Return_Map.svg`, `figures/05_Gate_Decision_and_Return_Map.png`, and `figures/05_Gate_Decision_and_Return_Map.pdf`.
 
-**Caption.** G1 after Stage 2, G2 after Stage 5, G3 after Stage 6, G4 after Stage 8. The stage strip uses the ten names in `Lifecycle_Architecture.md`. A scored case needs a complete trace. A runner failure is logged apart. It is not a passing trace, not a defense success, and it stays out of every denominator. G3 returns to Stage 4 when the check or the carrier is wrong, and to Stage 6 when only the arithmetic is wrong. The other fails return to Stage 2, Stage 5, or Stage 8. The diamond asks whether the gate-specific criteria are met. Stage 7 does not fail when the detector mark is “not monitored.” Stage 9 and Stage 10 are not gates. A waiver is not a pass. No gate declares the agent secure.
+**Caption.** G1 after Stage 2, G2 after Stage 5, G3 after Stage 6, and G4 after Stage 8. Each band states the required evidence, the pass condition and destination, the fail condition and destination, the waiver, and the runner-failure rule. G1 passes to Stage 3 and fails to Stage 2. It uses the Stage 2 catalog and does not require a runtime trace. G2 passes to Stage 6 and fails to Stage 5. A runner failure is logged apart and is outside every denominator. G3 checks only TS, AS, UA, and CS, and passes to Stage 7. Its three returns are drawn apart: a wrong check or carrier, including a payload pasted only into the system prompt, returns to Stage 4; arithmetic only returns to Stage 6; a change of model, tool registry, memory policy, peer set, or actuator set returns to Stage 2 and is not the G1 failure. G3 does not check DC, FN, or FP. G4 passes to Stage 9 and fails to Stage 8. A CAC waiver may fill the changed-attack cell and is not a pass. Lower attack success alone does not pass G4. Stage 7, Stage 9, and Stage 10 are not gates. A gate pass means the named evidence is present. It is not proof that the agent is secure.
 
-**Placement.** With `Evaluation_Protocol.md`.
+# Figure 6. Evaluation metrics and validation
 
-## Figure 5
+Files: `figures/06_Evaluation_Metrics_and_Validation.svg`, `figures/06_Evaluation_Metrics_and_Validation.png`, and `figures/06_Evaluation_Metrics_and_Validation.pdf`.
 
-File: `figures/Figure_05_Control_Map.svg`
-
-**Caption.** C1–C10 from threat to point, class, evidence, and metric. Green is prevent. Purple is detect only. Orange includes a response after a flag. Blue is recover. C4’s evidence cell has two conditions. If tool code is in scope, the implementation hash and permission are logged. If it is waived, the scope register records the waiver. That waiver is not a verification of the implementation. C10 lists LR, the leftover set from mitigation, and TS from the recovery rerun, as two measurements. DC is undefined when A_s is empty or no detector ran. FN is undefined when A_s is empty. FP is undefined when no detector ran. “Not monitored” is not a false-positive rate of zero. CAC is the changed-attack cell at G4, or a waiver, and is not a row of this map. No row has been measured here.
-
-**Placement.** With `Mitigation_Strategy.md`.
-
-## Figure 6
-
-File: `figures/Figure_06_Evaluation_Workflow.svg`
-
-**Caption.** Stages 1–10 as a researcher would run them. The Stage 5 box says a scored case needs a trace, a runner failure is not a trace, and that failure is excluded from metric denominators. Stage 9, recovery, and Stage 10, the release record, are drawn as two boxes. Neither is a gate. The baseline and the protected run use the same manifest. The protected run adds named controls and new traces. A changed-attack manifest is declared before the rerun, or the cell states a waiver. Recovery restores reversible state and reruns failed identifiers and a sample of earlier passes. Irreversible effects stay listed. A lower AS alone does not finish mitigation. A runner failure is not a defense success.
-
-**Placement.** End of the method, before the limitations.
-
-## Master infographic
-
-File: `figures/Master_Framework.svg`
-
-**Caption.** Figures 1–6 composed from the six SVG sources, in that order. The master is not a scaled copy of the PNG files. It uses the same drawings and the same rules: the trace is the evidence bridge from runtime to evaluation, G1 does not require a runtime trace, C1–C10 sit at the points in Figure 2, a runner failure is excluded from metric denominators, and the metrics are TS, AS, UA, CS, DC, FN, FP, LR, and CAC. The sheet adds no rule and reports no measurement.
+**Caption.** The nine metrics and the sets they use. Benign cases with a trace form `B`. Attack cases with a trace form `A`. Successful attacks, those whose pre-declared check holds, form `A_s`. `A_m` is the subset of `A_s` on which the named detector ran. `B_m` is the subset of `B` on which that same detector ran. A runner failure is in none of these sets. Not-monitored cases stay in `A` or `B`, and in `A_s` when the check holds, and are excluded from `A_m` and `B_m`. Stage 6 computes TS, AS, UA, and CS. G3 recomputes those four and does not compute DC, FN, or FP. Stage 7 assigns pre-commit, post-commit, missed (`no_flag`), or not monitored, then computes the detection rates. TS is benign checks in `B` over `|B|`. AS is `|A_s|` over `|A|` and is not published alone. UA is the benign check on attack cases over `|A|`. CS is successful attacks whose visibility predicate is false, over successful attacks with a saved transcript. The predicate is declared in Stage 4. DC is pre-commit flags in `A_m` over `|A_m|`. FN is `no_flag` cases in `A_m` over `|A_m|`. A post-commit flag is in neither numerator. FP is pre-commit or post-commit flags in `B_m` over `|B_m|`. Each rate is undefined when its denominator is empty, and is not reported as 0 or 1. LR is the set of requirement identifiers that still fail, not a rate. CAC recomputes the DC and FP numerators on a second manifest, or the cell states a waiver and is not filled with the first manifest’s rates. Baseline, protected, changed-attack, and recovery results stay in separate columns. Recovery-rerun task success is not one of the nine metrics and is not copied into baseline or protected task success. There is no composite score and no pass threshold. No value on this figure was measured.

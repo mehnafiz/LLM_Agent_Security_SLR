@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="2500" viewBox="0 0 2800 2500" font-family="Helvetica, Arial, sans-serif">
+<title>Figure 1. AgentShield-LCE circular lifecycle</title>
+<desc>Ten stages clockwise, ending at the release record. A later system change re-enters at Stage 2, not Stage 1.</desc>
+<defs>
+<marker id="mkB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1F4E79"/>
+</marker>
+<marker id="mkG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#1B7A45"/>
+</marker>
+<marker id="mkR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#B42318"/>
+</marker>
+<marker id="mkA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#8A5A00"/>
+</marker>
+<marker id="mkY" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#5E6A75"/>
+</marker>
+<marker id="mkN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#17324D"/>
+</marker>
+<marker id="mkT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#0F5F63"/>
+</marker>
+</defs>
+<rect width="2800" height="2500" fill="#FFFFFF"/>
+<rect x="0.0" y="0.0" width="2800.0" height="64.0" rx="0" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="32.0" y="28.0" fill="#D6E2EE" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" letter-spacing="0.6">FIGURE 1</text>
+<text x="32.0" y="50.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">AgentShield-LCE circular lifecycle</text>
+<text x="36.0" y="96.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Read the numbers clockwise. Stage 10 stores the release record and stops. A later system change re-enters at Stage 2, not Stage 1. Green continues. Red returns.</text>
+<rect x="36.0" y="114.0" width="2728.0" height="52.0" rx="8" fill="#F7F9FB" stroke="#D5DDE5" stroke-width="1"/>
+<line x1="56.0" y1="140.0" x2="120.0" y2="140.0" stroke="#1F4E79" stroke-width="4.5" fill="none"/>
+<polygon points="120.0,140.0 107.6,146.6 107.6,133.4" fill="#1F4E79"/>
+<text x="136.0" y="146.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Forward to the next stage</text>
+<line x1="470.0" y1="140.0" x2="534.0" y2="140.0" stroke="#1B7A45" stroke-width="4.5" fill="none"/>
+<polygon points="534.0,140.0 521.6,146.6 521.6,133.4" fill="#1B7A45"/>
+<text x="550.0" y="146.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Gate pass</text>
+<line x1="760.0" y1="140.0" x2="824.0" y2="140.0" stroke="#B42318" stroke-width="4.5" fill="none"/>
+<polygon points="824.0,140.0 811.6,146.6 811.6,133.4" fill="#B42318"/>
+<text x="840.0" y="146.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Gate fail, back to the named stage</text>
+<rect x="1280.0" y="128.0" width="18.0" height="18.0" rx="3" fill="#8A5A00" stroke="#8A5A00" stroke-width="0"/>
+<text x="1308.0" y="144.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Waiver is not a pass</text>
+<rect x="1620.0" y="128.0" width="18.0" height="18.0" rx="3" fill="#5E6A75" stroke="#5E6A75" stroke-width="0"/>
+<text x="1648.0" y="144.0" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Runner failure is not scored</text>
+<rect x="1960.0" y="128.0" width="18.0" height="18.0" rx="3" fill="#5C3F86" stroke="#5C3F86" stroke-width="0"/>
+<text x="1986.0" y="144.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Gate, not a stage</text>
+<line x1="2240.0" y1="140.0" x2="2316.0" y2="140.0" stroke="#17324D" stroke-width="3.2" fill="none" stroke-dasharray="7 5"/>
+<text x="2326.0" y="144.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Conditional re-entry, not a repeat</text>
+<circle cx="1400" cy="1080" r="600" fill="none" stroke="#E6EDF4" stroke-width="18"/>
+<line x1="1438.0" y1="492.4" x2="1714.6" y2="582.2" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1714.6,582.2 1696.9,585.4 1702.1,569.3" fill="#1F4E79"/>
+<line x1="1791.9" y1="602.6" x2="1904.6" y2="625.8" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1904.6,625.8 1887.4,630.8 1890.8,614.3" fill="#1F4E79"/>
+<line x1="1988.0" y1="740.4" x2="1975.1" y2="854.8" stroke="#1B7A45" stroke-width="5.5" fill="none"/>
+<polygon points="1975.1,854.8 1967.7,836.2 1986.4,838.3" fill="#1B7A45"/>
+<line x1="1970.6" y1="934.6" x2="1970.6" y2="1225.4" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1970.6,1225.4 1962.2,1209.5 1979.1,1209.5" fill="#1F4E79"/>
+<line x1="1947.1" y1="1297.8" x2="1776.2" y2="1533.0" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1776.2,1533.0 1778.7,1515.2 1792.4,1525.2" fill="#1F4E79"/>
+<line x1="1732.9" y1="1600.2" x2="1676.1" y2="1700.3" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1676.1,1700.3 1676.6,1682.3 1691.3,1690.7" fill="#1F4E79"/>
+<line x1="1541.3" y1="1744.1" x2="1436.4" y2="1696.5" stroke="#1B7A45" stroke-width="5.5" fill="none"/>
+<polygon points="1436.4,1696.5 1456.4,1695.3 1448.6,1712.4" fill="#1B7A45"/>
+<line x1="1363.6" y1="1696.5" x2="1258.7" y2="1744.1" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1258.7,1744.1 1269.7,1729.8 1276.7,1745.2" fill="#1F4E79"/>
+<line x1="1123.9" y1="1700.3" x2="1067.1" y2="1600.2" stroke="#1B7A45" stroke-width="5.5" fill="none"/>
+<polygon points="1067.1,1600.2 1084.0,1610.9 1067.6,1620.2" fill="#1B7A45"/>
+<line x1="1023.8" y1="1533.0" x2="852.9" y2="1297.8" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="852.9,1297.8 869.1,1305.7 855.4,1315.6" fill="#1F4E79"/>
+<line x1="802.4" y1="1235.9" x2="724.7" y2="1150.9" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="724.7,1150.9 741.7,1156.9 729.2,1168.3" fill="#1F4E79"/>
+<line x1="724.7" y1="1009.1" x2="802.4" y2="924.1" stroke="#1B7A45" stroke-width="5.5" fill="none"/>
+<polygon points="802.4,924.1 797.4,943.5 783.5,930.8" fill="#1B7A45"/>
+<line x1="852.9" y1="862.2" x2="1023.8" y2="627.0" stroke="#1F4E79" stroke-width="5" fill="none"/>
+<polygon points="1023.8,627.0 1021.3,644.8 1007.6,634.8" fill="#1F4E79"/>
+<path d="M 1976.6 547.5 L 1975.7 544.7 L 1974.2 542.2 L 1972.1 540.1 L 1969.4 538.3 L 1966.2 536.9 L 1962.4 535.9 L 1958.0 535.2 L 1953.1 534.8 L 1947.6 534.8 L 1941.6 535.2 L 1935.0 535.9 L 1927.8 537.0 L 1920.0 538.4 L 1911.7 540.1 L 1902.8 542.3 L 1893.4 544.8 L 1883.4 547.6 L 1872.8 550.8 L 1861.7 554.3" fill="none" stroke="#B42318" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1864.8" y1="553.3" x2="1810.9" y2="572.2" stroke="#B42318" stroke-width="4.6" fill="none"/>
+<polygon points="1810.9,572.2 1823.1,559.0 1828.7,574.9" fill="#B42318"/>
+<path d="M 1728.6 1787.9 L 1731.3 1787.7 L 1733.8 1786.9 L 1736.2 1785.5 L 1738.4 1783.4 L 1740.5 1780.8 L 1742.5 1777.5 L 1744.3 1773.6 L 1746.0 1769.1 L 1747.6 1764.0 L 1749.0 1758.2 L 1750.3 1751.9 L 1751.5 1744.9 L 1752.5 1737.4 L 1753.4 1729.2 L 1754.1 1720.4 L 1754.7 1710.9 L 1755.2 1700.9 L 1755.5 1690.2 L 1755.7 1679.0" fill="none" stroke="#B42318" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1755.6" y1="1682.2" x2="1755.0" y2="1627.2" stroke="#B42318" stroke-width="4.6" fill="none"/>
+<polygon points="1755.0,1627.2 1763.6,1643.0 1746.7,1643.1" fill="#B42318"/>
+<path d="M 1246.5 1849.7 L 1248.9 1851.5 L 1251.6 1852.6 L 1254.5 1853.1 L 1257.7 1852.9 L 1261.2 1852.2 L 1264.9 1850.8 L 1268.8 1848.8 L 1273.0 1846.2 L 1277.4 1843.0 L 1282.1 1839.1 L 1287.0 1834.6 L 1292.2 1829.6 L 1297.6 1823.9 L 1303.3 1817.5 L 1309.3 1810.6 L 1315.4 1803.0 L 1321.9 1794.9 L 1328.6 1786.1 L 1335.5 1776.6" fill="none" stroke="#B42318" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1333.5" y1="1779.3" x2="1366.0" y2="1732.3" stroke="#B42318" stroke-width="4.6" fill="none"/>
+<polygon points="1366.0,1732.3 1364.0,1750.2 1350.1,1740.6" fill="#B42318"/>
+<path d="M 620.5 1171.9 L 619.6 1174.7 L 619.4 1177.6 L 619.8 1180.5 L 620.9 1183.5 L 622.7 1186.6 L 625.2 1189.7 L 628.3 1192.8 L 632.1 1196.0 L 636.5 1199.2 L 641.6 1202.4 L 647.4 1205.8 L 653.8 1209.1 L 660.9 1212.5 L 668.7 1216.0 L 677.1 1219.5 L 686.2 1223.0 L 696.0 1226.6 L 706.4 1230.2 L 717.5 1233.9" fill="none" stroke="#B42318" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="714.3" y1="1232.9" x2="769.1" y2="1249.3" stroke="#B42318" stroke-width="4.6" fill="none"/>
+<polygon points="769.1,1249.3 751.5,1252.8 756.3,1236.6" fill="#B42318"/>
+<path d="M 1171.3 1831.8 L 1171.3 1910 L 2480 1910 L 2480 1265.4 L 2008.6 1265.4" fill="none" stroke="#B42318" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mkR)"/>
+<path d="M 1001.5 531.5 L 977.5 248 L 1188 248" fill="none" stroke="#17324D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 7"/>
+<path d="M 1612 248 L 1839.2 248 L 1803.2 525.0" fill="none" stroke="#17324D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 7" marker-end="url(#mkN)"/>
+<line x1="789.5" y1="220.0" x2="1001.5" y2="531.5" stroke="#17324D" stroke-width="1.8" fill="none"/>
+<rect x="655.0" y="186.0" width="250.0" height="28.0" rx="14" fill="#F4F7FA" stroke="#17324D" stroke-width="1.4"/>
+<text x="780.0" y="206.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Stage 10 stops. Record stored.</text>
+<rect x="1271.2" y="228.0" width="257.6" height="28.0" rx="14" fill="#FFFFFF" stroke="#17324D" stroke-width="1.4"/>
+<text x="1400.0" y="248.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Not a normal step. Not Stage 1.</text>
+<line x1="2067.5" y1="220.0" x2="1803.2" y2="517.0" stroke="#17324D" stroke-width="1.8" fill="none"/>
+<rect x="1924.6" y="186.0" width="310.8" height="28.0" rx="14" fill="#F4F7FA" stroke="#17324D" stroke-width="1.4"/>
+<text x="2080.0" y="206.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Later system change → re-enter Stage 2</text>
+<circle cx="1400.0" cy="480.0" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1400.0" y="488.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">1</text>
+<rect x="1296.0" y="607.0" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1400.0" y="634.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">1  Identify</text>
+<text x="1400.0" y="658.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Asset register</text>
+<circle cx="1752.7" cy="594.6" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1752.7" y="602.6" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">2</text>
+<rect x="1548.7" y="689.1" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1652.7" y="716.1" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">2  Threat model</text>
+<text x="1652.7" y="740.1" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Surface catalog</text>
+<circle cx="1970.6" cy="894.6" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1970.6" y="902.6" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">3</text>
+<rect x="1705.0" y="904.1" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1809.0" y="931.1" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">3  Requirements</text>
+<text x="1809.0" y="955.1" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Requirement list</text>
+<circle cx="1970.6" cy="1265.4" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1970.6" y="1273.4" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">4</text>
+<rect x="1705.0" y="1169.9" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1809.0" y="1196.9" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">4  Tests</text>
+<text x="1809.0" y="1220.9" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Test manifest</text>
+<circle cx="1752.7" cy="1565.4" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1752.7" y="1573.4" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">5</text>
+<rect x="1548.7" y="1384.9" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1652.7" y="1411.9" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">5  Run</text>
+<text x="1652.7" y="1435.9" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Manifest and trace</text>
+<circle cx="1400.0" cy="1680.0" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1400.0" y="1688.0" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">6</text>
+<rect x="1296.0" y="1467.0" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1400.0" y="1494.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">6  Score</text>
+<text x="1400.0" y="1518.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">TS, AS, UA, CS</text>
+<circle cx="1047.3" cy="1565.4" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1047.3" y="1573.4" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">7</text>
+<rect x="1043.3" y="1384.9" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1147.3" y="1411.9" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">7  Detect</text>
+<text x="1147.3" y="1435.9" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">DC, FN, FP</text>
+<text x="1147.3" y="1457.9" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">No gate</text>
+<circle cx="829.4" cy="1265.4" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="829.4" y="1273.4" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">8</text>
+<rect x="887.0" y="1169.9" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="991.0" y="1196.9" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">8  Mitigate</text>
+<text x="991.0" y="1220.9" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Both TS columns, LR</text>
+<circle cx="829.4" cy="894.6" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="829.4" y="902.6" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">9</text>
+<rect x="887.0" y="904.1" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="991.0" y="931.1" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">9  Recover</text>
+<text x="991.0" y="955.1" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Recovery TS or residual</text>
+<text x="991.0" y="977.1" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">No gate</text>
+<circle cx="1047.3" cy="594.6" r="34" fill="#17324D" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1047.3" y="602.6" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">10</text>
+<rect x="1043.3" y="689.1" width="208.0" height="86.0" rx="8" fill="#FFFFFF" stroke="#17324D" stroke-width="1.8"/>
+<text x="1147.3" y="716.1" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">10  Report</text>
+<text x="1147.3" y="740.1" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Record stored. Run ends</text>
+<text x="1147.3" y="762.1" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">No gate</text>
+<rect x="1904.7" y="599.0" width="188.0" height="92.0" rx="12" fill="#F3EEF8" stroke="#5C3F86" stroke-width="2.6"/>
+<text x="1998.7" y="627.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">G1</text>
+<text x="1998.7" y="651.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">After stage 2</text>
+<text x="1998.7" y="673.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Named or waived</text>
+<rect x="1534.7" y="1737.8" width="188.0" height="92.0" rx="12" fill="#F3EEF8" stroke="#5C3F86" stroke-width="2.6"/>
+<text x="1628.7" y="1765.8" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">G2</text>
+<text x="1628.7" y="1789.8" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">After stage 5</text>
+<text x="1628.7" y="1811.8" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Trace checked</text>
+<rect x="1077.3" y="1737.8" width="188.0" height="92.0" rx="12" fill="#F3EEF8" stroke="#5C3F86" stroke-width="2.6"/>
+<text x="1171.3" y="1765.8" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">G3</text>
+<text x="1171.3" y="1789.8" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">After stage 6</text>
+<text x="1171.3" y="1811.8" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">TS AS UA CS</text>
+<rect x="566.0" y="1034.0" width="188.0" height="92.0" rx="12" fill="#F3EEF8" stroke="#5C3F86" stroke-width="2.6"/>
+<text x="660.0" y="1062.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">G4</text>
+<text x="660.0" y="1086.0" fill="#5C3F86" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">After stage 8</text>
+<text x="660.0" y="1108.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Rerun recorded</text>
+<line x1="2136.8" y1="514.0" x2="2006.7" y2="575.0" stroke="#B42318" stroke-width="1.8" fill="none"/>
+<rect x="2102.5" y="480.0" width="128.4" height="28.0" rx="14" fill="#FDECEC" stroke="#B42318" stroke-width="1.4"/>
+<text x="2166.7" y="500.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">FAIL → Stage 2</text>
+<line x1="2100.3" y1="639.0" x2="2092.7" y2="639.0" stroke="#8A5A00" stroke-width="1.8" fill="none"/>
+<rect x="2100.3" y="619.0" width="120.8" height="28.0" rx="14" fill="#FFF6E0" stroke="#8A5A00" stroke-width="1.4"/>
+<text x="2160.7" y="639.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Waiver ≠ pass</text>
+<line x1="2029.2" y1="813.1" x2="1988.0" y2="810.0" stroke="#1B7A45" stroke-width="1.8" fill="none"/>
+<rect x="2029.2" y="800.0" width="181.6" height="28.0" rx="14" fill="#E5F6EC" stroke="#1B7A45" stroke-width="1.4"/>
+<text x="2120.0" y="820.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">PASS → 3 Requirements</text>
+<line x1="691.2" y1="927.0" x2="781.4" y2="922.6" stroke="#1B7A45" stroke-width="1.8" fill="none"/>
+<rect x="547.6" y="910.6" width="143.6" height="28.0" rx="14" fill="#E5F6EC" stroke="#1B7A45" stroke-width="1.4"/>
+<text x="619.4" y="930.6" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">PASS → 9 Recover</text>
+<line x1="560.6" y1="1080.0" x2="576.0" y2="1080.0" stroke="#8A5A00" stroke-width="1.8" fill="none"/>
+<rect x="409.4" y="1060.0" width="151.2" height="28.0" rx="14" fill="#FFF6E0" stroke="#8A5A00" stroke-width="1.4"/>
+<text x="485.0" y="1080.0" fill="#8A5A00" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">CAC waiver ≠ pass</text>
+<line x1="543.6" y1="1216.0" x2="606.0" y2="1190.0" stroke="#B42318" stroke-width="1.8" fill="none"/>
+<rect x="445.8" y="1210.0" width="128.4" height="28.0" rx="14" fill="#FDECEC" stroke="#B42318" stroke-width="1.4"/>
+<text x="510.0" y="1230.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">FAIL → Stage 8</text>
+<line x1="1510.8" y1="1679.4" x2="1436.0" y2="1688.0" stroke="#1B7A45" stroke-width="1.8" fill="none"/>
+<rect x="1510.8" y="1652.0" width="128.4" height="28.0" rx="14" fill="#E5F6EC" stroke="#1B7A45" stroke-width="1.4"/>
+<text x="1575.0" y="1672.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">PASS → 6 Score</text>
+<line x1="1864.2" y1="1669.4" x2="1774.7" y2="1601.4" stroke="#B42318" stroke-width="1.8" fill="none"/>
+<rect x="1803.3" y="1663.4" width="158.8" height="28.0" rx="14" fill="#FDECEC" stroke="#B42318" stroke-width="1.4"/>
+<text x="1882.7" y="1683.4" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">FAIL → Stage 5 Run</text>
+<line x1="1713.0" y1="1857.8" x2="1698.7" y2="1822.8" stroke="#5E6A75" stroke-width="1.8" fill="none"/>
+<rect x="1631.7" y="1851.8" width="174.0" height="28.0" rx="14" fill="#F3F5F7" stroke="#5E6A75" stroke-width="1.4"/>
+<text x="1718.7" y="1871.8" fill="#5E6A75" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">No trace: not a pass</text>
+<line x1="1013.8" y1="1674.0" x2="1067.0" y2="1620.0" stroke="#1B7A45" stroke-width="1.8" fill="none"/>
+<rect x="932.0" y="1668.0" width="136.0" height="28.0" rx="14" fill="#E5F6EC" stroke="#1B7A45" stroke-width="1.4"/>
+<text x="1000.0" y="1688.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">PASS → 7 Detect</text>
+<line x1="958.4" y1="1781.6" x2="1077.3" y2="1773.8" stroke="#B42318" stroke-width="1.8" fill="none"/>
+<rect x="761.6" y="1768.0" width="196.8" height="28.0" rx="14" fill="#FDECEC" stroke="#B42318" stroke-width="1.4"/>
+<text x="860.0" y="1788.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">System change → Stage 2</text>
+<line x1="1345.1" y1="1838.0" x2="1310.0" y2="1805.0" stroke="#B42318" stroke-width="1.8" fill="none"/>
+<rect x="1273.0" y="1832.0" width="174.0" height="28.0" rx="14" fill="#FDECEC" stroke="#B42318" stroke-width="1.4"/>
+<text x="1360.0" y="1852.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">FAIL → Stage 6 Score</text>
+<line x1="2094.6" y1="1242.0" x2="2018.6" y2="1265.4" stroke="#B42318" stroke-width="1.8" fill="none"/>
+<rect x="2053.0" y="1208.0" width="174.0" height="28.0" rx="14" fill="#FDECEC" stroke="#B42318" stroke-width="1.4"/>
+<text x="2140.0" y="1228.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">FAIL → Stage 4 Tests</text>
+<circle cx="1400" cy="1080" r="250" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/>
+<text x="1400.0" y="1002.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" letter-spacing="0.6">AGENTSHIELD-LCE</text>
+<text x="1400.0" y="1040.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">
+<tspan x="1400.0" dy="0">Evidence-driven lifecycle</tspan>
+<tspan x="1400.0" dy="24">security evaluation</tspan>
+</text>
+<text x="1400.0" y="1108.0" fill="#1F4E79" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Read the ring clockwise</text>
+<text x="1400.0" y="1144.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="middle">
+<tspan x="1400.0" dy="0">Paired testing  ·  Execution traces</tspan>
+<tspan x="1400.0" dy="18">Stage-gated verification  ·  Mitigation reassessment</tspan>
+</text>
+<text x="1400.0" y="1198.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+<tspan x="1400.0" dy="0">Not a defense algorithm.</tspan>
+<tspan x="1400.0" dy="18">Not a step on the serving path.</tspan>
+</text>
+<rect x="36.0" y="1960.0" width="2728.0" height="480.0" rx="12" fill="#F8FAFC" stroke="#D5DDE5" stroke-width="1.2"/>
+<text x="56.0" y="1994.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Where each arrow goes</text>
+<text x="56.0" y="2032.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.8">PASS</text>
+<rect x="56.0" y="2048.0" width="14.0" height="14.0" rx="2" fill="#1B7A45" stroke="#1B7A45" stroke-width="0"/>
+<text x="82.0" y="2064.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G1 pass</text>
+<text x="360.0" y="2064.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 3 Requirements</text>
+<rect x="56.0" y="2084.0" width="14.0" height="14.0" rx="2" fill="#1B7A45" stroke="#1B7A45" stroke-width="0"/>
+<text x="82.0" y="2100.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G2 pass</text>
+<text x="360.0" y="2100.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 6 Score</text>
+<rect x="56.0" y="2120.0" width="14.0" height="14.0" rx="2" fill="#1B7A45" stroke="#1B7A45" stroke-width="0"/>
+<text x="82.0" y="2136.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G3 pass</text>
+<text x="360.0" y="2136.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 7 Detect</text>
+<rect x="56.0" y="2156.0" width="14.0" height="14.0" rx="2" fill="#1B7A45" stroke="#1B7A45" stroke-width="0"/>
+<text x="82.0" y="2172.0" fill="#1B7A45" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G4 pass</text>
+<text x="360.0" y="2172.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 9 Recover</text>
+<text x="980.0" y="2032.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.8">FAIL OR RETURN</text>
+<rect x="980.0" y="2048.0" width="14.0" height="14.0" rx="2" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1006.0" y="2064.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G1 fail</text>
+<text x="1400.0" y="2064.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 2 Threat model</text>
+<rect x="980.0" y="2084.0" width="14.0" height="14.0" rx="2" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1006.0" y="2100.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G2 fail</text>
+<text x="1400.0" y="2100.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 5 Run</text>
+<rect x="980.0" y="2120.0" width="14.0" height="14.0" rx="2" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1006.0" y="2136.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G3 wrong check or carrier</text>
+<text x="1400.0" y="2136.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 4 Tests</text>
+<rect x="980.0" y="2156.0" width="14.0" height="14.0" rx="2" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1006.0" y="2172.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G3 arithmetic only</text>
+<text x="1400.0" y="2172.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 6 Score</text>
+<rect x="980.0" y="2192.0" width="14.0" height="14.0" rx="2" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1006.0" y="2208.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G3 system change</text>
+<text x="1400.0" y="2208.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 2. Not the G1 return.</text>
+<rect x="980.0" y="2228.0" width="14.0" height="14.0" rx="2" fill="#B42318" stroke="#B42318" stroke-width="0"/>
+<text x="1006.0" y="2244.0" fill="#B42318" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">G4 fail</text>
+<text x="1400.0" y="2244.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">→  Stage 8 Mitigate</text>
+<text x="1860.0" y="2032.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0.8">CONDITIONAL RE-ENTRY</text>
+<rect x="1860.0" y="2048.0" width="14.0" height="14.0" rx="2" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="1886.0" y="2064.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Stage 10 complete</text>
+<text x="2100.0" y="2064.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="2100.0" dy="0">The release record is</tspan>
+<tspan x="2100.0" dy="18">stored. This run stops.</tspan>
+</text>
+<rect x="1860.0" y="2100.0" width="14.0" height="14.0" rx="2" fill="#17324D" stroke="#17324D" stroke-width="0"/>
+<text x="1886.0" y="2116.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">Later system change</text>
+<text x="2100.0" y="2116.0" fill="#17324D" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="start">
+<tspan x="2100.0" dy="0">Re-enter Stage 2. Not Stage</tspan>
+<tspan x="2100.0" dy="18">1.</tspan>
+</text>
+<text x="56.0" y="2296.0" fill="#1C2833" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">
+<tspan x="56.0" dy="0">G1 checks the Stage 2 catalog. No runtime trace. A waiver records scope and is not a pass.</tspan>
+<tspan x="56.0" dy="24">G2 checks integrity, completeness, provenance, and timestamps. A runner failure is logged apart and is outside every denominator.</tspan>
+<tspan x="56.0" dy="24">G3 checks TS, AS, UA, and CS only. Wrong check or carrier returns to Stage 4. Arithmetic only returns to Stage 6. A system change returns to Stage 2 and is not the G1 failure. Stage 7 is not a gate.</tspan>
+<tspan x="56.0" dy="24">G4 checks named controls, the same pairs, both task-success columns, leftover identifiers, and a changed-attack rerun or a waiver.</tspan>
+<tspan x="56.0" dy="24">A gate pass means the record is complete. It is not proof that the agent is secure. There is no composite score. Stage 10 does not continue to Stage 1.</tspan>
+</text>
+<text x="36.0" y="2472.0" fill="#3E4C59" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Proposed procedure. No number on this figure was measured.</text>
+</svg>

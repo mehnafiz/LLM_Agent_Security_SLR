@@ -39,7 +39,7 @@ The content injector, the tool publisher, and the peer agent are established by 
 | TB2 Planner / tool | Description, implementation, and permission are separate. Registry membership is not authorization |
 | TB3 Agent / memory | Stored text is data until a write policy promotes it |
 | TB4 Agent / peer | A peer message cannot authorize a tool the user did not grant |
-| TB5 Evaluator / model | The oracle is the trace. The model’s own claim of refusal or compliance is not evidence |
+| TB5 Evaluator / model | Scoring uses instrumented execution evidence only after integrity, completeness, provenance, and timestamp consistency are checked. The agent's self-report is not evidence. A raw execution trace is not scoring evidence until those checks pass. This boundary does not claim that instrumentation is tamper-proof |
 
 ## Surfaces and checks
 
@@ -50,8 +50,10 @@ The check is the predicate Stage 4 must declare. The example is an illustration,
 | Untrusted content | Tool result, page, email, retrieved passage | Indirect prompt injection that replaces the task or induces a later call | The later tool call, arguments, or outbound destination |
 | Tool description | Manual or schema text | Description poisoning that changes which tool is selected | The selected tool name |
 | Tool code | Implementation behind a pinned or unpinned name | An effect with no matching user request | The effect, not the description |
-| Memory | Entry written earlier | Poisoned entry followed on a later read; secret disclosed from memory | The later read, write, or outbound send |
-| Peer message | Agent-to-agent payload | The receiver calls a tool the user did not request | The receiver’s tool call |
+| Memory | Entry written earlier | Poisoned entry followed on a later read | The later read, the write, and the provenance label. A memory read is not an outbound call |
+| Outbound call after a memory read | Destination named before the run | Disclosure of a stored secret. This surface is assessed only when memory is registered and an outbound call is observed after a relevant read. It does not follow every memory event | The destination and, when the check names it, the asset identifier. The event sequence must follow the memory read. When memory is waived, this surface is not applicable |
+| Peer message | Agent-to-agent payload | The receiver calls a tool the user did not request | Sender, receiver, message identifier, and the receiver's tool call |
+| Actuator | A named actuator event | Only when Stage 1 registers an actuator. Otherwise the run manifest records actuators as not applicable. This row is a conditional check from the protocol, not a claim that the local corpus measured actuators | Event identifier, target, action, and committed flag |
 | Instruction channel | User instruction | Unauthorized tool effect requested directly | The tool call. No check is defined for a jailbreak that stops at text |
 
 Privilege separation is not a surface of its own. If the register lists more than one permission level, an attack that uses a higher level than the task allows is an unauthorized tool effect on the tool-code or tool-execution check. If the register has one level, privilege separation is waived at G1.
@@ -64,10 +66,10 @@ A multi-agent observation that is not a tool-trace predicate is not scored. Forc
 
 ## Assumptions
 
-- The evaluator can sandbox tools and can read the trace fields listed in `Lifecycle_Architecture.md`. If those fields cannot be logged, Gate G2 fails. The run is not reported as an evaluation.
+- The evaluator can sandbox tools and can read the run manifest and the ordered event fields in `Evaluation_Protocol.md`. `Lifecycle_Architecture.md` names which boundary produces each field. If those fields cannot be logged, Gate G2 fails. The run is not reported as an evaluation.
 - The benign task and the attack task share the user goal. Otherwise utility under attack is undefined.
 - A tool that cannot be rolled back can still be tested. Recovery then records an irreversible residual instead of a clean baseline.
-- The attacker does not control the instrumentation. An attacker who can forge traces is outside TB5 and outside this model.
+- Scoring does not treat a raw trace as trustworthy by default. Integrity, completeness, provenance, and timestamp consistency are checked before a trace is scoring evidence. This catalog does not claim that instrumentation is tamper-proof. If those checks fail, G2 does not pass. An attacker who can alter the instrumentation is outside the actors this catalog scores.
 
 ## Scope of attack classes
 
@@ -79,9 +81,10 @@ A class is in scope only when its success can be written as a check in the table
 | Direct instruction that requests an unauthorized tool, memory, or peer effect | In scope | The same tool check. The instruction is the carrier |
 | Tool misuse, unauthorized execution, and argument or destination abuse | In scope | C2 and the tool-execution check |
 | Tool-description poisoning and tool-code effects | In scope when the register includes that surface | Separate checks. A waived surface is not scored |
-| Memory poisoning and memory disclosure | In scope when memory is in the register | Write, later read, or outbound send |
-| Planning that changes a later call | Partially observable | The call is observable. The plan text is not an oracle |
-| Peer-caused tool execution | In scope when a peer is in the register | Scored separately from single-agent results |
+| Memory poisoning and memory disclosure | In scope when memory is in the register | C7 is the write, the later read, and provenance. C8 is a separate outbound call observed after a relevant read. A read is not that call. If memory is waived, both are not applicable |
+| Planning that changes a later call | Partially observable | The call is observable. The plan text is not scoring evidence. A detector that did not run is not monitored. A detector that ran and did not flag is a missed detection (`no_flag`). A post-commit flag is a late detection, not a miss |
+| Peer-caused tool execution | In scope when a peer is in the register | Sender, receiver, message, and the receiver's tool call. Scored separately from single-agent results |
+| Actuator event named before the run | In scope only when an actuator is in the register | Otherwise the manifest records not applicable. Not a corpus finding |
 | Excessive agency and privilege above the task’s level | In scope only as an unauthorized tool effect | Waived when the register has one permission level |
 | Data exfiltration | In scope when the destination is in the trace | The check is the destination, not a guessed intent |
 | Chat-only jailbreak | Outside | No tool, memory, or peer effect to score |
@@ -100,4 +103,4 @@ A class is in scope only when its success can be written as a check in the table
 
 ## Figure 3
 
-**Caption.** Figure 3. Actors, assets, trust boundaries, and attack surfaces. The user instruction enters the agent. The agent is centered, with a separate link to tools and dashed links to memory and to a peer. Those links are not a path from tools through memory to the peer. Memory and peer appear only when Stage 1 registers them. Conditional actors stay dashed. TB1 is the sentence in the table above. TB5 is the boundary between the evaluator and the model. It is not a network edge. The drawing labels the implementation surface “Tool implementation.” A waiver of tool code is a scope note under the assets, not an attack surface. Gates are not on this figure. An attempt is not the same mark as an observable effect.
+**Caption.** Figure 3. Actors, assets, trust boundaries, and attack surfaces, in four separate regions. The user instruction enters the agent. The agent is centered, with a separate link to tools and dashed links to memory and to a peer. Those links are not a path from tools through memory to the peer. Memory and peer appear only when Stage 1 registers them. Conditional actors stay dashed. TB1 is the sentence in the table above. TB5 is the boundary between the evaluator and the model. Scoring evidence is instrumented execution that has passed integrity, completeness, provenance, and timestamp checks. A self-report is not evidence, and a raw trace is not yet scoring evidence. Instrumentation is not claimed to be tamper-proof. TB5 is not a network edge. The drawing labels the implementation surface "Tool implementation." Memory read and write are a separate surface from an outbound call after a memory read. A waiver of tool code, or of memory, is a scope note under the assets, not an attack surface. Gates are not on this figure. An attempt is not the same mark as an observable effect.
