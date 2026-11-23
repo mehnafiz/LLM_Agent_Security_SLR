@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1202" viewBox="0 0 1600 1202">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="12" y="44" width="48" height="142" rx="12" fill="#d2e6f5" stroke="#6496b9" stroke-width="1"/>
+  <text transform="translate(36.0,115.0) rotate(-90)" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#144673">Identification</text>
+  <rect x="12" y="238" width="48" height="674" rx="12" fill="#d2e6f5" stroke="#6496b9" stroke-width="1"/>
+  <text transform="translate(36.0,575.0) rotate(-90)" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#144673">Screening</text>
+  <rect x="12" y="964" width="48" height="142" rx="12" fill="#d2e6f5" stroke="#6496b9" stroke-width="1"/>
+  <text transform="translate(36.0,1035.0) rotate(-90)" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#144673">Included</text>
+
+  <rect x="84" y="44" width="680" height="142" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="424.0" y="122.84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Records identified from the database (N = 4,500)</text>
+  <rect x="84" y="238" width="680" height="166" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="424.0" y="297.84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Records screened for quality (N = 3,059)</text>
+  <text x="424.0" y="331.52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">First quality pass retained (n = 486)</text>
+  <text x="424.0" y="355.52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Added after CORE rank verification (n = 120)</text>
+  <rect x="84" y="456" width="680" height="238" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="424.0" y="582.84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Records screened by title and abstract (N = 606)</text>
+  <rect x="84" y="746" width="680" height="166" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="424.0" y="836.84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Final set sought for full-text retrieval (N = 100)</text>
+  <rect x="84" y="964" width="680" height="142" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="424.0" y="1023.84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Studies included in full-text analysis (N = 71)</text>
+  <text x="424.0" y="1057.52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Title-verified open full texts used for coding</text>
+  <rect x="860" y="44" width="700" height="142" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="892" y="103.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Records removed (N = 1,441)</text>
+  <text x="892" y="137.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Duplicate records (n = 1,441)</text>
+  <rect x="860" y="238" width="700" height="166" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="892" y="297.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Records set aside as lower quality (N = 2,453)</text>
+  <text x="892" y="331.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">First quality pass set aside (n = 2,573)</text>
+  <text x="892" y="355.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Reintroduced after CORE verification (n = 120)</text>
+  <rect x="860" y="456" width="700" height="238" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="892" y="515.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Records not retained (N = 506)</text>
+  <text x="892" y="549.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Excluded at title screening (n = 193)</text>
+  <text x="892" y="573.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Excluded at abstract screening (n = 141)</text>
+  <text x="892" y="597.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">No abstract available for scoring (n = 36)</text>
+  <text x="892" y="621.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Uncertain relevance (n = 4)</text>
+  <text x="892" y="645.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Relevant but outside the top 100 (reserve) (n = 132)</text>
+  <rect x="860" y="746" width="700" height="166" rx="14" fill="#f2e9fa" stroke="#6e5096" stroke-width="2"/>
+  <text x="892" y="805.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#281e3c">Full texts unavailable for coding (N = 29)</text>
+  <text x="892" y="839.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">No open full text under retrieval conditions (n = 28)</text>
+  <text x="892" y="863.52" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#46375f">Open source location access denied (n = 1)</text>
+  <line x1="424.0" y1="190" x2="424.0" y2="222" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="417.0,222 431.0,222 424.0,234" fill="#55466e"/>
+  <line x1="768" y1="115.0" x2="846" y2="115.0" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="846,108.0 846,122.0 858,115.0" fill="#55466e"/>
+  <line x1="424.0" y1="408" x2="424.0" y2="440" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="417.0,440 431.0,440 424.0,452" fill="#55466e"/>
+  <line x1="768" y1="321.0" x2="846" y2="321.0" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="846,314.0 846,328.0 858,321.0" fill="#55466e"/>
+  <line x1="424.0" y1="698" x2="424.0" y2="730" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="417.0,730 431.0,730 424.0,742" fill="#55466e"/>
+  <line x1="768" y1="575.0" x2="846" y2="575.0" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="846,568.0 846,582.0 858,575.0" fill="#55466e"/>
+  <line x1="424.0" y1="916" x2="424.0" y2="948" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="417.0,948 431.0,948 424.0,960" fill="#55466e"/>
+  <line x1="768" y1="829.0" x2="846" y2="829.0" stroke="#55466e" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="846,822.0 846,836.0 858,829.0" fill="#55466e"/>
+  <text x="800.0" y="1158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#50505a">Figure. PRISMA-style flow diagram of record identification, screening, and inclusion.</text>
+</svg>

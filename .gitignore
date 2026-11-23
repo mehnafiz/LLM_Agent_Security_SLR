@@ -42,3 +42,7 @@ venv/
 *.log
 .cache/
 tmp/
+
+# Local PDF text-extraction cache (regenerable)
+05_Full_Texts/_extraction_cache/
+05_LITERATURE_ANALYSIS/

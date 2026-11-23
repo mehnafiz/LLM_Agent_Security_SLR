@@ -79,20 +79,22 @@ Retrieval was attempted for all 100 final papers. Lookups used OpenAlex open-acc
 |---|---:|
 | Total selected papers | 100 |
 | Total retrieval attempts | 100 |
-| Official proceedings PDFs downloaded | 41 |
-| Publisher journal PDFs downloaded | 0 |
-| Author manuscripts downloaded | 0 |
-| Verified preprints | 27 |
-| Paywalled, no open PDF located | 31 |
+| Downloaded and title-verified open PDFs (`Downloaded_Verified`) | 44 |
+| Title-verified preprints (`Preprint_Verified`) | 27 |
+| Paywalled / no open PDF under retrieval conditions | 28 |
 | Access denied | 1 |
 | Not found, other than the paywalled set | 0 |
 | Invalid or mismatched files kept | 0 |
+| **Open full texts available for analysis** | **71** |
+| Selected papers still without open full text | 29 |
 
-Proceedings copies are 35 from the ACL Anthology, 4 from NDSS via the publisher DOI, and 2 from the AAAI proceedings site. The 27 preprints are arXiv files whose titles matched the selected records. They are labeled preprints, not versions of record.
+Status labels match `05_Full_Texts/Final_PDF_Verification.xlsx` (44 + 27 = 71 open; 28 + 1 = 29 unavailable). Verified arXiv preprints are labeled preprints, not versions of record. The full-text analysis corpus is reported as a single total of **71** title-verified open PDFs.
 
 The access-denied paper is `P000751` (SecureGov-Agent). The only open location returned HTTP 403.
 
-Local files were reopened after download. All 68 saved files begin with the PDF header and are larger than 4 KB. Paths are listed in `05_Full_Texts/Final_PDF_Verification.xlsx`.
+Local files were reopened after download. Saved files begin with the PDF header and are larger than 4 KB. Paths are listed in `05_Full_Texts/Final_PDF_Verification.xlsx`.
+
+Manuscript wording: the 29 non-coded selected papers are retained in the selected set and excluded from full-text coding because a lawful open full text was not available under retrieval conditions. This is an access constraint on coding, not a second relevance ranking. See `SLR_Record_Flow.md`.
 
 ## Validation
 
